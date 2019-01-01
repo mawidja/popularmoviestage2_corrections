@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainMoviesActivity">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gv_popularMovies"
+        android:columnWidth="@dimen/gv_column_width"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="@dimen/gv_vertical_spacing"
+        android:horizontalSpacing="@dimen/gv_horizontal_spacing"
+        android:stretchMode="columnWidth"
+        android:gravity="center">
+    </GridView>
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/rv_popularMovies" />
 
-</GridLayout>
+</LinearLayout>
