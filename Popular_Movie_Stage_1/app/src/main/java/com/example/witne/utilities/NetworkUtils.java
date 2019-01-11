@@ -15,11 +15,6 @@ import java.util.Scanner;
 
 public class NetworkUtils {
 
-    private static final String TAG = NetworkUtils.class.getSimpleName();
-
-    //popularMoviesUrl = "https://api.themoviedb.org/3/movie/top_rated?api_key=98626ee46e48c23fface6dac4d55c5ea&language=en-US&page=1";
-    //topRatedMoviesUrl ="https://api.themoviedb.org/3/movie/top_rated?api_key=98626ee46e48c23fface6dac4d55c5ea&language=en-US&page=1"
-
     private static final String MOVIE_BASE_URL = "https://api.themoviedb.org/3/movie/";
     private static final String API_KEY = "api_key";
     private static final String myPersonalApiKey = "98626ee46e48c23fface6dac4d55c5ea";
@@ -30,27 +25,53 @@ public class NetworkUtils {
     private static final String PARAM_PAGE = "page";
     private static final String page = "1";
 
+    private static final String PARAM_VIDEO = "video";
 
-    //public static final String popularMoviesUrl = "https://api.themoviedb.org/3/movie/popular?api_key=\"+myPersonalApiKey+\"&language=en-US";
-    //public static final String popularMoviesUrl = "https://api.themoviedb.org/3/movie/popular?api_key=\"" + myPersonalApiKey;
+    private static final String TRAILER_BASE_URL = "https://www.youtube.com/watch";
+    private static final String PARAM_VIDEO_SEARCH = "v";
 
-    public static URL buildUrl(String popularOrTopRatedMovie) {
-        Uri builtUri = Uri.parse(MOVIE_BASE_URL).buildUpon()
-                .appendPath(popularOrTopRatedMovie)
-                .appendQueryParameter(API_KEY, myPersonalApiKey)
-                .appendQueryParameter(PARAM_LANGUAGE,language)
-                .appendQueryParameter(PARAM_PAGE,page)
-                .build();
+    public static URL buildUrl(String movieOrVideoSearch) {
 
+
+        String movieTrailerToSearchFor = null;
         URL url = null;
-        try {
+        Uri builtUri;
+        try{
+
+            if(isStringAnInteger(movieOrVideoSearch)){
+                movieTrailerToSearchFor = movieOrVideoSearch;
+                movieOrVideoSearch = "videos";
+            }
+
+            switch (movieOrVideoSearch) {
+                case "popular":
+                case "top_rated":
+                    builtUri = Uri.parse(MOVIE_BASE_URL).buildUpon()
+                            .appendPath(movieOrVideoSearch)
+                            .appendQueryParameter(API_KEY, myPersonalApiKey)
+                            .appendQueryParameter(PARAM_LANGUAGE, language)
+                            .appendQueryParameter(PARAM_PAGE, page)
+                            .build();
+                    break;
+                case "videos":
+                    builtUri = Uri.parse(MOVIE_BASE_URL).buildUpon()
+                            .appendPath(movieTrailerToSearchFor)
+                            .appendPath(movieOrVideoSearch)
+                            .appendQueryParameter(API_KEY, myPersonalApiKey)
+                            .appendQueryParameter(PARAM_LANGUAGE, language)
+                            .build();
+                    break;
+                default:
+                    builtUri = Uri.parse(TRAILER_BASE_URL).buildUpon()
+                            .appendQueryParameter(PARAM_VIDEO_SEARCH, movieOrVideoSearch)
+                            .build();
+                    break;
+
+            }
             url = new URL(builtUri.toString());
-            Log.d(TAG,  url.toString());
         } catch (MalformedURLException e) {
-            Log.d(TAG,"Error in building the URL.....Ooooouch!");
             e.printStackTrace();
         }
-
         return url;
     }
 
@@ -75,5 +96,15 @@ public class NetworkUtils {
         }finally {
             connection.disconnect();
         }
+    }
+
+    private static boolean isStringAnInteger(String stringMovieId){
+        try{
+            Integer.parseInt(stringMovieId);
+        }catch(Exception e){
+            e.printStackTrace();
+            return false;
+        }
+        return true;
     }
 }
