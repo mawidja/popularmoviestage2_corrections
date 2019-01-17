@@ -1,14 +1,11 @@
  package com.example.witne.utilities;
 
 //import android.graphics.Movie;
-import com.example.witne.data.Movie;
-import com.example.witne.utilities.JsonUtils;
-
 import android.net.Uri;
-import android.util.Log;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
+//import java.net.MalformedURLException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;
@@ -17,6 +14,7 @@ public class NetworkUtils {
 
     private static final String MOVIE_BASE_URL = "https://api.themoviedb.org/3/movie/";
     private static final String API_KEY = "api_key";
+    @SuppressWarnings("SpellCheckingInspection")
     private static final String myPersonalApiKey = "98626ee46e48c23fface6dac4d55c5ea";
 
     private static final String PARAM_LANGUAGE = "language";
@@ -25,7 +23,7 @@ public class NetworkUtils {
     private static final String PARAM_PAGE = "page";
     private static final String page = "1";
 
-    private static final String PARAM_VIDEO = "video";
+    //private static final String PARAM_VIDEO = "video";
 
     private static final String TRAILER_BASE_URL = "https://www.youtube.com/watch";
     private static final String PARAM_VIDEO_SEARCH = "v";
