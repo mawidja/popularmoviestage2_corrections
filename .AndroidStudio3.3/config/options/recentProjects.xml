@@ -1,0 +1,786 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Popular_Movie_Stage_2" />
+        <option value="$USER_HOME$/Popular_Movie_Stage_1" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson05b-Smarter-GitHub-Repo-Search/T05b.02-Solution-AddAsyncTaskLoader" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson10-Hydration-Reminder" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson05b-Smarter-GitHub-Repo-Search/T05b.03-Solution-PolishAsyncTask" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson05b-Smarter-GitHub-Repo-Search/T05b.02-Exercise-AddAsyncTaskLoader" />
+        <option value="$USER_HOME$/sandwich-club-starter-code" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson05a-Android-Lifecycle/T05a.02-Solution-PersistData" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson05a-Android-Lifecycle/T05a.02-Exercise-PersistData" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson05a-Android-Lifecycle/T05a.01-Exercise-LogLifecycle" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson04a-Starting-New-Activities/T04a.03-Solution-PassingDataBetweenActivities" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson03-Green-Recycler-View/T03.07-Solution-RecyclerViewClickHandling" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.06-Solution-AddPolish" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search" />
+        <option value="$USER_HOME$/ud851-Sunshine/S03.02-Solution-RecyclerViewClickHandling" />
+        <option value="$USER_HOME$/ud851-Sunshine/S04.03-Solution-AddMapAndSharing" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson04b-Webpages-Maps-and-Sharing/T04b.03-Solution-ShareText" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson04a-Starting-New-Activities/T04a.02-Solution-StartNewActivity" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson04a-Starting-New-Activities/T04a.01-Solution-AddNewActivity" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.02-Solution-AddMenu" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson03-Green-Recycler-View/T03.04-Solution-WiringUpRecyclerView" />
+        <option value="$USER_HOME$/ud851-Sunshine/S03.01-Solution-RecyclerView" />
+        <option value="$USER_HOME$/ud851-Sunshine/S02.01-Solution-Networking" />
+        <option value="$USER_HOME$/Popular_Movie_Stage_1/Popular_Movie_Stage_1" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson03-Green-Recycler-View/T03.04-Exercise-WiringUpRecyclerView" />
+        <option value="$USER_HOME$/ud851-Sunshine/S03.01-Exercise-RecyclerView" />
+        <option value="$USER_HOME$/ud851-Sunshine/S03.02-Exercise-RecyclerViewClickHandling" />
+        <option value="$USER_HOME$/ud851-Sunshine/S02.03-Solution-Polish" />
+        <option value="$USER_HOME$/ud851-Sunshine/S02.03-Exercise-Polish" />
+        <option value="$USER_HOME$/ud851-Sunshine/S02.01-Exercise-Networking" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson03-Green-Recycler-View/T03.07-Exercise-RecyclerViewClickHandling" />
+        <option value="$USER_HOME$" />
+        <option value="$USER_HOME$/ud851-Sunshine/S04.01-Solution-LaunchNewActivity" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson04b-Webpages-Maps-and-Sharing/T04b.01-Solution-OpenWebpage" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson04a-Starting-New-Activities/T04a.03-Exercise-PassingDataBetweenActivities" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson03-Green-Recycler-View/T03.03-Exercise-RecyclerViewAdapter" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson03-Green-Recycler-View/T03.02-Exercise-ViewHolder" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson03-Green-Recycler-View/T03.01-Exercise-RecyclerViewLayout" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.01-Exercise-CreateLayout" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson01-Favorite-Toys/T01.03-Exercise-AddScrolling" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.01-Solution-CreateLayout" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.05-Exercise-CreateAsyncTask" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.04-Solution-ConnectingToTheInternet" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.05-Solution-CreateAsyncTask" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson01-Favorite-Toys/T01.03-Solution-AddScrolling" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson01-Favorite-Toys/T01.02-Solution-DisplayToyList" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.04-Exercise-ConnectingToTheInternet" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Popular_Movie_Stage_1" />
+        <option value="$USER_HOME$/Popular_Movie_Stage_2" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Popular_Movie_Stage_2" />
+    <option name="pid" value="" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1545913995173" />
+              <option name="buildTimestamp" value="1539049472191" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/Calendar_Application">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-173.4907809" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538396483893" />
+              <option name="buildTimestamp" value="1532380495263" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/ListView">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-173.4907809" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538396380614" />
+              <option name="buildTimestamp" value="1532380495263" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/MyApplication">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-173.4907809" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538397454580" />
+              <option name="buildTimestamp" value="1532380495263" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/MyApplicationListSQL">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-171.4443003" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1524303635735" />
+              <option name="buildTimestamp" value="1510251664964" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/MyCalendar">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1543867722779" />
+              <option name="buildTimestamp" value="1539049465191" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/MyFirstApplication">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-171.4443003" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1519061111282" />
+              <option name="buildTimestamp" value="1510251684737" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/MyListSQLExample">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-171.4443003" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1524300396139" />
+              <option name="buildTimestamp" value="1510251664964" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/MySQLListApp">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-171.4443003" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1524300298390" />
+              <option name="buildTimestamp" value="1510251664964" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/QuickLaucher">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-171.4443003" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1520623970782" />
+              <option name="buildTimestamp" value="1510251719036" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PopularMovieApplication">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1545910749701" />
+              <option name="buildTimestamp" value="1539049472191" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Popular_Movie_Stage_1">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-182.5107.16.33.5199772" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1549011738084" />
+              <option name="buildTimestamp" value="1545705589569" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Popular_Movie_Stage_1/Popular_Movie_Stage_1">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546595875547" />
+              <option name="buildTimestamp" value="1539049497298" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Popular_Movie_Stage_2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-182.5107.16.33.5199772" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1549011738084" />
+              <option name="buildTimestamp" value="1545705589569" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sandwich-club-starter-code">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548186263017" />
+              <option name="buildTimestamp" value="1539049456090" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1545384411066" />
+              <option name="buildTimestamp" value="1539049472496" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544548678207" />
+              <option name="buildTimestamp" value="1539049487617" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson01-Favorite-Toys/T01.02-Solution-DisplayToyList">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544642470521" />
+              <option name="buildTimestamp" value="1539049487617" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson01-Favorite-Toys/T01.03-Exercise-AddScrolling">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1545380312367" />
+              <option name="buildTimestamp" value="1539049472496" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson01-Favorite-Toys/T01.03-Solution-AddScrolling">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544728146289" />
+              <option name="buildTimestamp" value="1539049487617" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1547112426690" />
+              <option name="buildTimestamp" value="1539049448403" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.01-Exercise-CreateLayout">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1545455627309" />
+              <option name="buildTimestamp" value="1539049463140" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.01-Solution-CreateLayout">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544873212992" />
+              <option name="buildTimestamp" value="1539049487617" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1545812995814" />
+              <option name="buildTimestamp" value="1539049463140" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.02-Solution-AddMenu">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546800356804" />
+              <option name="buildTimestamp" value="1539049498351" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544549707452" />
+              <option name="buildTimestamp" value="1539049487617" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.04-Exercise-ConnectingToTheInternet">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544564584390" />
+              <option name="buildTimestamp" value="1539049487617" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.04-Solution-ConnectingToTheInternet">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544873231566" />
+              <option name="buildTimestamp" value="1539049487617" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.05-Exercise-CreateAsyncTask">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544863272154" />
+              <option name="buildTimestamp" value="1539049487617" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.05-Solution-CreateAsyncTask">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544813632541" />
+              <option name="buildTimestamp" value="1539049487617" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.06-Exercise-AddPolish">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544474698986" />
+              <option name="buildTimestamp" value="1539049487617" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.06-Solution-AddPolish">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1547462388411" />
+              <option name="buildTimestamp" value="1539049448403" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson03-Green-Recycler-View/T03.01-Exercise-RecyclerViewLayout">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1545822247808" />
+              <option name="buildTimestamp" value="1539049463140" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson03-Green-Recycler-View/T03.02-Exercise-ViewHolder">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1545836867941" />
+              <option name="buildTimestamp" value="1539049463140" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson03-Green-Recycler-View/T03.03-Exercise-RecyclerViewAdapter">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1545845660056" />
+              <option name="buildTimestamp" value="1539049472191" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson03-Green-Recycler-View/T03.04-Exercise-WiringUpRecyclerView">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546560456285" />
+              <option name="buildTimestamp" value="1539049497298" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson03-Green-Recycler-View/T03.04-Solution-WiringUpRecyclerView">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546762251429" />
+              <option name="buildTimestamp" value="1539049498351" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson03-Green-Recycler-View/T03.07-Exercise-RecyclerViewClickHandling">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546172454654" />
+              <option name="buildTimestamp" value="1539049497298" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson03-Green-Recycler-View/T03.07-Solution-RecyclerViewClickHandling">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548014463378" />
+              <option name="buildTimestamp" value="1539049456090" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson04a-Starting-New-Activities/T04a.01-Solution-AddNewActivity">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546802105712" />
+              <option name="buildTimestamp" value="1539049498351" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson04a-Starting-New-Activities/T04a.02-Solution-StartNewActivity">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546802152718" />
+              <option name="buildTimestamp" value="1539049498351" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson04a-Starting-New-Activities/T04a.03-Exercise-PassingDataBetweenActivities">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1545903379305" />
+              <option name="buildTimestamp" value="1539049472191" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson04a-Starting-New-Activities/T04a.03-Solution-PassingDataBetweenActivities">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548015216968" />
+              <option name="buildTimestamp" value="1539049456090" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson04b-Webpages-Maps-and-Sharing/T04b.01-Solution-OpenWebpage">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1545898757864" />
+              <option name="buildTimestamp" value="1539049472191" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson04b-Webpages-Maps-and-Sharing/T04b.03-Solution-ShareText">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546802405286" />
+              <option name="buildTimestamp" value="1539049498351" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson05a-Android-Lifecycle/T05a.01-Exercise-LogLifecycle">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548015214773" />
+              <option name="buildTimestamp" value="1539049456090" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson05a-Android-Lifecycle/T05a.02-Exercise-PersistData">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548186278304" />
+              <option name="buildTimestamp" value="1539049456090" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson05a-Android-Lifecycle/T05a.02-Solution-PersistData">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548178220773" />
+              <option name="buildTimestamp" value="1539049456090" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson05b-Smarter-GitHub-Repo-Search/T05b.02-Exercise-AddAsyncTaskLoader">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548952241496" />
+              <option name="buildTimestamp" value="1539049495808" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson05b-Smarter-GitHub-Repo-Search/T05b.02-Solution-AddAsyncTaskLoader">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548952251887" />
+              <option name="buildTimestamp" value="1539049495808" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson05b-Smarter-GitHub-Repo-Search/T05b.03-Solution-PolishAsyncTask">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548952206196" />
+              <option name="buildTimestamp" value="1539049495808" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson10-Hydration-Reminder">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548952221495" />
+              <option name="buildTimestamp" value="1539049495808" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Sunshine/S01.01-Exercise-CreateLayout">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544476290910" />
+              <option name="buildTimestamp" value="1539049487617" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Sunshine/S01.01-Solution-CreateLayout">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1543944311437" />
+              <option name="buildTimestamp" value="1539049465191" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Sunshine/S01.02-Exercise-AddWeatherList">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544215761023" />
+              <option name="buildTimestamp" value="1539049487617" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Sunshine/S02.01-Exercise-Networking">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546338626929" />
+              <option name="buildTimestamp" value="1539049497298" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Sunshine/S02.01-Solution-Networking">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546701406206" />
+              <option name="buildTimestamp" value="1539049498351" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Sunshine/S02.03-Exercise-Polish">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546339916776" />
+              <option name="buildTimestamp" value="1539049497298" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Sunshine/S02.03-Solution-Polish">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546340073891" />
+              <option name="buildTimestamp" value="1539049497298" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Sunshine/S03.01-Exercise-RecyclerView">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546413076083" />
+              <option name="buildTimestamp" value="1539049497298" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Sunshine/S03.01-Solution-RecyclerView">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546703890039" />
+              <option name="buildTimestamp" value="1539049498351" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Sunshine/S03.02-Exercise-RecyclerViewClickHandling">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546412665556" />
+              <option name="buildTimestamp" value="1539049497298" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Sunshine/S03.02-Solution-RecyclerViewClickHandling">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546975724544" />
+              <option name="buildTimestamp" value="1539049498351" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Sunshine/S04.01-Solution-LaunchNewActivity">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1545901750858" />
+              <option name="buildTimestamp" value="1539049472191" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Sunshine/S04.03-Solution-AddMapAndSharing">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546940313013" />
+              <option name="buildTimestamp" value="1539049498351" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$" />
+  </component>
+</application>
