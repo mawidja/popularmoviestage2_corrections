@@ -1,0 +1,14 @@
+/Popular_Movie_Stage_1/.idea/misc.xml
+/NTUSER.DAT{5dc88418-9f3a-11e8-a134-48ba4e2903bd}.TxR.blf
+../
+*.iml
+.gradle
+/local.properties
+/.idea/caches/build_file_checksums.ser
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild

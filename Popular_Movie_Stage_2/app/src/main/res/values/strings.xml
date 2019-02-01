@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <string name="error_message">Failed to get results, please try again later.</string>
+
+    <!-- For Main Movie Activity menu options -->
+    <string name="popular_movies">Popular Movies</string>
+    <string name="top_rated_movies">Top Rated Movies</string>
+
+    <!--For DetailMovieActivity -->
+    <string name="movie_detail_release_date">Released Date:</string>
+    <string name="movie_detail_movie_rating">Rating:</string>
+    <string name="movie_rating_total"> %1$s /10</string>
+    <string name="movie_trailer_error_message">Failed to get movie trailers, please try again later.</string>
+
+    <!--For Movie Trailer layout -->
+    <string name="movie_trailer_tv">Trailers</string>
+    <!--<string name="movie_trailer_button_text">Movie Trailer</string>-->
+</resources>
