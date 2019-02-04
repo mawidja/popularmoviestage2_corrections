@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-native-run-configurations" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="remove-java-aware-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\codeStyles\Project.xml" timestamp="1549060599353" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\gradle.xml" timestamp="1549060599140" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__com_android_support_animated_vector_drawable_25_1_0_aar.xml" timestamp="1549060599524" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__com_android_support_appcompat_v7_25_1_0_aar.xml" timestamp="1549060599677" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__com_android_support_recyclerview_v7_25_0_1_aar.xml" timestamp="1549060599835" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__com_android_support_support_annotations_25_1_0_jar.xml" timestamp="1549060599916" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__com_android_support_support_compat_25_1_0_aar.xml" timestamp="1549060600095" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__com_android_support_support_core_ui_25_1_0_aar.xml" timestamp="1549060600298" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__com_android_support_support_core_utils_25_1_0_aar.xml" timestamp="1549060600587" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__com_android_support_support_fragment_25_1_0_aar.xml" timestamp="1549060600718" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__com_android_support_support_media_compat_25_1_0_aar.xml" timestamp="1549060600846" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__com_android_support_support_v4_25_1_0_aar.xml" timestamp="1549060600997" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__com_android_support_support_vector_drawable_25_1_0_aar.xml" timestamp="1549060601212" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__com_android_support_test_exposed_instrumentation_api_publish_0_5_aar.xml" timestamp="1549060601286" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__com_android_support_test_rules_0_5_aar.xml" timestamp="1549060601405" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__com_android_support_test_runner_0_5_aar.xml" timestamp="1549060601578" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__junit_junit_4_12_jar.xml" timestamp="1549060601901" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\libraries\Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" timestamp="1549060602485" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\misc.xml" timestamp="1549060837993" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\modules.xml" timestamp="1549060598853" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\runConfigurations.xml" timestamp="1549060490727" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\vcs.xml" timestamp="1549060599044" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\.idea\workspace.xml" timestamp="1549097321804" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\S05.01-Solution-AsyncTaskLoader.iml" timestamp="1549060597037" />
+    <file path="C:\Users\witne\ud851-Sunshine\S05.01-Solution-AsyncTaskLoader\app\app.iml" timestamp="1549060837654" />
+  </project-files>
+</conversion>
+

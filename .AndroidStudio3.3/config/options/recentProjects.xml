@@ -3,12 +3,15 @@
     <option name="recentPaths">
       <list>
         <option value="$USER_HOME$/Popular_Movie_Stage_2" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.10-Solution-AddViewModelToAddTaskActivity" />
+        <option value="$USER_HOME$/sandwich-club-starter-code" />
         <option value="$USER_HOME$/Popular_Movie_Stage_1" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.04-Solution-Executors" />
+        <option value="$USER_HOME$/ud851-Sunshine/S05.01-Solution-AsyncTaskLoader" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson05b-Smarter-GitHub-Repo-Search/T05b.03-Solution-PolishAsyncTask" />
         <option value="$USER_HOME$/ud851-Exercises/Lesson05b-Smarter-GitHub-Repo-Search/T05b.02-Solution-AddAsyncTaskLoader" />
         <option value="$USER_HOME$/ud851-Exercises/Lesson10-Hydration-Reminder" />
-        <option value="$USER_HOME$/ud851-Exercises/Lesson05b-Smarter-GitHub-Repo-Search/T05b.03-Solution-PolishAsyncTask" />
         <option value="$USER_HOME$/ud851-Exercises/Lesson05b-Smarter-GitHub-Repo-Search/T05b.02-Exercise-AddAsyncTaskLoader" />
-        <option value="$USER_HOME$/sandwich-club-starter-code" />
         <option value="$USER_HOME$/ud851-Exercises/Lesson05a-Android-Lifecycle/T05a.02-Solution-PersistData" />
         <option value="$USER_HOME$/ud851-Exercises/Lesson05a-Android-Lifecycle/T05a.02-Exercise-PersistData" />
         <option value="$USER_HOME$/ud851-Exercises/Lesson05a-Android-Lifecycle/T05a.01-Exercise-LogLifecycle" />
@@ -49,14 +52,10 @@
         <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.04-Solution-ConnectingToTheInternet" />
         <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.05-Solution-CreateAsyncTask" />
         <option value="$USER_HOME$/ud851-Exercises/Lesson01-Favorite-Toys/T01.03-Solution-AddScrolling" />
-        <option value="$USER_HOME$/ud851-Exercises/Lesson01-Favorite-Toys/T01.02-Solution-DisplayToyList" />
-        <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.04-Exercise-ConnectingToTheInternet" />
-        <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl" />
       </list>
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/Popular_Movie_Stage_1" />
         <option value="$USER_HOME$/Popular_Movie_Stage_2" />
       </list>
     </option>
@@ -188,11 +187,11 @@
         <entry key="$USER_HOME$/Popular_Movie_Stage_1">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="AI-182.5107.16.33.5199772" />
+              <option name="build" value="AI-182.5107.16.33.5264788" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1549011738084" />
-              <option name="buildTimestamp" value="1545705589569" />
+              <option name="projectOpenTimestamp" value="1550312598128" />
+              <option name="buildTimestamp" value="1548719545029" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -210,22 +209,22 @@
         <entry key="$USER_HOME$/Popular_Movie_Stage_2">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="AI-182.5107.16.33.5199772" />
+              <option name="build" value="AI-182.5107.16.33.5264788" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1549011738084" />
-              <option name="buildTimestamp" value="1545705589569" />
+              <option name="projectOpenTimestamp" value="1550401299882" />
+              <option name="buildTimestamp" value="1548719524031" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
         <entry key="$USER_HOME$/sandwich-club-starter-code">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="build" value="AI-182.5107.16.33.5264788" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1548186263017" />
-              <option name="buildTimestamp" value="1539049456090" />
+              <option name="projectOpenTimestamp" value="1550258637579" />
+              <option name="buildTimestamp" value="1548719545029" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -617,11 +616,33 @@
         <entry key="$USER_HOME$/ud851-Exercises/Lesson05b-Smarter-GitHub-Repo-Search/T05b.03-Solution-PolishAsyncTask">
           <value>
             <RecentProjectMetaInfo>
-              <option name="build" value="AI-181.5540.7.32.5056338" />
+              <option name="build" value="AI-182.5107.16.33.5199772" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1548952206196" />
-              <option name="buildTimestamp" value="1539049495808" />
+              <option name="projectOpenTimestamp" value="1549052498832" />
+              <option name="buildTimestamp" value="1545705581807" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.04-Solution-Executors">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-182.5107.16.33.5264788" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1550191580116" />
+              <option name="buildTimestamp" value="1548719561396" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.10-Solution-AddViewModelToAddTaskActivity">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-182.5107.16.33.5264788" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1550314956860" />
+              <option name="buildTimestamp" value="1548719575746" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -776,6 +797,17 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1546940313013" />
               <option name="buildTimestamp" value="1539049498351" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ud851-Sunshine/S05.01-Solution-AsyncTaskLoader">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-182.5107.16.33.5199772" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1549474860922" />
+              <option name="buildTimestamp" value="1545705548571" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

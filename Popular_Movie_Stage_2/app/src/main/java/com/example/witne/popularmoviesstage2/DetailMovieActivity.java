@@ -17,7 +17,7 @@ import android.widget.TextView;
 import com.example.witne.data.Movie;
 import com.example.witne.data.Trailer;
 import com.example.witne.popularmoviesstage2.MovieTrailerAdapter;
-import com.example.witne.popularmoviesstage1.R;
+import com.example.witne.popularmoviesstage2.R;
 import com.example.witne.utilities.JsonUtils;
 import com.example.witne.utilities.NetworkUtils;
 import com.squareup.picasso.Picasso;

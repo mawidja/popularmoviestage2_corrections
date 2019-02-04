@@ -5,11 +5,20 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.os.AsyncTask;
+//import android.os.AsyncTask;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+
+import androidx.loader.app.LoaderManager;
+import androidx.loader.content.AsyncTaskLoader;
+import androidx.loader.content.Loader;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -17,18 +26,28 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.witne.popularmoviesstage2.MovieAdapter;
-import com.example.witne.popularmoviesstage1.R;
+import com.example.witne.popularmoviesstage2.R;
 import com.example.witne.utilities.JsonUtils;
 import com.example.witne.utilities.NetworkUtils;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 
-public class MainMoviesActivity extends AppCompatActivity implements MovieAdapter.ListItemClickLister {
+public class MainMoviesActivity extends AppCompatActivity implements MovieAdapter.ListItemClickLister,
+        LoaderManager.LoaderCallbacks<String>{
 
+    //to uniquely identify the loader
+    private static final int MOVIE_SEARCH_LOADER = 46;
+    private LoaderManager loaderManager;
+    //private String movieSearchQuery;
+    private static final String MOVIE_SEARCH_KEY = "movieSearchKey";
+
+    private static final String MOVIE_SEARCH_QUERY = "queryMovies";
+    //private static final String DEFAULT_MOVIE_SEARCH = "popular";
     private String popularOrTopRatedMovies;
     private ArrayList<Movie> movieList;
     private MovieAdapter movieAdapter;
+
     /*@BindView(R.id.rv_popularMovies)
     RecyclerView recyclerView;
 
@@ -38,9 +57,30 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
     private TextView tv_error_message;
     private ProgressBar progressBar;
 
+    /*@Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        popularOrTopRatedMovies = savedInstanceState.getString(MOVIE_SEARCH_KEY);
+        super.onRestoreInstanceState(savedInstanceState);
+    }*/
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString(MOVIE_SEARCH_KEY,popularOrTopRatedMovies);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //get the movie search string query
+        if(savedInstanceState != null){
+            popularOrTopRatedMovies = savedInstanceState.getString(MOVIE_SEARCH_KEY);
+        }else{
+            //build the url string - default to 'popular movies'
+            popularOrTopRatedMovies = "popular";
+        }
+        //popularOrTopRatedMovies = savedInstanceState.getString(MOVIE_SEARCH_KEY);
         setContentView(R.layout.activity_main_movies);
         //ButterKnife.bind(this);
 
@@ -62,8 +102,6 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
 
         //check for network connection
         if(isNetworkAvailable()) {
-            //build the url string - default to 'popular movies'
-            popularOrTopRatedMovies = "popular";
             startMovieSearch(popularOrTopRatedMovies);
         }else{
             showErrorMessage();
@@ -93,7 +131,20 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
         URL movieSearchURL = NetworkUtils.buildUrl(popularOrTopRatedMovies);
         //fetch data on separate thread
         // and initialize the recycler viewer with data from movie adapter
-        new  FetchMovieTask().execute(movieSearchURL);
+        //New  FetchMovieTask().execute(movieSearchURL);
+
+        //LoaderManager.LoaderCallbacks<String> callbacks = MainMoviesActivity.this;
+
+        Bundle queryBundle = new Bundle();
+        queryBundle.putString(MOVIE_SEARCH_QUERY,movieSearchURL.toString());
+
+        loaderManager = LoaderManager.getInstance(this);
+        Loader<String> fetchMovieLoader = loaderManager.getLoader(MOVIE_SEARCH_LOADER);
+        if(fetchMovieLoader == null ){
+            loaderManager.initLoader(MOVIE_SEARCH_LOADER,queryBundle,this);
+        }else {
+            loaderManager.restartLoader(MOVIE_SEARCH_LOADER,queryBundle,this);
+        }
     }
     @Override
     public void onListItemClick(Movie movie) {
@@ -125,37 +176,52 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
         }
         return super.onOptionsItemSelected(menuItem);
     }
-    //Async inner class to fetch network data
-    class FetchMovieTask extends AsyncTask<URL, Void, String>{
 
-        @Override
-        protected void onPreExecute(){
-            super.onPreExecute();
-            progressBar.setVisibility(View.VISIBLE);
-        }
-
-        @Override
-        protected String doInBackground(URL... params){
-
-            URL searchUrl = params[0];
-            String jsonData = null;
-            try {
-                jsonData = NetworkUtils.fetchData(searchUrl);
-            }catch (IOException e){
-                e.printStackTrace();
+    @NonNull
+    @Override
+    public Loader<String> onCreateLoader(int id, final Bundle args) {
+        return new AsyncTaskLoader<String>(this) {
+            @Override
+            protected void onStartLoading() {
+                super.onStartLoading();
+                if(args == null){
+                    return;
+                }
+                progressBar.setVisibility(View.VISIBLE);
+                forceLoad();
             }
-            return jsonData;
-        }
 
-        @Override
-        protected void onPostExecute(String jsonData ){
-            progressBar.setVisibility(View.INVISIBLE);
-            if(jsonData != null && !jsonData.equals("")) {
-                super.onPostExecute(jsonData);
-                showJSONData(jsonData);
-            }else{
-                showErrorMessage();
+            @Nullable
+            @Override
+            public String loadInBackground() {
+                String jsonData;
+                String searchMovieQuery = args.getString(MOVIE_SEARCH_QUERY);
+                if(searchMovieQuery == null || TextUtils.isEmpty(searchMovieQuery)){
+                    return null;
+                }try {
+                    URL movieSearchURL = new URL(searchMovieQuery);
+                    jsonData = NetworkUtils.fetchData(movieSearchURL);
+                    return jsonData;
+                }catch (IOException e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
+        };
+    }
+
+    @Override
+    public void onLoadFinished(@NonNull Loader<String> loader, String data) {
+        progressBar.setVisibility(View.INVISIBLE);
+        if(data != null && !data.equals("")) {
+            showJSONData(data);
+        }else{
+            showErrorMessage();
         }
+    }
+
+    @Override
+    public void onLoaderReset(@NonNull Loader<String> loader) {
+
     }
 }

@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.example.witne.data.Movie;
-import com.example.witne.popularmoviesstage1.R;
+import com.example.witne.popularmoviesstage2.R;
 import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 
