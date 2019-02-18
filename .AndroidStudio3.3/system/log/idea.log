@@ -6267,3 +6267,175 @@ java.net.UnknownHostException: plugins.jetbrains.com
 2019-02-18 19:38:26,695 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8600 for client with pid 7365 
 2019-02-18 19:38:26,872 [thread 747]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 
 2019-02-18 19:38:26,876 [thread 747]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
+2019-02-18 19:52:37,899 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-18 19:52:37,900 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-02-18 21:18:48,529 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:18:48,912 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:21:36,727 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 21:28:55,756 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 21:30:27,185 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:30:27,550 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:30:32,289 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:30:32,611 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:30:47,602 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:30:47,997 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:31:18,120 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:31:18,535 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:32:10,973 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:32:11,322 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:32:20,591 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:32:20,972 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:36:44,063 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:36:44,458 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:37:07,861 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:37:08,230 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:38:43,812 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:38:44,217 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:47:34,694 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:47:35,024 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:48:24,995 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:48:25,371 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:48:32,915 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:48:33,284 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:50:41,165 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:50:41,520 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:52:41,056 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:52:41,455 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:52:45,965 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:52:46,327 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:52:58,443 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:52:58,826 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:53:09,078 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:53:09,467 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:53:16,413 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:53:16,798 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:53:25,342 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:53:25,742 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:53:34,704 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:54:17,068 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 21:54:17,308 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:11:23,888 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-02-18 22:11:23,894 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Started sync with Gradle for project 'Popular_Movie_Stage_2'. 
+2019-02-18 22:11:23,899 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-02-18 22:11:23,899 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-18 22:11:23,947 [hread 1327]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-18 22:11:23,987 [hread 1327]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-02-18 22:11:24,018 [hread 1327]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\witne\AppData\Local\Temp\sync.java.lib1652.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.3.1.0 
+2019-02-18 22:11:32,244 [hread 1327]   INFO - e.project.sync.GradleSyncState - Started setup of project 'Popular_Movie_Stage_2'. 
+2019-02-18 22:11:32,244 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SETUP_STARTED 
+2019-02-18 22:11:32,706 [hread 1327]   INFO - ule.android.SdkModuleSetupStep - Set Android SDK 'Android API 28 Platform' (C:\Users\witne\AppData\Local\Android\Sdk) to module 'app' 
+2019-02-18 22:11:33,765 [entQueue-0]   INFO - etup.post.PluginVersionUpgrade - Gradle model version: 3.3.1, recommended version for IDE: 3.3.1 
+2019-02-18 22:11:33,907 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:generateDebugSources] 
+2019-02-18 22:11:33,907 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-18 22:11:33,912 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Gradle sync finished in 10 s 17 ms 
+2019-02-18 22:11:33,983 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-02-18 22:11:33,983 [entQueue-0]   INFO - idea.project.IndexingSuspender - IndexingSuspender deactivation event received and ignored: SYNC_FINISHED 
+2019-02-18 22:11:34,060 [hread 1323]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-18 22:11:34,062 [hread 1323]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-02-18 22:11:34,228 [hread 1323]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-02-18 22:11:34,871 [hread 1335]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.0s 
+2019-02-18 22:11:37,453 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-18 22:11:40,187 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-18 22:11:40,187 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-18 22:11:40,200 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-18 22:11:40,326 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 6 s 263 ms 
+2019-02-18 22:11:40,342 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-18 22:11:40,660 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-18 22:11:41,245 [hread 1333]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 15ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-18 22:11:41,308 [hread 1333]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 63ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-18 22:11:47,672 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:11:48,171 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:16:07,174 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:16:07,563 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:16:35,243 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:16:35,612 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:18:57,402 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:generateDebugSources] 
+2019-02-18 22:18:57,402 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-18 22:18:57,483 [hread 1488]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-18 22:18:57,488 [hread 1488]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-02-18 22:18:57,512 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-18 22:18:57,512 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-18 22:18:57,616 [hread 1488]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-02-18 22:19:08,325 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-18 22:19:08,325 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-18 22:19:08,378 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 10 s 890 ms 
+2019-02-18 22:19:08,407 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-18 22:19:08,688 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-18 22:19:09,269 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-18 22:19:11,016 [hread 1492]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 4ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-18 22:19:11,184 [hread 1492]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 168ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-18 22:19:11,184 [hread 1492]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2019-02-18 22:19:11,280 [hread 1492]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 96ms; general responsiveness: 1/1 sluggish; EDT responsiveness: ok 
+2019-02-18 22:19:45,775 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:19:46,153 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:21:07,439 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:21:07,816 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:24:07,500 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:24:07,911 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:25:00,745 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:25:01,101 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:25:16,458 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:25:16,825 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:25:27,470 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:25:27,819 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:26:26,351 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:26:26,743 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:26:33,769 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:26:34,152 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:28:54,510 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:28:54,925 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:31:11,199 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 22:31:48,142 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 22:31:48,142 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 22:34:31,230 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 22:34:31,230 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 22:34:47,027 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 22:42:27,944 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:42:28,332 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:42:32,800 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:42:33,688 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:42:34,069 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:42:38,009 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:42:38,435 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:44:21,686 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:44:22,359 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:44:33,812 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:44:34,177 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:44:40,121 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:44:40,514 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:45:10,915 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:45:11,318 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:45:16,141 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:45:16,516 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:47:17,322 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:47:17,703 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:47:24,152 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 22:47:24,526 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:02:44,830 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:02:45,201 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:02:52,861 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:02:53,259 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:04:55,935 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:04:56,313 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:05:07,415 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:05:07,813 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:05:20,721 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:05:21,102 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:05:35,933 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:05:36,269 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:15:26,773 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 23:15:26,773 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 23:15:27,653 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 23:16:30,815 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 23:16:30,815 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 23:17:18,404 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 23:18:36,446 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 23:18:36,446 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 23:18:37,502 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 23:18:37,503 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 23:19:13,750 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 23:19:13,750 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-18 23:22:46,583 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:22:46,981 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:23:15,113 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-18 23:23:15,500 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 

@@ -3,6 +3,14 @@ package com.example.witne.data;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import androidx.annotation.NonNull;
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.Ignore;
+import androidx.room.PrimaryKey;
+
+
+@Entity(tableName = "movie")
 public class Movie implements Parcelable {
 
 
@@ -70,17 +78,36 @@ public class Movie implements Parcelable {
         this.vote_average = vote_average;
     }
 
+    @ColumnInfo(name = "movie_release_date")
     private String release_date;
+
+    @NonNull
+    @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "movie_id")
     private int movieId;
+
+    @ColumnInfo(name = "movie_original_title")
     private String original_title;
+
+    @ColumnInfo(name = "movie_title")
     private String title;
+
+    @ColumnInfo(name = "Movie_popularity")
     private double popularity;
+
+    @ColumnInfo(name = "movie_vote_average")
     private double vote_average;
+
+    @ColumnInfo(name = "movie_poster_path")
     private String poster_path;
+
+    @ColumnInfo(name = "movie_overview")
     private String movie_overview;
+
     private static final String IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w185";
 
     //No args constructor
+    @Ignore
     public Movie(){
 
     }

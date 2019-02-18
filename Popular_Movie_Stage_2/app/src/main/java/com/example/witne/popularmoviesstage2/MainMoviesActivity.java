@@ -12,6 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
+import androidx.lifecycle.ViewModelProviders;
 import androidx.loader.app.LoaderManager;
 import androidx.loader.content.AsyncTaskLoader;
 import androidx.loader.content.Loader;
@@ -32,6 +33,7 @@ import com.example.witne.utilities.NetworkUtils;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.List;
 
 public class MainMoviesActivity extends AppCompatActivity implements MovieAdapter.ListItemClickLister,
         LoaderManager.LoaderCallbacks<String>{
@@ -46,6 +48,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
     //private static final String DEFAULT_MOVIE_SEARCH = "popular";
     private String popularOrTopRatedMovies;
     private ArrayList<Movie> movieList;
+    //private List<Movie> movieList;
     private MovieAdapter movieAdapter;
 
     /*@BindView(R.id.rv_popularMovies)
@@ -106,6 +109,11 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
         }else{
             showErrorMessage();
         }
+    }
+
+    private void setUpViewModel(){
+        MainMovieViewModel mainMovieViewModel = ViewModelProviders.of(this).get(MainMovieViewModel.class);
+        //mainMovieViewModel.getMovieLiveData().observe(this,movieList);
     }
 
     private boolean isNetworkAvailable(){
