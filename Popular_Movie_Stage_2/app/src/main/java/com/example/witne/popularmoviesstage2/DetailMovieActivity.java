@@ -1,6 +1,11 @@
 package com.example.witne.popularmoviesstage2;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.loader.app.LoaderManager;
+import androidx.loader.content.AsyncTaskLoader;
+import androidx.loader.content.Loader;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -11,6 +16,8 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -27,11 +34,17 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Objects;
 
-public class DetailMovieActivity extends AppCompatActivity implements MovieTrailerAdapter.ListItemClickListener {
+public class DetailMovieActivity extends AppCompatActivity implements MovieTrailerAdapter.ListItemClickListener,
+        LoaderManager.LoaderCallbacks<String> {
 
     private MovieTrailerAdapter movieTrailerAdapter;
     private TextView tv_trailers;
     private ArrayList<Trailer> trailerList;
+
+    private static final String MOVIE_SEARCH_QUERY = "queryMovieDetails";
+    private static final int MOVIE_SEARCH_LOADER = 46;
+    private LoaderManager loaderManager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,7 +111,18 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         URL movieSearchURL = NetworkUtils.buildUrl(movieId);
         //fetch data on separate thread
         // and initialize the recycler viewer with data from movie adapter
-        new  FetchMovieTrailerTask().execute(movieSearchURL);
+        //new  FetchMovieTrailerTask().execute(movieSearchURL);
+
+        Bundle queryBundle = new Bundle();
+        queryBundle.putString(MOVIE_SEARCH_QUERY,movieSearchURL.toString());
+
+        loaderManager = LoaderManager.getInstance(this);
+        Loader<String> fetchMovieDetails = loaderManager.getLoader(MOVIE_SEARCH_LOADER);
+        if(fetchMovieDetails == null){
+            loaderManager.initLoader(MOVIE_SEARCH_LOADER,queryBundle,this);
+        }else{
+            loaderManager.restartLoader(MOVIE_SEARCH_LOADER,queryBundle,this);
+        }
     }
 
     private void showJSONData(String jsonData){
@@ -122,13 +146,56 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         Uri movieTrailerUri = Uri.parse(movieTrailerURL.toString());
         playMovieTrailer(movieTrailerUri);
     }
-    //Async inner class to fetch network data
-    class FetchMovieTrailerTask extends AsyncTask<URL, Void, String> {
 
-        /*@Override
-        protected void onPreExecute(){
-            super.onPreExecute();
-        }*/
+    @NonNull
+    @Override
+    public Loader<String> onCreateLoader(int id, final Bundle args) {
+        return new AsyncTaskLoader<String>(this) {
+            @Override
+            protected void onStartLoading() {
+                super.onStartLoading();
+                if(args == null){
+                    return;
+                }
+                forceLoad();
+            }
+
+            @Nullable
+            @Override
+            public String loadInBackground() {
+                String jsonData;
+                String searchMovieQuery = args.getString(MOVIE_SEARCH_QUERY);
+                if(searchMovieQuery == null || TextUtils.isEmpty(searchMovieQuery)){
+                    return null;
+                }try {
+                    URL movieSearchURL = new URL(searchMovieQuery);
+                    jsonData = NetworkUtils.fetchData(movieSearchURL);
+                    return jsonData;
+                }catch (IOException e){
+                    e.printStackTrace();
+                    return null;
+                }
+            }
+        };
+    }
+
+    @Override
+    public void onLoadFinished(@NonNull Loader<String> loader, String data) {
+        if(data != null && !data.equals("")) {
+            showJSONData(data);
+        }else{
+            showErrorMessage();
+        }
+
+    }
+
+    @Override
+    public void onLoaderReset(@NonNull Loader<String> loader) {
+
+    }
+
+    //Async inner class to fetch network data
+    /*class FetchMovieTrailerTask extends AsyncTask<URL, Void, String> {
 
         @Override
         protected String doInBackground(URL... params){
@@ -153,5 +220,5 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
                 showErrorMessage();
             }
         }
-    }
+    }*/
 }

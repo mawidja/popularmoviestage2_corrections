@@ -13,7 +13,7 @@ public class NetworkUtils {
     private static final String MOVIE_BASE_URL = "https://api.themoviedb.org/3/movie/";
     private static final String API_KEY = "api_key";
     @SuppressWarnings("SpellCheckingInspection")
-    private static final String myPersonalApiKey = "";
+    private static final String myPersonalApiKey = "98626ee46e48c23fface6dac4d55c5ea";
 
     private static final String PARAM_LANGUAGE = "language";
     private static final String language = "en-US";
