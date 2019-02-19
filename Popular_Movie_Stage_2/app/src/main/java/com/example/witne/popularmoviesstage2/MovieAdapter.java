@@ -11,11 +11,12 @@ import com.example.witne.data.Movie;
 import com.example.witne.popularmoviesstage2.R;
 import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHolder> {
 
-    private ArrayList<Movie> movieList;
+    private List<Movie> movieList;
     private Movie movie;
    //private MovieAdapterOnClickHandler movieAdapterOnClickHandler;
     private final ListItemClickLister listItemClickLister;
@@ -29,7 +30,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
         void onListItemClick(Movie movie);
     }
 
-    public MovieAdapter(ArrayList<Movie> movieList, ListItemClickLister listItemClickLister){
+    public MovieAdapter(List<Movie> movieList, ListItemClickLister listItemClickLister){
         this.movieList = movieList;
         this.listItemClickLister = listItemClickLister;
     }
@@ -58,7 +59,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
         return movieList.size();
     }
 
-    public void setMovieAdapter(ArrayList<Movie> movieList){
+    public void setMovieAdapter(List<Movie> movieList){
         this.movieList = movieList;
         notifyDataSetChanged();
     }

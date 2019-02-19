@@ -2,8 +2,9 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/Popular_Movie_Stage_2" />
         <option value="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.10-Solution-AddViewModelToAddTaskActivity" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.09-Solution-AddTheViewModel" />
+        <option value="$USER_HOME$/Popular_Movie_Stage_2" />
         <option value="$USER_HOME$/sandwich-club-starter-code" />
         <option value="$USER_HOME$/Popular_Movie_Stage_1" />
         <option value="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.04-Solution-Executors" />
@@ -51,15 +52,16 @@
         <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.05-Exercise-CreateAsyncTask" />
         <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.04-Solution-ConnectingToTheInternet" />
         <option value="$USER_HOME$/ud851-Exercises/Lesson02-GitHub-Repo-Search/T02.05-Solution-CreateAsyncTask" />
-        <option value="$USER_HOME$/ud851-Exercises/Lesson01-Favorite-Toys/T01.03-Solution-AddScrolling" />
       </list>
     </option>
     <option name="openPaths">
       <list>
         <option value="$USER_HOME$/Popular_Movie_Stage_2" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.09-Solution-AddTheViewModel" />
+        <option value="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.10-Solution-AddViewModelToAddTaskActivity" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Popular_Movie_Stage_2" />
+    <option name="lastPath" value="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.10-Solution-AddViewModelToAddTaskActivity" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -212,8 +214,8 @@
               <option name="build" value="AI-182.5107.16.33.5264788" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1550525074638" />
-              <option name="buildTimestamp" value="1548719526279" />
+              <option name="projectOpenTimestamp" value="1550604661430" />
+              <option name="buildTimestamp" value="1548719540334" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -635,14 +637,25 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.09-Solution-AddTheViewModel">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-182.5107.16.33.5264788" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1550604661430" />
+              <option name="buildTimestamp" value="1548719540334" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.10-Solution-AddViewModelToAddTaskActivity">
           <value>
             <RecentProjectMetaInfo>
               <option name="build" value="AI-182.5107.16.33.5264788" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1550314956860" />
-              <option name="buildTimestamp" value="1548719575746" />
+              <option name="projectOpenTimestamp" value="1550604661430" />
+              <option name="buildTimestamp" value="1548719540334" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -813,6 +826,6 @@
         </entry>
       </map>
     </option>
-    <option name="lastProjectLocation" value="$USER_HOME$" />
+    <option name="lastProjectLocation" value="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC" />
   </component>
 </application>

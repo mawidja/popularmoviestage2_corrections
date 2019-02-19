@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-native-run-configurations" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="remove-java-aware-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\codeStyles\Project.xml" timestamp="1550597648136" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\gradle.xml" timestamp="1550597647917" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\misc.xml" timestamp="1550597645595" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\modules.xml" timestamp="1550597023852" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\runConfigurations.xml" timestamp="1550597024140" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\vcs.xml" timestamp="1550597646622" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\workspace.xml" timestamp="1550597645922" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\T09b.09-Solution-AddTheViewModel.iml" timestamp="1550597023499" />
+  </project-files>
+</conversion>
+

@@ -12,6 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
+import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.loader.app.LoaderManager;
 import androidx.loader.content.AsyncTaskLoader;
@@ -26,6 +27,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.example.witne.data.MovieDataRepository;
 import com.example.witne.popularmoviesstage2.MovieAdapter;
 import com.example.witne.popularmoviesstage2.R;
 import com.example.witne.utilities.JsonUtils;
@@ -47,8 +49,8 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
     private static final String MOVIE_SEARCH_QUERY = "queryMovies";
     //private static final String DEFAULT_MOVIE_SEARCH = "popular";
     private String popularOrTopRatedMovies;
-    private ArrayList<Movie> movieList;
-    //private List<Movie> movieList;
+    //private ArrayList<Movie> movieList;
+    private List<Movie> movieList;
     private MovieAdapter movieAdapter;
 
     /*@BindView(R.id.rv_popularMovies)
@@ -59,6 +61,8 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
 
     private TextView tv_error_message;
     private ProgressBar progressBar;
+
+    private MovieDataRepository movieDataRepository;
 
     /*@Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
@@ -109,10 +113,19 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
         }else{
             showErrorMessage();
         }
+
+        movieDataRepository = new MovieDataRepository(getApplication());
+        //setUpViewModel();
     }
 
     private void setUpViewModel(){
         MainMovieViewModel mainMovieViewModel = ViewModelProviders.of(this).get(MainMovieViewModel.class);
+        mainMovieViewModel.getMovieLiveData().observe(this, new Observer<List<Movie>>() {
+            @Override
+            public void onChanged(List<Movie> movies) {
+                movieAdapter.setMovieAdapter(movies);
+            }
+        });
         //mainMovieViewModel.getMovieLiveData().observe(this,movieList);
     }
 
