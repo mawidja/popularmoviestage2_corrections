@@ -1,246 +1,20 @@
-
-SBuildConfigRAPPLICATION_IDVERSION_CODEFLAVORDEBUGVERSION_NAME
-BUILD_TYPE
-YQ"ÊğXBuildConfigUStringüÿÿÿ
-intbooleanš÷Ñ	TgetInstanceSArgbEvaluator	evaluategetInstanceR	sInstanceQTypeEvaluatorP
-RestrictToY†
-/xXArgbEvaluatorWObjectUArgbEvaluatorÏóÑ	TregisterAnimationCallback>unregisterAnimationCallbackFclearAnimationCallbacksNSgetPlatformCallback81clearAnimationCallbacksNAnimationCallback%onAnimationEndşÿÿÿ1onAnimationStartşÿÿÿ*registerAnimationCallback>unregisterAnimationCallbackFRmPlatformCallback#Q
-AnimatableAnimationCallbackPNonNullşÿÿÿDLRequiresApi:Yæ´ûknıÔXAnimationCallbackAnimatable2CompatWAnimationCallbackşÿÿÿ>FDrawableüÿÿÿ*1UbooleanFvoidşÿÿÿ>NÌıÑTloadInterpolatorScreateInterpolatorFromXmlAnimationUtilsCompatloadInterpolatorP
-RestrictToYB–ÁXAnimationUtilsCompatWContextşÿÿÿXmlPullParser	ResourcesThemeUInterpolatorÕõÑ	TloadAnimatorıÿÿÿ<FTSPathDataEvaluatorşÿÿÿsetupPathMotion‘loadObjectAnimatorìinferValueTypeOfKeyframeÓloadAnimatorüÿÿÿ<FTıloadKeyframeÛevaluateinferValueTypeFromValuesàdumpKeyframesëcreateNewKeyframeÅsetupObjectAnimator‚distributeKeyframesÎAnimatorInflaterCompat7isColorTypeĞcreateAnimatorFromXmlşÿÿÿ ¯getPVHdloadPvhôparseAnimatorFromTypeArrays
-loadValuesÄR
-VALUE_TYPE_INT-DBG_ANIMATOR_INFLATER5VALUE_TYPE_COLOR1VALUE_TYPE_UNDEFINED3MAX_NUM_POINTS)VALUE_TYPE_PATH/TOGETHER'TAG%
-mNodeArrayVALUE_TYPE_FLOAT+QTypeEvaluatorPAnimatorResıÿÿÿDR`
-RestrictToYŸê_í€‘XAnimatorInflaterCompatPathDataEvaluatorWValueAnimatorıÿÿÿs‚ıPathDataNodeşÿÿÿ	ResourcesöÿÿÿFT ¯ÄÓôÛìıObjectAnimator‘ObjectëXmlPullParseröÿÿÿs‚ ¯ÄÓôÛìıStringüÿÿÿd‘ëôKeyframeşÿÿÿÅÎAttributeSetúÿÿÿ¯ÄÓÛìıThemeöÿÿÿFT ¯ÄÓôÛìıPath‘AnimatorSet¯
-TypedArrayüÿÿÿds‚àContextöÿÿÿ<FT ¯ÄôÛìıUAnimatorıÿÿÿ<FTåòÑ	TMAX_NUM_POINTS	EPSILONSinitPathHparseInterpolatorFromTypeArray)PathInterpolatorCompatşÿÿÿgetInterpolationOinitQuad2	initCubic;RmYMAX_NUM_POINTS	EPSILONmX	PRECISIONQInterpolatorP
-RestrictToYô!XPathInterpolatorCompatWPathHAttributeSetşÿÿÿ
-TypedArray)XmlPullParserıÿÿÿ)ThemeContext	ResourcesUint	doubleÏ ôÑ	TregisterAnimationCallbackŞcreateFromXmlInneråunregisterAnimationCallbackçclearAnimationCallbacksğcreateÙS0setColorFilteræsetupAnimatorSet3registerAnimationCallbackşÿÿÿøŞstartäcreateÙinflateşÿÿÿëøscheduleDrawable
-setVisibleÂstopécanApplyThemeşÿÿÿ\ÊonLevelChangeÓonAnimationEndwonAnimationStartpgetAlphaÚunregisterAnimationCallbackşÿÿÿÑç!AnimatedVectorDrawableCompatState2k1ƒ
-applyThemeÃ
-isStatefulË
-getOpacityĞ	isRunningßisAutoMirroredßsetTintídrawşunscheduleDrawablešnewDrawableûÿÿÿ"'GLSgetIntrinsicHeightÚsetAlphaßonStateChangeÌ#AnimatedVectorDrawableDelegateState@mutateÔgetChangingConfigurationsıÿÿÿ.aùsetTintModeûcreateFromXmlInneråsetupColorAnimatorÏgetConstantStateôunregisterPlatformCallbackîclearAnimationCallbacksşÿÿÿÙğinvalidateDrawableˆgetIntrinsicWidthÕregisterPlatformCallbackÀAnimatedVectorDrawableCompatıÿÿÿ¹¾ÆremoveAnimatorSetListenerÌsetTintListôonBoundsChangeÅsetupAnimatorsForTargetÖsetAutoMirroredäRmTargetNameMapmChangingConfigurations	mCallback·LOGTAG£mVectorDrawablemCachedConstantStateDelegate±
-mAnimatorsmDelegateState>mAnimationCallbacksµDBG_ANIMATION_VECTOR_DRAWABLE©mAnimatorSetmContext­mArgbEvaluator¯mAnimatedVectorState«mAnimatorListener³ANIMATED_VECTOR¥TARGET§QAnimatorListenerAdapteriConstantStateşÿÿÿ	<VectorDrawableCommonCallback‚Animatable2CompatPNonNullûÿÿÿàşÇÊ×DrawableResãNullableûÿÿÿÄÌÏÒÛRequiresApiıÿÿÿ:ğÂY0F6+8_h’G|èÑX#AnimatedVectorDrawableDelegateState8!AnimatedVectorDrawableCompatStateAnimatedVectorDrawableCompatWStringÖAttributeSetıÿÿÿåëøRunnableşÿÿÿšXmlPullParserıÿÿÿåëøContextûÿÿÿ¾ÆÙåRectÅConstantState@AnimatorüÿÿÿpwÏÖ	Resourcesøÿÿÿ'LSÆåëøThemeüÿÿÿSåëÃAnimationCallbackúÿÿÿîøÀÑŞçDrawableúÿÿÿˆšŞçğColorFilteræCanvasşCallbackColorStateListô!AnimatedVectorDrawableCompatStateşÿÿÿÆAnimatedVectorDrawableşÿÿÿîÀModeûUbooleançvoidşÿÿÿŞğAnimatedVectorDrawableCompatşÿÿÿÙåÌŞÒS7getEventTypeÔgetPositionDescriptionèpeekÊisEmptyElementTag×	getPrefixÒ
-getFeatureëgetAttributePrefixıskipÖgetNameÍ	nextTokenŞgetNamespaceCountÇgetNamespacePrefixÎgetPropertyÀparseEndTag‘getAttributeTypeáisPropWpeekType–getNamespaceşÿÿÿÜÈ
-KXmlParserRreadNameÑgetColumnNumberògetNamespaceUriÕnextImpl~requireèerrorpskipSubTreeÊ
-setFeatureøreadşÿÿÿ¾ÅpushTextµgetTextCharactersÁ	exceptionwisAttributeDefaultènextÙgetLineNumberígetInputEncodingòensureCapacityg
-pushEntity°getAttributeNameöisWhitespace÷parseDoctypeŠ	adjustNspbdefineEntityReplacementText÷getDepthãparseLegacyƒnextTextónextTagãsetPropertyÁparseStartTag©getTextügetAttributeNamespaceïgetAttributeValueşÿÿÿÄËgetAttributeCountÜget›push¢setInputşÿÿÿÛâR&stackMismatchDpeekHtxtBuf0elementStacktype4XML_DECL	peekCountJ
-unresolvedNcolumn.
-standalonename<prefix:wasCRL
-processNspline,LEGACYrelaxedILLEGAL_TYPE
-degenerated>	entityMaplocationversionsrcCount*deptherrorF	namespace8tokenPisWhitespace6encoding$nspStack	nspCounts reader"UNEXPECTED_EOF
-attributesBattributeCount@srcPos(srcBuf&txtPos2QXmlPullParserYĞÜÁX
-KXmlParserWStringóÿÿÿWgpwâë÷ÀÜËèøÁObjectÁReaderÛInputStreamâåİÒSgetNamespaceÁwriteEscaped&	setPrefix}KXmlSerializerprocessingInstructionğ
-setFeaturekgetDepthËchecksetPropertytcommentégetNameÆignorableWhitespaced	entityRef;startDocument–docdecl/startTagŸendTag¸flush³
-getFeatureB	setOutputşÿÿÿ†	attribute¨	getPrefixşÿÿÿIRtextşÿÿÿĞ×endDocument6cdsectâgetProperty]R
-auto
-nspStackpending	nspCountsencodingindentelementStackwriterunicodedepthQXmlSerializerYe›õ4XKXmlSerializerWStringìÿÿÿ&/;BIR]dkt}–Ÿ¨¸ĞâéğWriter†ObjecttOutputStreamBoolean–ëåÒTattrStartTabletagTablePageAcreateParser%tagTablePage9tagTablePage8tagTablePage7tagTablePage6tagTablePage5tagTablePage4tagTablePage3tagTablePage2
-tagTablePage1tagTablePage0attrValueTableSWV createParser%RattrStartTabletagTablePage9tagTablePage8tagTablePage7tagTablePage6tagTablePage5tagTablePage4tagTablePage3tagTablePage2
-tagTablePage1tagTablePage0tagTablePageAattrValueTableY©Ç²4XWVUString[]óÿÿÿ
-WbxmlParser%ìæÒT	TAG_TABLEcreateParsercreateSerializerATTR_VALUE_TABLE
-ATTR_START_TABLEScreateParsercreateSerializerWmlR	TAG_TABLEATTR_VALUE_TABLE
-ATTR_START_TABLEYJŸwXWmlUString[]ıÿÿÿ
-WbxmlParserWbxmlSerializerüçÒTcreateDMParsercreateDMSerializer TAG_TABLE_1TAG_TABLE_0createSerializercreateParserTAG_TABLE_2_DM
-ScreateDMParserSyncMLcreateSerializercreateDMSerializer createParserRTAG_TABLE_2_DM
-TAG_TABLE_1TAG_TABLE_0Yê…ttXSyncMLUString[]ıÿÿÿ
-WbxmlParserşÿÿÿWbxmlSerializerşÿÿÿ ËãÒY§üÃ2XWbxmlREXT_T_2EXT_T_1EXT_T_0LITERALEXT_2(EXT_1&EXT_0$
-LITERAL_AC,	LITERAL_CSTR_T 	LITERAL_A"SWITCH_PAGEENTITY
-ENDEXT_I_2EXT_I_1EXT_I_0OPAQUE*PISTR_IUintìÿÿÿ
- "$&(*,TEXT_T_2EXT_T_1EXT_T_0LITERALEXT_2(EXT_1&EXT_0$
-LITERAL_AC,	LITERAL_CSTR_T 	LITERAL_A"SWITCH_PAGEENTITY
-ENDEXT_I_2EXT_I_1EXT_I_0OPAQUE*PISTR_IçáÒTWAP_EXTENSION
-HEX_DIGITSS8readAttrêgetAttributePrefixápeekIdïisEmptyElementTag»	getPrefix¶isAttributeDefaultÌgetEventTypeøgetName±	nextTokenÂ
-getWapCodeÅgetNamespaceCountkgetNamespacePrefixrgetPropertydgetAttributeCountÀgetAttributeTypeÅnextImplŞgetNamespaceşÿÿÿ€¬getPositionDescriptionŒreadStrIànextTextÌgetNamespaceUriygetText setAttrValueTableü
-setFeatureìreadByteÖparseWapExtensionã
-getFeatureO
-selectPageÕgetAttributeNamespaceÓparseElementÆreadStrTå	exceptionÎsetAttrStartTableóreadIntÛgetTextCharacters¥getInputEncodingVensureCapacityÍsetInputşÿÿÿÜãgetColumnNumber–nextıisWhitespace›resolveWapExtensionô	adjustNspşdefineEntityReplacementText[getDepth‡setTableÃnextTagÇWbxmlParserJsetPropertyõgetLineNumber‘getAttributeValueşÿÿÿèï	resolveIdıgetWapExtensionDataÊsetTagTableêgetAttributeNameÚrequireÑR"stringTabletext<elementStack$	nspCounts(name:prefix6nextId.tables0wapExtensionData>ATTR_VALUE_TABLEattrValueTableinattrStartTabledegeneratedDWAP_EXTENSIONversion2tagTablewapCode@depth"typeBATTR_START_TABLE
-HEX_DIGITScacheStringTable	namespace8ILLEGAL_TYPEisWhitespaceFencodingHnspStack&UNEXPECTED_EOF
-
-attributes,publicIdentifierId4	TAG_TABLEattributeCount*
-processNsp QXmlPullParserYı&=ñXWbxmlParserWStringğÿÿÿO[d€ïÑãìõÃÎıÍêóüObjectşÿÿÿõôReaderÜInputStreamãUStringintÿßÒTwriteIntıS!	setOutputşÿÿÿ¥cdsect4startTagÉtextşÿÿÿÒİWbxmlSerializer$
-getFeatureU
-setFeature•ignorableWhitespacevflush‚getPropertyo	writeStrTÏ	entityRefIsetAttrStartTableá	writeStrIÆdocdeclBgetNameacheckPending‡comment;processingInstructionendDocument}writeIntıwriteSträgetDepthPendTagëwriteWapExtensionô	attribute)getNamespace\setProperty·	setPrefix®setTagTableØstartDocumentÀ	getPrefixfsetAttrValueTableêRpendingencoding"stringTableBufattrStartTableattrValueTabletagPage namestringTable	namespaceoutbuf
-tagTable
-attributesdepthattrPageQXmlSerializerYxı>dXWbxmlSerializerWStringèÿÿÿ)4;BIUfov•¥®·ÀÉİäëÆÏØáêWriterOutputStreamıÿÿÿ¥ıÆBooleanÀObjectşÿÿÿ·ôUvoidıøèÒT	COMMENT
-ENTITY_REFIGNORABLE_WHITESPACETEXT
-DOCUMENTPROCESSING_INSTRUCTIONELEMENTCDSECTDOCDECLSgetTextZindexOfhremoveChildwriteˆparsezaddChildşÿÿÿ!,createElement5getChild>getTypea
-getElementşÿÿÿJQNodewriteChildrenisTextsgetChildCountERCOMMENT
-ENTITY_REFIGNORABLE_WHITESPACEtypeschildrenTEXT
-DOCUMENTPROCESSING_INSTRUCTIONELEMENTCDSECTDOCDECLY »+§XNodeWObjectşÿÿÿ!,XmlPullParserzXmlSerializerşÿÿÿˆStringıÿÿÿ5QhUint÷ÿÿÿ
-öêÒSgetNamePclearwrite©ElementgetNamespacePrefixf	setParent¢createElementsetAttribute€getAttributeName4getAttributeNamespace-setName”parsey	setPrefix‹setNamespace›getNamespaceUgetAttributeCount(getNamespaceUrişÿÿÿZmgetAttributeValueşÿÿÿ;Binit	getParenttgetNamespaceCountagetRootKR	namespaceparent
-attributes
-nameprefixesQNodeYƒ7XElementWStringùÿÿÿBZ€‹”›XmlPullParseryNode¢XmlSerializer©ıéÒSwriteLgetRootElementGparse9setStandalonegetStandalone$getEncodingsetEncodinggetName)addChild.DocumentremoveChild@Rencoding
-standalone
-	rootIndexQNodeY¢òô@XDocumentWStringBooleanObject.XmlSerializerLXmlPullParser9ÌíÒT3getEventTypeóCOMMENTgetAttributePrefixÎFEATURE_PROCESS_DOCDECL$isEmptyElementTag¶	getPrefix±
-getFeature1
-setFeature(
-ENTITY_REFNO_NAMESPACE	START_TAGIGNORABLE_WHITESPACEgetNamespacePrefixmgetPropertyACDSECT#FEATURE_REPORT_NAMESPACE_ATTRIBUTES"START_DOCUMENTDOCDECLFEATURE_PROCESS_NAMESPACES getNamespaceşÿÿÿ{§getPositionDescription‡nextTextÍgetNamespaceUritgetLineNumberŒgetName¬FEATURE_VALIDATION&TYPESTEXTgetNamespaceCountfgetTextCharacters PROCESSING_INSTRUCTIONEND_TAGgetInputEncodingXEND_DOCUMENT
-getColumnNumber‘nextøisWhitespace–defineEntityReplacementText]getDepth‚requireÂisAttributeDefaultÜnextTagÒsetProperty8getText›getAttributeNamespaceÀgetAttributeTypeÕgetAttributeValueşÿÿÿãêgetAttributeCount»getAttributeNameÇ	nextTokenısetInputşÿÿÿHOS"getAttributePrefixÎisEmptyElementTag¶	getPrefix±isAttributeDefaultÜgetEventTypeógetName¬	nextTokenıgetNamespaceCountfgetNamespacePrefixmgetPropertyA
-setFeature(getAttributeTypeÕgetNamespaceşÿÿÿ{§getPositionDescription‡nextTextÍgetNamespaceUritgetText›
-getFeature1getAttributeNamespaceÀgetTextCharacters getInputEncodingXgetColumnNumber‘nextøisWhitespace–defineEntityReplacementText]getDepth‚requireÂnextTagÒsetProperty8getLineNumberŒgetAttributeValueşÿÿÿãêgetAttributeCount»getAttributeNameÇsetInputşÿÿÿHORCDSECT	START_TAGEND_DOCUMENT
-IGNORABLE_WHITESPACETEXT#FEATURE_REPORT_NAMESPACE_ATTRIBUTES"TYPESNO_NAMESPACEFEATURE_PROCESS_NAMESPACES 
-ENTITY_REFFEATURE_PROCESS_DOCDECL$START_DOCUMENTPROCESSING_INSTRUCTIONDOCDECLFEATURE_VALIDATION&END_TAGCOMMENTY›Ü„XXmlPullParserWString÷ÿÿÿ(18AO]{êÂObject8ReaderHInputStreamOUStringëÿÿÿ "$&Xmt{‡›§¬±ÀÇÎÕãêÍbooleanüÿÿÿ1–¶Üvoidúÿÿÿ(8HO]ÂObjectAchar[] String[]intìÿÿÿ
-f‚Œ‘»óøıÒìïÒTendTagyprocessingInstruction¢	attributentextşÿÿÿ‚‰
-setFeaturestartDocument6setProperty	entityRef›comment©getDepthVgetName`docdecl°startTage	getPrefixMgetNamespace[flush¾
-getFeature	setOutputşÿÿÿ&/ignorableWhitespace·	setPrefixDendDocument?cdsect”getPropertySendTagyprocessingInstruction¢	attributentextşÿÿÿ‚‰
-setFeaturestartDocument6setProperty	entityRef›comment©getDepthVgetName`docdecl°startTage	getPrefixMgetNamespace[flush¾
-getFeature	setOutputşÿÿÿ&/ignorableWhitespace·	setPrefixDendDocument?cdsect”getPropertyY¡_RXXmlSerializerWStringîÿÿÿ&6DMeny‚”›¢©°·OutputStream&ObjectBoolean6Writer/UStringıÿÿÿM[`booleanvoidòÿÿÿ&/6?D”›¢©°·¾ObjectXmlSerializerûÿÿÿeny‚‰intVıîÒTreferenceContextClassPROPERTY_NAMEnewInstanceşÿÿÿKPS
-isNamespaceAware0
-getFeature"newSerializerFisValidating<
-setFeaturenewInstanceşÿÿÿKPnewPullParserAsetNamespaceAware)XmlPullParserFactorysetValidating5RparserClassesPROPERTY_NAMEfeaturesclassNamesLocationserializerClassesreferenceContextClassRESOURCE_NAME
-YÓæXXmlPullParserFactoryWStringıÿÿÿ"PClassPUStringXmlPullParserFactoryşÿÿÿKPClassÏìÒS	getDetailXmlPullParserExceptionşÿÿÿgetLineNumber#getColumnNumber(printStackTrace-Rdetailcolumn
-rowQ	ExceptionY†›è+XXmlPullParserExceptionWStringşÿÿÿXmlPullParser	Throwableıí­	TonItemClickListener[S
-onBindViewHolder1getPriorityColor<onClicktsetTasksOTaskAdapterTaskViewHoldermonItemClickListener[getTasksJonCreateViewHolder&getItemCountCRmContextmItemClickListenermTaskEntriespriorityViewkDATE_FORMATtaskDescriptionViewg
-dateFormatupdatedAtViewiQAdapter
-ViewHoldereOnClickListenerfPOverrideüÿÿÿ(3EvYÚ†<”bi1P9şĞËVXTaskAdapterItemClickListenerVTaskViewHolderbWTaskViewHolder1	ViewGroup&ListOItemClickListenerViewşÿÿÿmtContextUvoid[Ôî­	TgetInstance!S
-mainThread+getInstance!AppExecutors	networkIO0diskIO&execute<R	sInstance
-mainThreadLOCKmainThreadHandler:	networkIOdiskIOQExecutor9PNonNullDOverride>YˆæŠYÁª¤ë5XAppExecutorsMainThreadExecutor5WExecutorRunnable<UAppExecutors!Òğ­SonCreate onClickKonMove*setupViewModelTonItemClickListenereonSwiped7runC	onChangedZRmRecyclerViewmAdaptermDbTAGQAppCompatActivityItemClickListenerPOverrideùÿÿÿ",9EM\gNullablebYôbXMainActivityW
-ViewHolderşÿÿÿ*7RecyclerView*Bundle ListZViewKVRunnableBOnClickListenerJObserverYSimpleCallback)hñ­SMainViewModelgetTasksRtasksTAGQAndroidViewModelYµ¦ë‘	XMainViewModel	WApplicationòï­
-TPRIORITY_LOWPRIORITY_HIGHINSTANCE_TASK_IDPRIORITY_MEDIUMEXTRA_TASK_IDS
-onCreate-onSaveButtonClicked_onClickO	initViewsIonSaveInstanceState@setPriorityInViewsq
-populateUIXrunegetPriorityFromViewsl	onChanged5RmTaskId)PRIORITY_MEDIUM	mEditText#mDb+INSTANCE_TASK_IDEXTRA_TASK_IDPRIORITY_HIGHmButton'mRadioGroup%TAG!PRIORITY_LOWDEFAULT_TASK_IDQAppCompatActivityPOverrideüÿÿÿ7BQgNullable=Yû½ƒ;XAddTaskActivityW	TaskEntryşÿÿÿ5XBundleşÿÿÿ-@ViewOVRunnabledObserver4OnClickListenerNUStringşÿÿÿintıÿÿÿùê­T
-insertTask
-updateTask#loadAllTasksloadTaskById6
-deleteTask-S
-insertTask
-updateTask#loadAllTasksloadTaskById6
-deleteTask-PDaoDelete/Queryşÿÿÿ8InsertUpdate%Y_'–”
-XTaskDao
-W	TaskEntryıÿÿÿ#-ULiveDataşÿÿÿ6voidıÿÿÿ#-ÿë­S	getDescriptionFsetPriorityWgetId:getUpdatedAt^setUpdatedAtcsetId?setDescriptionKgetPriorityR	TaskEntryşÿÿÿ -R	updatedAtprioritydescriptionidPEntity	
-ColumnInfo
-PrimaryKeyIgnore"Y3°bôX	TaskEntryWStringıÿÿÿ -KDateıÿÿÿ -c}é­TtoTimestamptoDate	StoTimestamptoDate	PTypeConverterşÿÿÿYHûwXDateConverterWLong	DateULongDate	²ì­	TgetInstanceStaskDao&getInstanceR	sInstanceLOCKDATABASE_NAMELOG_TAGQRoomDatabasePTypeConvertersDatabase
-Y´îXAppDatabaseWContextUAppDatabaseÇ¶ Í¶ â¶ øÆ Ñ¹ ê¹ Êº èº õº Â» É» Ï» ×» õ» ïŒ üŒ EîíY(‰`ÕXBoolResP
-Documented	RetentionTargetQ
-AnnotationFïíY$	7èXArrayResP
-Documented	RetentionTargetQ
-AnnotationGìíY¦ÄòX	StringResP
-Documented	RetentionTargetQ
-AnnotationEííYñš4NXAnimResP
-Documented	RetentionTargetQ
-AnnotationYòíTvalueSvalueQ
-AnnotationP	RetentionTargetY¦Ä½óX	StringDefUString[];óíY(X>X	ColorLongP	RetentionTargetQ
-AnnotationDğíYÁùXRawResP
-Documented	RetentionTargetQ
-AnnotationKñíY‚¦·JXTransitionResP
-Documented	RetentionTargetQ
-Annotation½öíT	otherwise	PROTECTEDPACKAGE_PRIVATE	PRIVATENONES	otherwiseR	PROTECTEDPACKAGE_PRIVATE	PRIVATENONEQ
-AnnotationP	RetentionYœI‡ØXVisibleForTestingUintûÿÿÿ	F÷íYè.­XStyleResP
-Documented	RetentionTargetQ
-AnnotationCôíYÃ«hÄXIdResP
-Documented	RetentionTargetQ
-AnnotationHõíY¬_±DX
-MainThreadP
-Documented	RetentionTargetQ
-AnnotationüúíTanyOf(conditional-allOf#valueıÿÿÿSanyOf(conditional-allOf#valueıÿÿÿQ
-AnnotationıÿÿÿP	RetentionTargetıÿÿÿ
-Y÷Hé(ÿâf¡{>XReadWriteRequiresPermissionUStringboolean-String[]şÿÿÿ#(RequiresPermissionşÿÿÿFûíYÿ~sÂXNullableP
-Documented	RetentionTargetQ
-Annotation`øíTtofromStofromQ
-AnnotationP	RetentionTargetY’‚ïXIntRangeUlongşÿÿÿWùíTvalueSvalueQ
-AnnotationP	RetentionTargetY¦õ:X	GuardedByUStringGşíYs'|X	CallSuperP
-Documented	RetentionTargetQ
-AnnotationIÿíY†R÷!XDrawableResP
-Documented	RetentionTargetQ
-AnnotationJıíY$qÄ5XBinderThreadP
-Documented	RetentionTargetQ
-AnnotationGÂîYÔªÕX	AnyThreadP
-Documented	RetentionTargetQ
-AnnotationIÃîY‹»‹=XFractionResP
-Documented	RetentionTargetQ
-AnnotationDÀîYËä½ªXXmlResP
-Documented	RetentionTargetQ
-AnnotationúÁîTLIBRARY_GROUPGROUP_IDTESTS
-SUBCLASSESvalueLIBRARYSScopevalueR
-SUBCLASSESLIBRARY_GROUPTESTSLIBRARYGROUP_IDQEnum
-AnnotationP
-Deprecated	RetentionTargetYLa'>BJ¦xXScope
-RestrictToUScopeûÿÿÿScope[]€ÆîTminmaxmultiplevalueSminmaxmultiplevalueQ
-AnnotationP	RetentionTargetYşlâXSizeUlongüÿÿÿiÇîTsuggest	Ssuggest	Q
-AnnotationP
-Documented	RetentionTargetY_DXCheckResultUString	KÄîY§İn+XNavigationResP
-Documented	RetentionTargetQ
-AnnotationEÅîYüÙPXFontResP
-Documented	RetentionTargetQ
-AnnotationEÊîY]Sv@XMenuResP
-Documented	RetentionTargetQ
-AnnotationGÈîY` ÔÕX	LayoutResP
-Documented	RetentionTargetQ
-AnnotationvÉîTapivalueSapivalueQ
-AnnotationP	RetentionIntRangeşÿÿÿ
-TargetYyÁs‹XRequiresApiUintşÿÿÿ:ÎîYKÅíXColorIntP	RetentionTargetQ
-Annotation6ÏîYş¸fXKeepP	RetentionTargetQ
-AnnotationFÌîY2¶şXUiThreadP
-Documented	RetentionTargetQ
-AnnotationJÍîYÃ(ÙöXStyleableResP
-Documented	RetentionTargetQ
-AnnotationJÒîY"eS	XWorkerThreadP
-Documented	RetentionTargetQ
-AnnotationFÓîYKæXColorResP
-Documented	RetentionTargetQ
-AnnotationDĞîY¤¹GµXAnyResP
-Documented	RetentionTargetQ
-AnnotationiÑîTflagvalueSflagvalueQ
-AnnotationP	RetentionTargetY²]’7XIntDefUbooleanlong[]HÖîY‰î£X
-IntegerResP
-Documented	RetentionTargetQ
-AnnotationH×îY°»\ÒX
-PluralsResP
-Documented	RetentionTargetQ
-Annotation;ÔîYMhñ¨X	HalfFloatP	RetentionTargetQ
-AnnotationKÕîY7¬_)XPxP
-Documented	RetentionTarget	DimensionQ
-AnnotationIÚîY¨¾<8XAnimatorResP
-Documented	RetentionTargetQ
-AnnotationEÛîYütnXAttrResP
-Documented	RetentionTargetQ
-AnnotationMØîYºØXInterpolatorResP
-Documented	RetentionTargetQ
-AnnotationEŞîY£8ñsXNonNullP
-Documented	RetentionTargetQ
-AnnotationFßîYw?ÌXDimenResP
-Documented	RetentionTargetQ
-Annotation€ÜîTPXDP	unitSPSunitRPXDP	SPQ
-AnnotationP
-Documented	RetentionTargetYpÈÅ%X	DimensionUintüÿÿÿ	«İîTtoInclusivefromInclusivetofromStoInclusivefromInclusivetofromQ
-AnnotationP	RetentionTargetYRAàbX
-FloatRangeUdoubleşÿÿÿbooleanşÿÿÿÌÇ«YU4¦–XBuildConfigRAPPLICATION_ID	VERSION_CODEFLAVORDEBUGVERSION_NAME
-BUILD_TYPEUStringüÿÿÿ	intbooleanTAPPLICATION_ID	VERSION_CODEFLAVORDEBUGVERSION_NAME
-BUILD_TYPEÌÇ«YU4¦–XBuildConfigRAPPLICATION_ID	VERSION_CODEFLAVORDEBUGVERSION_NAME
-BUILD_TYPEUStringüÿÿÿ	intbooleanTAPPLICATION_ID	VERSION_CODEFLAVORDEBUGVERSION_NAME
-BUILD_TYPEùäòT
-insertTask
-updateTask#loadAllTasksloadTaskById6
-deleteTask-S
-insertTask
-updateTask#loadAllTasksloadTaskById6
-deleteTask-PDaoDelete/Queryşÿÿÿ8InsertUpdate%Y_'–”
-XTaskDao
-W	TaskEntryıÿÿÿ#-ULiveDataşÿÿÿ6voidıÿÿÿ#-ÿãòS	getDescriptionFsetPriorityWgetId:getUpdatedAt^setUpdatedAtcsetId?setDescriptionKgetPriorityR	TaskEntryşÿÿÿ -R	updatedAtprioritydescriptionidPEntity	
-ColumnInfo
-PrimaryKeyIgnore"Y3°bôX	TaskEntryWStringıÿÿÿ -KDateıÿÿÿ -c²âò	TgetInstanceStaskDao&getInstanceR	sInstanceLOCKDATABASE_NAMELOG_TAGQRoomDatabasePTypeConvertersDatabase
-Y´îXAppDatabaseWContextUAppDatabase}åòTtoTimestamptoDate	StoTimestamptoDate	PTypeConverterşÿÿÿYHûwXDateConverterWLong	DateULongDate	ıáò	TonItemClickListener[S
-onBindViewHolder1getPriorityColor<onClicktsetTasksOTaskAdapterTaskViewHoldermonItemClickListener[getTasksJonCreateViewHolder&getItemCountCRmContextmItemClickListenermTaskEntriespriorityViewkDATE_FORMATtaskDescriptionViewg
-dateFormatupdatedAtViewiQAdapter
-ViewHoldereOnClickListenerfPOverrideüÿÿÿ(3EvYÚ†<”bi1P9şĞËVXTaskAdapterItemClickListenerVTaskViewHolderbWTaskViewHolder1	ViewGroup&ListOItemClickListenerViewşÿÿÿmtContextUvoid[Ôàò	TgetInstance!S
-mainThread+getInstance!AppExecutors	networkIO0diskIO&execute<R	sInstance
-mainThreadLOCKmainThreadHandler:	networkIOdiskIOQExecutor9PNonNullDOverride>YˆæŠYÁª¤ë5XAppExecutorsMainThreadExecutor5WExecutorRunnable<UAppExecutors!ÒİòSonCreate onClickKonMove*setupViewModelTonItemClickListenereonSwiped7runC	onChangedZRmRecyclerViewmAdaptermDbTAGQAppCompatActivityItemClickListenerPOverrideùÿÿÿ",9EM\gNullablebYôbXMainActivityW
-ViewHolderşÿÿÿ*7RecyclerView*Bundle ListZViewKVRunnableBOnClickListenerJObserverYSimpleCallback)hÜòSMainViewModelgetTasksRtasksTAGQAndroidViewModelYµ¦ë‘	XMainViewModel	WApplicationòŞò
-TPRIORITY_LOWPRIORITY_HIGHINSTANCE_TASK_IDPRIORITY_MEDIUMEXTRA_TASK_IDS
-onCreate,onSaveButtonClicked^onClickN	initViewsHonSaveInstanceState?setPriorityInViewsp
-populateUIWrundgetPriorityFromViewsk	onChanged4RmTaskId(PRIORITY_MEDIUM	mEditText"mDb*INSTANCE_TASK_IDEXTRA_TASK_IDPRIORITY_HIGHmButton&mRadioGroup$TAG PRIORITY_LOWDEFAULT_TASK_IDQAppCompatActivityPOverrideüÿÿÿ6APfNullable<Yû½ƒ;XAddTaskActivityW	TaskEntryşÿÿÿ4WBundleşÿÿÿ,?ViewNVRunnablecObserver3OnClickListenerMUStringşÿÿÿintıÿÿÿ`ßòSgetTaskAddTaskViewModelRtaskQ	ViewModel	Yş$ØXAddTaskViewModelWAppDatabase‘ÛòSAddTaskViewModelFactorycreateRmTaskIdmDb
-QNewInstanceFactoryPOverrideYç³XAddTaskViewModelFactoryWAppDatabaseClassúñ-›Æn 2build Wçò+distributionUrlzipStoreBasezipStorePathdistributionBasedistributionPathÛğ-›Æn 2build Ùğ-U‚¼# 2settings îò+sdk.dirİğ+org.gradle.jvmargsÌë‰YU4¦–XBuildConfigRAPPLICATION_ID	VERSION_CODEFLAVORDEBUGVERSION_NAME
-BUILD_TYPEUStringüÿÿÿ	intbooleanTAPPLICATION_ID	VERSION_CODEFLAVORDEBUGVERSION_NAME
-BUILD_TYPEü
-Æ¡
-SshowJSONDataesetUpViewModelLisNetworkAvailable[loadInBackground£onSaveInstanceState:startMovieSearchlonLoadFinished¬onCreateLoaderonListItemClicksonCreateOptionsMenu|showErrorMessage`onLoaderReset¹onOptionsItemSelected…onCreateC	onChangedRonStartLoadingœR
-popularOrTopRatedMovies.movieAdapter2movieDataRepository8tv_error_message4progressBar6loaderManager(MOVIE_SEARCH_QUERY,MOVIE_SEARCH_KEY*	movieList0MOVIE_SEARCH_LOADER&QLoaderCallbacks%AppCompatActivity$ListItemClickLister%PNonNullıÿÿÿ´ÁOverrideõÿÿÿ<ETu~‡’§®»Nullable¥Yi·Ï!XMainMoviesActivity!WStringıÿÿÿel¬Loaderşÿÿÿ¬¹MenuItem…Menu|MoviesListRBundleıÿÿÿ:CVObserverQAsyncTaskLoader›æÄ¯SonCreate=createOpenHelper!movieDaoxcreateAllTables+onPreMigrateOonOpenFcreateInvalidationTrackerjdropAllTables4validateMigrationaonPostMigrateXclearAllTablesqR	_movieDaoQMovieRoomDatabasePSuppressWarningsOverrideõÿÿÿ#-6?HQZclszY‡÷XMovieRoomDatabase_ImplWDatabaseConfiguration!SupportSQLiteDatabaseùÿÿÿ+4=FOXaVDelegate*íÃ¯Sbind-MovieDao_ImplfinalizePinsertFavouriteMovie8callIgetAllFavouriteMoviesAcreateQuery&R__db__insertionAdapterOfMovieQMovieDaoPSuppressWarningsOverrideúÿÿÿ(/:CKRYÛy”XMovieDao_ImplWRoomDatabaseMovieşÿÿÿ-8SupportSQLiteStatement-VEntityInsertionAdapter%CallableHü
-Æ¡
-SshowJSONDataesetUpViewModelLisNetworkAvailable[loadInBackground£onSaveInstanceState:startMovieSearchlonLoadFinished¬onCreateLoaderonListItemClicksonCreateOptionsMenu|showErrorMessage`onLoaderReset¹onOptionsItemSelected…onCreateC	onChangedRonStartLoadingœR
-popularOrTopRatedMovies.movieAdapter2movieDataRepository8tv_error_message4progressBar6loaderManager(MOVIE_SEARCH_QUERY,MOVIE_SEARCH_KEY*	movieList0MOVIE_SEARCH_LOADER&QLoaderCallbacks%AppCompatActivity$ListItemClickLister%PNonNullıÿÿÿ´ÁOverrideõÿÿÿ<ETu~‡’§®»Nullable¥Yi·Ï!XMainMoviesActivity!WStringıÿÿÿel¬Loaderşÿÿÿ¬¹MenuItem…Menu|MoviesListRBundleıÿÿÿ:CVObserverQAsyncTaskLoader›íÃ¯Sbind-MovieDao_ImplfinalizePinsertFavouriteMovie8callIgetAllFavouriteMoviesAcreateQuery&R__db__insertionAdapterOfMovieQMovieDaoPSuppressWarningsOverrideúÿÿÿ(/:CKRYÛy”XMovieDao_ImplWRoomDatabaseMovieşÿÿÿ-8SupportSQLiteStatement-VEntityInsertionAdapter%CallableHæÄ¯SonCreate=createOpenHelper!movieDaoxcreateAllTables+onPreMigrateOonOpenFcreateInvalidationTrackerjdropAllTables4validateMigrationaonPostMigrateXclearAllTablesqR	_movieDaoQMovieRoomDatabasePSuppressWarningsOverrideõÿÿÿ#-6?HQZclszY‡÷XMovieRoomDatabase_ImplWDatabaseConfiguration!SupportSQLiteDatabaseùÿÿÿ+4=FOXaVDelegate*ü
-Æ¡
-SshowJSONDataesetUpViewModelLisNetworkAvailable[loadInBackground£onSaveInstanceState:startMovieSearchlonLoadFinished¬onCreateLoaderonListItemClicksonCreateOptionsMenu|showErrorMessage`onLoaderReset¹onOptionsItemSelected…onCreateC	onChangedRonStartLoadingœR
-popularOrTopRatedMovies.movieAdapter2movieDataRepository8tv_error_message4progressBar6loaderManager(MOVIE_SEARCH_QUERY,MOVIE_SEARCH_KEY*	movieList0MOVIE_SEARCH_LOADER&QLoaderCallbacks%AppCompatActivity$ListItemClickLister%PNonNullıÿÿÿ´ÁOverrideõÿÿÿ<ETu~‡’§®»Nullable¥Yi·Ï!XMainMoviesActivity!WStringıÿÿÿel¬Loaderşÿÿÿ¬¹MenuItem…Menu|MoviesListRBundleıÿÿÿ:CVObserverQAsyncTaskLoader›íÃ¯Sbind-MovieDao_ImplfinalizePinsertFavouriteMovie8callIgetAllFavouriteMoviesAcreateQuery&R__db__insertionAdapterOfMovieQMovieDaoPSuppressWarningsOverrideúÿÿÿ(/:CKRYÛy”XMovieDao_ImplWRoomDatabaseMovieşÿÿÿ-8SupportSQLiteStatement-VEntityInsertionAdapter%CallableHæÄ¯SonCreate=createOpenHelper!movieDaoxcreateAllTables+onPreMigrateOonOpenFcreateInvalidationTrackerjdropAllTables4validateMigrationaonPostMigrateXclearAllTablesqR	_movieDaoQMovieRoomDatabasePSuppressWarningsOverrideõÿÿÿ#-6?HQZclszY‡÷XMovieRoomDatabase_ImplWDatabaseConfiguration!SupportSQLiteDatabaseùÿÿÿ+4=FOXaVDelegate*ü
-Æ¡
-SshowJSONDataesetUpViewModelLisNetworkAvailable[loadInBackground£onSaveInstanceState:startMovieSearchlonLoadFinished¬onCreateLoaderonListItemClicksonCreateOptionsMenu|showErrorMessage`onLoaderReset¹onOptionsItemSelected…onCreateC	onChangedRonStartLoadingœR
-popularOrTopRatedMovies.movieAdapter2movieDataRepository8tv_error_message4progressBar6loaderManager(MOVIE_SEARCH_QUERY,MOVIE_SEARCH_KEY*	movieList0MOVIE_SEARCH_LOADER&QLoaderCallbacks%AppCompatActivity$ListItemClickLister%PNonNullıÿÿÿ´ÁOverrideõÿÿÿ<ETu~‡’§®»Nullable¥Yi·Ï!XMainMoviesActivity!WStringıÿÿÿel¬Loaderşÿÿÿ¬¹MenuItem…Menu|MoviesListRBundleıÿÿÿ:CVObserverQAsyncTaskLoader›’ä®SgetMovieLiveDataMainMovieViewModelRmovieLiveDatamovieDataRepositoryQAndroidViewModelYz5R‘	XMainMovieViewModel	WApplicationíÃ¯Sbind-MovieDao_ImplfinalizePinsertFavouriteMovie8callIgetAllFavouriteMoviesAcreateQuery&R__db__insertionAdapterOfMovieQMovieDaoPSuppressWarningsOverrideúÿÿÿ(/:CKRYÛy”XMovieDao_ImplWRoomDatabaseMovieşÿÿÿ-8SupportSQLiteStatement-VEntityInsertionAdapter%CallableHæÄ¯SonCreate=createOpenHelper!movieDaoxcreateAllTables+onPreMigrateOonOpenFcreateInvalidationTrackerjdropAllTables4validateMigrationaonPostMigrateXclearAllTablesqR	_movieDaoQMovieRoomDatabasePSuppressWarningsOverrideõÿÿÿ#-6?HQZclszY‡÷XMovieRoomDatabase_ImplWDatabaseConfiguration!SupportSQLiteDatabaseùÿÿÿ+4=FOXaVDelegate*ü
-Æ¡
-SshowJSONDataesetUpViewModelLisNetworkAvailable[loadInBackground£onSaveInstanceState:startMovieSearchlonLoadFinished¬onCreateLoaderonListItemClicksonCreateOptionsMenu|showErrorMessage`onLoaderReset¹onOptionsItemSelected…onCreateC	onChangedRonStartLoadingœR
-popularOrTopRatedMovies.movieAdapter2movieDataRepository8tv_error_message4progressBar6loaderManager(MOVIE_SEARCH_QUERY,MOVIE_SEARCH_KEY*	movieList0MOVIE_SEARCH_LOADER&QLoaderCallbacks%AppCompatActivity$ListItemClickLister%PNonNullıÿÿÿ´ÁOverrideõÿÿÿ<ETu~‡’§®»Nullable¥Yi·Ï!XMainMoviesActivity!WStringıÿÿÿel¬Loaderşÿÿÿ¬¹MenuItem…Menu|MoviesListRBundleıÿÿÿ:CVObserverQAsyncTaskLoader›
+mainThreadLOCK
+QExecutor7POverride:Yl©Ä©dVÜ3XMainThreadExecutor3MovieAppExecutorWExecutor#Runnable8UMovieAppExecutor.ÍÛ	TgetInstance.SgetInstance.getNetworkIOMovieAppExecutor#execute8	getDiskIOgetMainThreadRdiskIO	sInstance	networkIO
+mainThreadLOCK
+QExecutor7POverride:Yl©Ä©dVÜ3XMainThreadExecutor3MovieAppExecutorWExecutor#Runnable8UMovieAppExecutor.ÍÛ	TgetInstance/SgetInstance/getNetworkIOMovieAppExecutor$execute<	getDiskIOgetMainThreadRdiskIO	sInstance	networkIO
+mainThreadLOCKQExecutor8POverride:Yl©Ä©dVÜ4XMainThreadExecutor4MovieAppExecutorWExecutor$Runnable<UMovieAppExecutor/àÛ	TgetInstance/SgetInstance/getNetworkIOMovieAppExecutor$execute;	getDiskIOgetMainThreadR	sInstance
+mainThreadLOCKmainThreadHandler9	networkIOdiskIOQExecutor8POverride=Yl©Ä©dVÜ4XMainThreadExecutor4MovieAppExecutorWExecutor$Runnable;UMovieAppExecutor/ÕÛ
+TgetInstance0S		getDiskIOgetInstance0getNetworkIO closeMMovieAppExecutor%executeTpublish=flushFgetMainThreadR	sInstance
+mainThreadLOCKmainThreadHandler:	networkIOdiskIOQExecutor9POverrideüÿÿÿ?HOVYl©Ä©dVÜ5XMainThreadExecutor5MovieAppExecutorWExecutor%	LogRecord=RunnableTVHandler<UMovieAppExecutor0ÕÛ
+TgetInstance1S		getDiskIOgetInstance1getNetworkIO!closeNMovieAppExecutor&executeUpublish>flushGgetMainThreadR	sInstance
+mainThreadLOCKmainThreadHandler;	networkIOdiskIOQExecutor:POverrideüÿÿÿ@IPWYl©Ä©dVÜ6XMainThreadExecutor6MovieAppExecutorWExecutor&	LogRecord>RunnableUVHandler=UMovieAppExecutor1ÕÛ
+TgetInstance1S		getDiskIOgetInstance1getNetworkIO!closeNMovieAppExecutor&executeUpublish>flushGgetMainThreadR	sInstance
+mainThreadLOCKmainThreadHandler;	networkIOdiskIOQExecutor:POverrideüÿÿÿ@IPWYl©Ä©dVÜ6XMainThreadExecutor6MovieAppExecutorWExecutor&	LogRecord>RunnableUVHandler=UMovieAppExecutor1àÛ	TgetInstance1SgetInstance1getNetworkIO!MovieAppExecutor&execute=	getDiskIOgetMainThreadR	sInstance
+mainThreadLOCKmainThreadHandler;	networkIOdiskIOQExecutor:POverride?Yl©Ä©dVÜ6XMainThreadExecutor6MovieAppExecutorWExecutor&Runnable=UMovieAppExecutor1ÍÛ	TgetInstance1SgetInstance1getNetworkIO!MovieAppExecutor&execute>	getDiskIOgetMainThreadRdiskIO	sInstance	networkIO
+mainThreadLOCKQExecutor:POverride<Yl©Ä©dVÜ6XMainThreadExecutor6MovieAppExecutorWExecutor&Runnable>UMovieAppExecutor1àÛ	TgetInstance1SgetInstance1getNetworkIO!MovieAppExecutor&execute=	getDiskIOgetMainThreadR	sInstance
+mainThreadLOCKmainThreadHandler;	networkIOdiskIOQExecutor:POverride?Yl©Ä©dVÜ6XMainThreadExecutor6MovieAppExecutorWExecutor&Runnable=UMovieAppExecutor1àÛ	TgetInstance1SgetInstance1getNetworkIO!MovieAppExecutor&execute=	getDiskIOgetMainThreadR	sInstance
+mainThreadLOCKmainThreadHandler;	networkIOdiskIOQExecutor:POverride?Yl©Ä©dVÜ6XMainThreadExecutor6MovieAppExecutorWExecutor&Runnable=UMovieAppExecutor1àÛ	TgetInstance1SgetInstance1getNetworkIO!MovieAppExecutor&execute=	getDiskIOgetMainThreadR	sInstance
+mainThreadLOCKmainThreadHandler;	networkIOdiskIOQExecutor:POverride?Yl©Ä©dVÜ6XMainThreadExecutor6MovieAppExecutorWExecutor&Runnable=UMovieAppExecutor1àÛ	TgetInstance1SgetInstance1getNetworkIO!MovieAppExecutor&execute=	getDiskIOgetMainThreadR	sInstance
+mainThreadLOCKmainThreadHandler;	networkIOdiskIOQExecutor:POverride?Yl©Ä©dVÜ6XMainThreadExecutor6MovieAppExecutorWExecutor&Runnable=UMovieAppExecutor1àÛ	TgetInstance1SgetInstance1getNetworkIO!MovieAppExecutor&execute=	getDiskIOgetMainThreadR	sInstance
+mainThreadLOCKmainThreadHandler;	networkIOdiskIOQExecutor:POverride?Yl©Ä©dVÜ6XMainThreadExecutor6MovieAppExecutorWExecutor&Runnable=UMovieAppExecutor1àÛ	TgetInstance1SgetInstance1getNetworkIO!MovieAppExecutor&execute=	getDiskIOgetMainThreadR	sInstance
+mainThreadLOCKmainThreadHandler;	networkIOdiskIOQExecutor:POverride?Yl©Ä©dVÜ6XMainThreadExecutor6MovieAppExecutorWExecutor&Runnable=UMovieAppExecutor1

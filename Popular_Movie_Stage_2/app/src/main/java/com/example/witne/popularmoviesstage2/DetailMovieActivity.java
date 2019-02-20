@@ -14,17 +14,16 @@ import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.view.View;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
+import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.witne.data.Movie;
 import com.example.witne.data.Trailer;
-import com.example.witne.popularmoviesstage2.MovieTrailerAdapter;
-import com.example.witne.popularmoviesstage2.R;
 import com.example.witne.utilities.JsonUtils;
 import com.example.witne.utilities.NetworkUtils;
 import com.squareup.picasso.Picasso;
@@ -56,6 +55,8 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         TextView tv_movie_release_date = findViewById(R.id.tv_movie_release_date);
         TextView tv_movie_rating = findViewById(R.id.tv_movie_vote_average);
         TextView tv_movie_overview = findViewById(R.id.tv_movie_overview);
+        //ToggleButton btAddFavouriteMovie = findViewById(R.id.btAddFavouriteMovie);
+        final Switch bAddFavouriteMovie = findViewById(R.id.btAddFavouriteMovie);
         tv_trailers = findViewById(R.id.tv_trailers);
 
         //set the movie trailer recycler view
@@ -91,6 +92,17 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
             }else{
                 showErrorMessage();
             }
+
+            bAddFavouriteMovie.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                @Override
+                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                    if(isChecked){
+                        Toast.makeText(getApplicationContext(),"Favourite Movie",Toast.LENGTH_SHORT).show();
+                    }else {
+                        Toast.makeText(getApplicationContext(),"Un-Favourite",Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
 
         }
 
