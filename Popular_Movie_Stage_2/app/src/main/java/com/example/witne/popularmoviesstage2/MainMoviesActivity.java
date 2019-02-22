@@ -149,7 +149,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
     }
 
     private void startMovieSearch(String popularOrTopRatedMovies){
-        URL movieSearchURL = NetworkUtils.buildUrl(popularOrTopRatedMovies);
+        URL movieSearchURL = NetworkUtils.buildUrl(popularOrTopRatedMovies,null);
         //fetch data on separate thread
         // and initialize the recycler viewer with data from movie adapter
         //New  FetchMovieTask().execute(movieSearchURL);

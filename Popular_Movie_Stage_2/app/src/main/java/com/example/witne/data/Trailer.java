@@ -60,7 +60,7 @@ public class Trailer implements Parcelable {
     private String movieVideoType;
     private String movieName;
 
-    //no arg constructor
+    //arg constructor
     public Trailer(String movieId,String movieKey,String movieSite,
                    int movieSize,String movieVideoType, String movieName){
         this.movieId = movieId;
@@ -72,7 +72,7 @@ public class Trailer implements Parcelable {
 
     }
 
-    //Args constructor
+    //No-Args constructor
     public Trailer(){
 
     }

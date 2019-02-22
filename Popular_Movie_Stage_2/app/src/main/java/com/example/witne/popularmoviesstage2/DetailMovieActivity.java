@@ -23,6 +23,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.witne.data.Movie;
+import com.example.witne.data.MovieReview;
 import com.example.witne.data.Trailer;
 import com.example.witne.utilities.JsonUtils;
 import com.example.witne.utilities.NetworkUtils;
@@ -34,7 +35,7 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class DetailMovieActivity extends AppCompatActivity implements MovieTrailerAdapter.ListItemClickListener,
-        LoaderManager.LoaderCallbacks<String> {
+        LoaderManager.LoaderCallbacks<String>,MovieReviewAdapter.ListItemClickListener {
 
     private MovieTrailerAdapter movieTrailerAdapter;
     private TextView tv_trailers;
@@ -44,6 +45,9 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
     private static final int MOVIE_SEARCH_LOADER = 46;
     private LoaderManager loaderManager;
 
+    private MovieReviewAdapter movieReviewAdapter;
+    private TextView tv_movie_reviews;
+    private ArrayList<MovieReview> movieReviews;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,9 +59,10 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         TextView tv_movie_release_date = findViewById(R.id.tv_movie_release_date);
         TextView tv_movie_rating = findViewById(R.id.tv_movie_vote_average);
         TextView tv_movie_overview = findViewById(R.id.tv_movie_overview);
-        //ToggleButton btAddFavouriteMovie = findViewById(R.id.btAddFavouriteMovie);
         final Switch bAddFavouriteMovie = findViewById(R.id.btAddFavouriteMovie);
         tv_trailers = findViewById(R.id.tv_trailers);
+        tv_movie_reviews = findViewById(R.id.tv_movie_reviews);
+
 
         //set the movie trailer recycler view
         RecyclerView rv_movie_trailer = findViewById(R.id.rv_movie_trailer);
@@ -67,6 +72,14 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         trailerList = new ArrayList<>();
         movieTrailerAdapter = new MovieTrailerAdapter(trailerList,this);
         rv_movie_trailer.setAdapter(movieTrailerAdapter);
+
+        //set the movie reviews recycler view
+        RecyclerView rv_movie_reviews = findViewById(R.id.rv_movie_reviews);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        rv_movie_reviews.setLayoutManager(layoutManager);
+        rv_movie_reviews.setHasFixedSize(true);
+        movieReviews = new ArrayList<>();
+        movieReviewAdapter = new MovieReviewAdapter(movieReviews,this);
 
         //get movie details from the intent that started the activity
         //Intent intentStartedThisActivity = getIntent();
@@ -86,9 +99,10 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
             String movieRating = getString(R.string.movie_rating_total,String.valueOf(movie.getVote_average()));
             tv_movie_rating.setText(movieRating);
             tv_movie_overview.setText(movie.getMovie_overview());
+            String movieVideos = "videos";
 
             if(isNetworkAvailable()) {
-                startMovieTrailerSearch(String.valueOf(movie.getMovieId()));
+                startMovieTrailerSearch(movieVideos,String.valueOf(movie.getMovieId()));
             }else{
                 showErrorMessage();
             }
@@ -119,8 +133,8 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         tv_trailers.setText(getString(R.string.movie_trailer_error_message));
     }
 
-    private void startMovieTrailerSearch(String movieId ){
-        URL movieSearchURL = NetworkUtils.buildUrl(movieId);
+    private void startMovieTrailerSearch(String searchMovieVideos, String movieIdOrKey ){
+        URL movieSearchURL = NetworkUtils.buildUrl(searchMovieVideos,movieIdOrKey);
         //fetch data on separate thread
         // and initialize the recycler viewer with data from movie adapter
         //new  FetchMovieTrailerTask().execute(movieSearchURL);
@@ -154,7 +168,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
     @Override
     public void onListItemClick(Trailer trailer){
         String movieTrailerKey = trailer.getMovieKey();
-        URL movieTrailerURL = NetworkUtils.buildUrl(movieTrailerKey);
+        URL movieTrailerURL = NetworkUtils.buildUrl(null,movieTrailerKey);
         Uri movieTrailerUri = Uri.parse(movieTrailerURL.toString());
         playMovieTrailer(movieTrailerUri);
     }
@@ -206,31 +220,8 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
 
     }
 
-    //Async inner class to fetch network data
-    /*class FetchMovieTrailerTask extends AsyncTask<URL, Void, String> {
+    @Override
+    public void onListItemClick(MovieReview movieReview) {
 
-        @Override
-        protected String doInBackground(URL... params){
-
-            URL searchUrl = params[0];
-            String jsonData = null;
-            try {
-                jsonData = NetworkUtils.fetchData(searchUrl);
-            }catch (IOException e){
-                e.printStackTrace();
-            }
-            return jsonData;
-        }
-
-        @Override
-        protected void onPostExecute(String jsonData ){
-            //tv_trailer_error_message.setVisibility(View.INVISIBLE);
-            if(jsonData != null && !jsonData.equals("")) {
-                super.onPostExecute(jsonData);
-                showJSONData(jsonData);
-            }else{
-                showErrorMessage();
-            }
-        }
-    }*/
+    }
 }

@@ -8,7 +8,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;
 
-public class NetworkUtils {
+import androidx.annotation.Nullable;
+
+ public class NetworkUtils {
 
     private static final String MOVIE_BASE_URL = "https://api.themoviedb.org/3/movie/";
     private static final String API_KEY = "api_key";
@@ -26,47 +28,47 @@ public class NetworkUtils {
     private static final String TRAILER_BASE_URL = "https://www.youtube.com/watch";
     private static final String PARAM_VIDEO_SEARCH = "v";
 
-    public static URL buildUrl(String movieOrVideoSearch) {
+    //private static final String PARAM_REVIEW = "reviews";
+    //private static final String review = "";
 
+    public static URL buildUrl(String movieVideoReviewSearch, String movieIdOrKey) {
 
-        String movieTrailerToSearchFor = null;
         URL url = null;
-        Uri builtUri;
+        //Uri builtUri;
         try{
-
-            if(isStringAnInteger(movieOrVideoSearch)){
-                movieTrailerToSearchFor = movieOrVideoSearch;
-                movieOrVideoSearch = "videos";
-            }
-
-            switch (movieOrVideoSearch) {
-                case "popular":
-                case "top_rated":
-                    builtUri = Uri.parse(MOVIE_BASE_URL).buildUpon()
-                            .appendPath(movieOrVideoSearch)
+            //URL url = null;
+            Uri builtUri = null;
+            if(movieVideoReviewSearch == null){
+                builtUri = Uri.parse(TRAILER_BASE_URL).buildUpon()
+                        .appendQueryParameter(PARAM_VIDEO_SEARCH, movieIdOrKey)
+                        .build();
+            }else{
+                switch (movieVideoReviewSearch) {
+                    case "popular":
+                    case "top_rated":
+                        builtUri = Uri.parse(MOVIE_BASE_URL).buildUpon()
+                            .appendPath(movieVideoReviewSearch)
                             .appendQueryParameter(API_KEY, myPersonalApiKey)
                             .appendQueryParameter(PARAM_LANGUAGE, language)
                             .appendQueryParameter(PARAM_PAGE, page)
                             .build();
-                    break;
-                case "videos":
-                    builtUri = Uri.parse(MOVIE_BASE_URL).buildUpon()
-                            .appendPath(movieTrailerToSearchFor)
-                            .appendPath(movieOrVideoSearch)
+                        break;
+                    case "videos":
+                    case "reviews":
+                        builtUri = Uri.parse(MOVIE_BASE_URL).buildUpon()
+                            .appendPath(movieIdOrKey)
+                            .appendPath(movieVideoReviewSearch)
                             .appendQueryParameter(API_KEY, myPersonalApiKey)
                             .appendQueryParameter(PARAM_LANGUAGE, language)
                             .build();
-                    break;
-                default:
-                    builtUri = Uri.parse(TRAILER_BASE_URL).buildUpon()
-                            .appendQueryParameter(PARAM_VIDEO_SEARCH, movieOrVideoSearch)
-                            .build();
-                    break;
-
+                        break;
+                }
             }
-            url = new URL(builtUri.toString());
+            if(builtUri!= null) {
+                    url = new URL(builtUri.toString());
+            }
         } catch (MalformedURLException e) {
-            e.printStackTrace();
+                e.printStackTrace();
         }
         return url;
     }

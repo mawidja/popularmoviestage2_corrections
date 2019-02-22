@@ -12,14 +12,45 @@
     <converter id="remove-java-aware-configurations" />
   </applied-converters>
   <project-files>
-    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\codeStyles\Project.xml" timestamp="1550597648136" />
-    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\gradle.xml" timestamp="1550597647917" />
-    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\misc.xml" timestamp="1550597645595" />
-    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\modules.xml" timestamp="1550597023852" />
-    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\runConfigurations.xml" timestamp="1550597024140" />
-    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\vcs.xml" timestamp="1550597646622" />
-    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\workspace.xml" timestamp="1550597645922" />
-    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\T09b.09-Solution-AddTheViewModel.iml" timestamp="1550597023499" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\codeStyles\Project.xml" timestamp="1550598125211" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\gradle.xml" timestamp="1550598535897" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__android_arch_core_common_1_1_0_jar.xml" timestamp="1550598536080" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__android_arch_core_runtime_1_1_0_aar.xml" timestamp="1550598536188" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" timestamp="1550598536281" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__android_arch_lifecycle_extensions_1_1_0_aar.xml" timestamp="1550598536386" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__android_arch_lifecycle_livedata_1_1_0_aar.xml" timestamp="1550598536490" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" timestamp="1550598536652" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" timestamp="1550598536739" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" timestamp="1550598536889" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__android_arch_persistence_db_1_0_0_aar.xml" timestamp="1550598536967" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__android_arch_persistence_db_framework_1_0_0_aar.xml" timestamp="1550598537065" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__android_arch_persistence_room_common_1_0_0_jar.xml" timestamp="1550598537166" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__android_arch_persistence_room_runtime_1_0_0_aar.xml" timestamp="1550598537406" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_animated_vector_drawable_27_0_2_aar.xml" timestamp="1550598537503" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_appcompat_v7_27_0_2_aar.xml" timestamp="1550598537640" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_design_27_0_2_aar.xml" timestamp="1550598537728" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_recyclerview_v7_27_0_2_aar.xml" timestamp="1550598537830" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_support_annotations_27_0_2_jar.xml" timestamp="1550598537926" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_support_compat_27_0_2_aar.xml" timestamp="1550598538012" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_support_core_ui_27_0_2_aar.xml" timestamp="1550598538100" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_support_core_utils_27_0_2_aar.xml" timestamp="1550598538184" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_support_fragment_27_0_2_aar.xml" timestamp="1550598538275" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_support_media_compat_27_0_2_aar.xml" timestamp="1550598538351" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_support_v4_27_0_2_aar.xml" timestamp="1550598538450" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_support_vector_drawable_27_0_2_aar.xml" timestamp="1550598538572" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_test_rules_1_0_1_aar.xml" timestamp="1550598538678" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_test_runner_1_0_1_aar.xml" timestamp="1550598538811" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__com_android_support_transition_27_0_2_aar.xml" timestamp="1550598538958" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__junit_junit_4_12_jar.xml" timestamp="1550598539051" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" timestamp="1550598539422" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\libraries\Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" timestamp="1550598539552" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\misc.xml" timestamp="1550598856164" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\modules.xml" timestamp="1550598535614" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\runConfigurations.xml" timestamp="1550597660095" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\vcs.xml" timestamp="1550598124336" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\.idea\workspace.xml" timestamp="1550783397315" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\T09b.09-Solution-AddTheViewModel.iml" timestamp="1550598533720" />
+    <file path="C:\Users\witne\ud851-Exercises\Lesson09b-ToDo-List-AAC\T09b.09-Solution-AddTheViewModel\app\app.iml" timestamp="1550598856009" />
   </project-files>
 </conversion>
 

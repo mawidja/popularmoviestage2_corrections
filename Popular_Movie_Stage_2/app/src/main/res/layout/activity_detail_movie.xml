@@ -96,5 +96,22 @@
             android:id="@+id/rv_movie_trailer"
             android:paddingBottom="@dimen/gv_horizontal_spacing">
         </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_movie_reviews"
+            android:text="@string/movie_trailer_tv"
+            android:paddingTop="@dimen/gv_horizontal_spacing"
+            android:paddingBottom="@dimen/gv_vertical_spacing"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rv_movie_reviews"
+            android:paddingBottom="@dimen/gv_horizontal_spacing">
+        </androidx.recyclerview.widget.RecyclerView>
     </LinearLayout>
 </ScrollView>

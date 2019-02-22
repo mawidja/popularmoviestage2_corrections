@@ -32,7 +32,6 @@ public class MovieTrailerAdapter extends RecyclerView.Adapter<MovieTrailerAdapte
         Context context = viewGroup.getContext();
         int layoutForListItem = R.layout.movie_trailer_item;
         LayoutInflater inflater = LayoutInflater.from(context);
-        //boolean shouldAttachToParentImmediately = false;
 
         View view = inflater.inflate(layoutForListItem,viewGroup, false);
         return new MovieTrailerHolderAdapter(view);
@@ -69,7 +68,6 @@ public class MovieTrailerAdapter extends RecyclerView.Adapter<MovieTrailerAdapte
         // method for convenience to bind things up!
         public void bind(Trailer movieTrailer){
             bt_movie_trailer.setText(movieTrailer.getMovieName());
-            //String movieKey = movieTrailer.getMovieKey();
         }
 
         @Override
