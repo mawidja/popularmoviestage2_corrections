@@ -15,5 +15,7 @@
 
     <!--For Movie Trailer layout -->
     <string name="movie_trailer_tv">Trailers</string>
-    <!--<string name="movie_trailer_button_text">Movie Trailer</string>-->
+
+    <!--For Movie Reviews -->
+    <string name="movie_reviews_tv">Reviews</string>
 </resources>

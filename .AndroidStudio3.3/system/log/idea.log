@@ -5526,3 +5526,188 @@ Caused by: java.lang.IllegalStateException: Index corrupted
 2019-02-22 23:59:51,169 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
 2019-02-23 00:01:28,139 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
 2019-02-23 00:01:28,141 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-02-23 00:24:18,894 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:24:19,254 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:37:03,869 [entQueue-0]   INFO - ellij.project.impl.ProjectImpl - 158 project components initialized in 401 ms 
+2019-02-23 00:37:03,870 [entQueue-0]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2019-02-23 00:37:04,641 [entQueue-0]   INFO - idea.project.IndexingSuspender - Subscribing project 'Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2' to indexing suspender events (com.android.tools.idea.project.IndexingSuspender@4f2746ae) 
+2019-02-23 00:37:04,875 [hread 1962]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 78ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-23 00:37:05,141 [hread 1950]   INFO - ge.ExternalProjectsDataStorage - Loaded external projects data in 250 millis 
+2019-02-23 00:37:05,219 [hread 1950]   INFO - tartup.impl.StartupManagerImpl - ExternalSystemStartupActivity run in 406ms under project opening modal progress 
+2019-02-23 00:37:05,266 [hread 1950]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 469ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-23 00:37:05,848 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-02-23 00:37:05,848 [entQueue-0]   INFO - tartup.impl.StartupManagerImpl - C:/Users/witne/Popular_Movie_Stage_2/.idea case-sensitivity: expected=false actual=false 
+2019-02-23 00:37:05,864 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Started sync with Gradle for project 'Popular_Movie_Stage_2'. 
+2019-02-23 00:37:05,864 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-02-23 00:37:05,864 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-23 00:37:05,895 [hread 1958]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2019-02-23 00:37:06,145 [entQueue-0]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 2863 ms 
+2019-02-23 00:37:06,176 [hread 1955]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-23 00:37:06,301 [hread 1955]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-02-23 00:37:06,520 [hread 1962]   INFO - l.indexing.impl.MapReduceIndex - Exception during updateWithMap:com.intellij.util.indexing.StorageException: com.intellij.util.indexing.StorageException: com.intellij.util.io.PersistentEnumeratorBase$CorruptedException: PersistentEnumerator storage corrupted C:\Users\witne\.AndroidStudio3.3\system\index\filetypes\filetypes_inputs 
+2019-02-23 00:37:06,551 [hread 1962]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index filetypes 
+com.intellij.util.indexing.StorageException: com.intellij.util.indexing.StorageException: com.intellij.util.io.PersistentEnumeratorBase$CorruptedException: PersistentEnumerator storage corrupted C:\Users\witne\.AndroidStudio3.3\system\index\filetypes\filetypes_inputs
+	at com.intellij.util.indexing.impl.MapReduceIndex.updateWithMap(MapReduceIndex.java:327)
+	at com.intellij.util.indexing.impl.MapReduceIndex$2.compute(MapReduceIndex.java:219)
+	at com.intellij.util.indexing.impl.MapReduceIndex$2.compute(MapReduceIndex.java:215)
+	at com.intellij.util.indexing.FileBasedIndexImpl.runUpdate(FileBasedIndexImpl.java:1420)
+	at com.intellij.util.indexing.FileBasedIndexImpl.scheduleUpdate(FileBasedIndexImpl.java:1718)
+	at com.intellij.util.indexing.FileBasedIndexImpl.updateSingleIndex(FileBasedIndexImpl.java:1671)
+	at com.intellij.util.indexing.FileBasedIndexImpl.access$3300(FileBasedIndexImpl.java:105)
+	at com.intellij.util.indexing.FileBasedIndexImpl$UnindexedFilesFinder.lambda$null$0(FileBasedIndexImpl.java:2174)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.freezeFileTypeTemporarilyIn(FileTypeManagerImpl.java:519)
+	at com.intellij.util.indexing.FileBasedIndexImpl$UnindexedFilesFinder.lambda$processFile$1(FileBasedIndexImpl.java:2135)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:959)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:57)
+	at com.intellij.util.indexing.FileBasedIndexImpl$UnindexedFilesFinder.processFile(FileBasedIndexImpl.java:2124)
+	at com.intellij.openapi.vfs.VfsUtilCore$1.visitFileEx(VfsUtilCore.java:283)
+	at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:299)
+	at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:331)
+	at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:331)
+	at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:331)
+	at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:331)
+	at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:331)
+	at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:331)
+	at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:331)
+	at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:331)
+	at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:331)
+	at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:331)
+	at com.intellij.openapi.vfs.VfsUtilCore.iterateChildrenRecursively(VfsUtilCore.java:278)
+	at com.intellij.openapi.roots.impl.FileIndexBase.iterateContentUnderDirectoryWithFilter(FileIndexBase.java:71)
+	at com.intellij.openapi.roots.impl.FileIndexBase.iterateContentUnderDirectory(FileIndexBase.java:60)
+	at com.intellij.openapi.roots.impl.ProjectFileIndexImpl.iterateContent(ProjectFileIndexImpl.java:41)
+	at com.intellij.util.indexing.FileBasedIndexScanRunnableCollectorImpl.lambda$null$1(FileBasedIndexScanRunnableCollectorImpl.java:51)
+	at com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl.invokeConcurrentlyIfPossible(PushedFilePropertiesUpdaterImpl.java:304)
+	at com.intellij.util.indexing.FileBasedIndexImpl.iterateIndexableFilesConcurrently(FileBasedIndexImpl.java:2312)
+	at com.intellij.util.indexing.UnindexedFilesUpdater.updateUnindexedFiles(UnindexedFilesUpdater.java:83)
+	at com.intellij.util.indexing.UnindexedFilesUpdater.performInDumbMode(UnindexedFilesUpdater.java:135)
+	at com.intellij.openapi.project.DumbServiceImpl.lambda$runSingleTask$9(DumbServiceImpl.java:555)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.project.DumbServiceImpl.runSingleTask(DumbServiceImpl.java:548)
+	at com.intellij.openapi.project.DumbServiceImpl.runBackgroundProcess(DumbServiceImpl.java:526)
+	at com.intellij.openapi.project.DumbServiceImpl.access$400(DumbServiceImpl.java:51)
+	at com.intellij.openapi.project.DumbServiceImpl$4.run(DumbServiceImpl.java:481)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:736)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:395)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.intellij.util.indexing.StorageException: com.intellij.util.io.PersistentEnumeratorBase$CorruptedException: PersistentEnumerator storage corrupted C:\Users\witne\.AndroidStudio3.3\system\index\filetypes\filetypes_inputs
+	at com.intellij.util.indexing.impl.UpdateData.iterateKeys(UpdateData.java:54)
+	at com.intellij.util.indexing.impl.MapReduceIndex.updateWithMap(MapReduceIndex.java:320)
+	... 56 more
+Caused by: com.intellij.util.io.PersistentEnumeratorBase$CorruptedException: PersistentEnumerator storage corrupted C:\Users\witne\.AndroidStudio3.3\system\index\filetypes\filetypes_inputs
+	at com.intellij.util.io.PersistentBTreeEnumerator.getNonnegativeValue(PersistentBTreeEnumerator.java:329)
+	at com.intellij.util.io.PersistentHashMap.doGet(PersistentHashMap.java:557)
+	at com.intellij.util.io.PersistentHashMap.get(PersistentHashMap.java:533)
+	at com.intellij.util.indexing.impl.MapBasedForwardIndex.getInput(MapBasedForwardIndex.java:49)
+	at com.intellij.util.indexing.impl.MapBasedForwardIndex.getDiffBuilder(MapBasedForwardIndex.java:42)
+	at com.intellij.util.indexing.impl.MapReduceIndex.getKeysDiffBuilder(MapReduceIndex.java:256)
+	at com.intellij.util.indexing.VfsAwareMapReduceIndex.lambda$calculateUpdateData$0(VfsAwareMapReduceIndex.java:116)
+	at com.intellij.util.indexing.impl.UpdateData.iterateKeys(UpdateData.java:51)
+	... 57 more
+Caused by: java.lang.IllegalStateException: Index corrupted
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.hashIndex(IntToIntBtree.java:1133)
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.search(IntToIntBtree.java:431)
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.locate(IntToIntBtree.java:1019)
+	at com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView.access$000(IntToIntBtree.java:414)
+	at com.intellij.util.io.IntToIntBtree.get(IntToIntBtree.java:207)
+	at com.intellij.util.io.PersistentBTreeEnumerator.getNonnegativeValue(PersistentBTreeEnumerator.java:321)
+	... 64 more
+2019-02-23 00:37:06,598 [entQueue-0]   INFO - il.indexing.FileBasedIndexImpl - scheduleIndexRebuild, reason: checkRebuild 
+2019-02-23 00:37:06,614 [hread 1955]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\witne\AppData\Local\Temp\sync.java.lib.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.3.1.0 
+2019-02-23 00:37:06,848 [hread 1961]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-23 00:37:12,643 [hread 1961]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 5513ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-23 00:37:21,461 [hread 1955]   INFO - e.project.sync.GradleSyncState - Started setup of project 'Popular_Movie_Stage_2'. 
+2019-02-23 00:37:21,461 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SETUP_STARTED 
+2019-02-23 00:37:21,977 [hread 1955]   INFO - ule.android.SdkModuleSetupStep - Set Android SDK 'Android API 28 Platform' (C:\Users\witne\AppData\Local\Android\Sdk) to module 'app' 
+2019-02-23 00:37:22,712 [entQueue-0]   INFO - etup.post.PluginVersionUpgrade - Gradle model version: 3.3.1, recommended version for IDE: 3.3.1 
+2019-02-23 00:37:22,790 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:generateDebugSources] 
+2019-02-23 00:37:22,790 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-23 00:37:22,805 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Gradle sync finished in 16 s 941 ms 
+2019-02-23 00:37:22,868 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-02-23 00:37:22,868 [entQueue-0]   INFO - idea.project.IndexingSuspender - IndexingSuspender deactivation event received and ignored: SYNC_FINISHED 
+2019-02-23 00:37:22,868 [hread 1965]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-23 00:37:22,883 [hread 1965]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-02-23 00:37:22,993 [hread 1965]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-02-23 00:37:23,727 [hread 1955]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.0s 
+2019-02-23 00:37:34,385 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-23 00:37:34,385 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-23 00:37:34,385 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-23 00:37:34,400 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-23 00:37:34,697 [hread 1962]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update canceled 
+2019-02-23 00:37:34,713 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 11 s 833 ms 
+2019-02-23 00:37:34,729 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-23 00:37:35,439 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-23 00:37:35,642 [hread 1962]   INFO -       #com.jetbrains.cidr.lang - Clearing symbols finished in 0 ms 
+2019-02-23 00:37:35,642 [hread 1962]   INFO -       #com.jetbrains.cidr.lang - Building symbols in FAST mode, 0 source files from total 0 project files 
+2019-02-23 00:37:35,657 [hread 1962]   INFO -       #com.jetbrains.cidr.lang - Loading symbols finished in 15 ms 
+2019-02-23 00:37:35,657 [hread 1962]   INFO -       #com.jetbrains.cidr.lang - Loading Header Maps finished in 0 ms 
+2019-02-23 00:37:35,673 [hread 1962]   INFO -       #com.jetbrains.cidr.lang - Loading Module Maps finished in 16 ms 
+2019-02-23 00:37:35,673 [hread 1962]   INFO -       #com.jetbrains.cidr.lang - Saving Module Maps finished in 0 ms 
+2019-02-23 00:37:35,673 [hread 1962]   INFO -       #com.jetbrains.cidr.lang - Loaded 0 tables for 0 files (0 project files) 
+2019-02-23 00:37:35,673 [hread 1962]   INFO -       #com.jetbrains.cidr.lang - Building symbols for 0 source files 
+2019-02-23 00:37:35,673 [hread 1962]   INFO -       #com.jetbrains.cidr.lang - Building symbols for 0 unused headers 
+2019-02-23 00:37:35,673 [hread 1962]   INFO -       #com.jetbrains.cidr.lang - Building symbols finished in 0 ms 
+2019-02-23 00:37:35,673 [hread 1962]   INFO -       #com.jetbrains.cidr.lang - Saving modified symbols for 0 files (0 tables of total 0) 
+2019-02-23 00:37:35,673 [hread 1962]   INFO -       #com.jetbrains.cidr.lang - Saving symbols finished in 0 ms 
+2019-02-23 00:37:35,673 [hread 1962]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 0 to update, calculated in 0ms 
+2019-02-23 00:37:35,704 [hread 1962]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 15ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-23 00:37:44,647 [hread 1962]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 8943ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-23 00:37:45,045 [entQueue-0]   INFO - j.ide.ui.OptionsTopHitProvider - 396 ms spent to cache options in project 
+2019-02-23 00:37:45,046 [entQueue-0]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2019-02-23 00:37:45,046 [entQueue-0]   INFO - tartup.impl.StartupManagerImpl - Activity run in 397ms on UI thread 
+2019-02-23 00:37:45,320 [entQueue-0]   INFO - tartup.impl.StartupManagerImpl - CreateKotlinSdkActivity run in 259ms on UI thread 
+2019-02-23 00:37:45,579 [entQueue-0]   INFO - j.ide.ui.OptionsTopHitProvider - 227 ms spent on EDT to cache options in project 
+2019-02-23 00:38:03,963 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:38:04,297 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:40:01,650 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-23 00:41:37,400 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:41:37,779 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:42:15,545 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:42:15,948 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:42:57,387 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:42:57,785 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:43:34,945 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:43:35,297 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:45:22,863 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:45:23,228 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:45:41,664 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:45:42,097 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:50:24,181 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:50:24,531 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-23 00:50:55,378 [hread 2076]   INFO - ditor.DeployTargetPickerDialog - Successfully obtained list of AVDs 
+2019-02-23 00:50:57,128 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-02-23 00:50:57,175 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-02-23 00:50:57,175 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-23 00:50:57,434 [hread 2080]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-23 00:50:57,470 [hread 2080]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-02-23 00:50:57,533 [hread 2080]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-02-23 00:50:57,548 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-23 00:50:57,548 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-23 00:51:46,966 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-23 00:51:46,966 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-23 00:51:46,966 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 49 s 533 ms 
+2019-02-23 00:51:47,013 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-23 00:51:47,216 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-23 00:51:47,232 [hread 2071]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-02-23 00:51:47,715 [hread 1975]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 31ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-23 00:51:52,766 [hread 1975]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 5051ms; general responsiveness: ok; EDT responsiveness: 1/5 sluggish, 2/5 very slow 
+2019-02-23 00:51:53,284 [hread 2083]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-02-23 00:52:04,612 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8602 for client with pid 29506 
+2019-02-23 00:52:04,826 [hread 2083]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-23 00:52:04,826 [hread 2083]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
+2019-02-23 00:57:23,025 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-23 00:57:23,026 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopAll() 
