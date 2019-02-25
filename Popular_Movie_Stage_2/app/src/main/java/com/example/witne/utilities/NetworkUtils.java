@@ -96,7 +96,7 @@ import androidx.annotation.Nullable;
         }
     }
 
-    private static boolean isStringAnInteger(String stringMovieId){
+    /*private static boolean isStringAnInteger(String stringMovieId){
         try{
             Integer.parseInt(stringMovieId);
         }catch(Exception e){
@@ -104,5 +104,5 @@ import androidx.annotation.Nullable;
             return false;
         }
         return true;
-    }
+    }*/
 }

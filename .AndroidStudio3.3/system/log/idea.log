@@ -5711,3 +5711,68 @@ Caused by: java.lang.IllegalStateException: Index corrupted
 2019-02-23 00:52:04,826 [hread 2083]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
 2019-02-23 00:57:23,025 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
 2019-02-23 00:57:23,026 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-02-25 19:02:50,663 [hread 2112]   INFO - ateSettings.impl.UpdateChecker - dl.google.com 
+java.net.UnknownHostException: dl.google.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:558)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:47)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:329)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getInputStream(HttpRequests.java:338)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:356)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:349)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$checkPlatformUpdate$1.process(UpdateChecker.kt:174)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$checkPlatformUpdate$1.process(UpdateChecker.kt:53)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:475)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:451)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:47)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:303)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.checkPlatformUpdate(UpdateChecker.kt:171)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.doUpdateAndShowResult(UpdateChecker.kt:122)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.access$doUpdateAndShowResult(UpdateChecker.kt:53)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$updateAndShowResult$1.run(UpdateChecker.kt:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-02-25 19:02:50,663 [hread 2112]   INFO - ateSettings.impl.UpdateChecker - Connection failed (dl.google.com). Please check network connection and try again. 
+2019-02-25 19:22:37,193 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:22:37,579 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:26:33,183 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:26:33,596 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:27:20,098 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:27:20,495 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:27:28,084 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:27:28,467 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:27:36,100 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:27:36,506 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:28:10,445 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:28:10,817 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:28:52,983 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:28:53,580 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:29:38,908 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:29:39,345 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:29:48,226 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:29:48,623 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:30:31,720 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:30:32,127 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:30:36,652 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-25 19:30:37,037 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
