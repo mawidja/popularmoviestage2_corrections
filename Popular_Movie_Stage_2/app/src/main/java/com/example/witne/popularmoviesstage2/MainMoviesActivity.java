@@ -118,7 +118,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
         //setUpViewModel();
     }
 
-    private void setUpViewModel(){
+    /*private void setUpViewModel(){
         MainMovieViewModel mainMovieViewModel = ViewModelProviders.of(this).get(MainMovieViewModel.class);
         mainMovieViewModel.getMovieLiveData().observe(this, new Observer<List<Movie>>() {
             @Override
@@ -127,7 +127,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
             }
         });
         //mainMovieViewModel.getMovieLiveData().observe(this,movieList);
-    }
+    }*/
 
     private boolean isNetworkAvailable(){
         ConnectivityManager cm = (ConnectivityManager)getBaseContext().getSystemService(Context.CONNECTIVITY_SERVICE);

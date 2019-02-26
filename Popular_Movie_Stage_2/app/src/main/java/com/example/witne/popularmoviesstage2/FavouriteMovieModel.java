@@ -7,19 +7,18 @@ import com.example.witne.data.MovieDataRepository;
 
 import java.util.List;
 
-import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-public class MainMovieViewModel extends AndroidViewModel {
+public class FavouriteMovieModel extends AndroidViewModel {
 
-    private MovieDataRepository movieDataRepository;
+    //private MovieDataRepository movieDataRepository;
     private LiveData<List<Movie>> movieLiveData;
 
-    public MainMovieViewModel(Application application) {
+    public FavouriteMovieModel(Application application) {
         super(application);
 
-        movieDataRepository = new MovieDataRepository(application);
+        MovieDataRepository movieDataRepository = new MovieDataRepository(application);
         movieLiveData = movieDataRepository.getAllFavouriteMovies();
     }
 

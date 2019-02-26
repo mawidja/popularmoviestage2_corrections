@@ -3,6 +3,8 @@ package com.example.witne.popularmoviesstage2;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
 import androidx.loader.app.LoaderManager;
 import androidx.loader.content.AsyncTaskLoader;
 import androidx.loader.content.Loader;
@@ -32,18 +34,19 @@ import com.squareup.picasso.Picasso;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
-public class DetailMovieActivity extends AppCompatActivity implements MovieTrailerAdapter.ListItemClickListener,
-        LoaderManager.LoaderCallbacks<String>,MovieReviewAdapter.ListItemClickListener {
+public class DetailMovieActivity extends AppCompatActivity implements MovieTrailerAdapter.ListItemClickListener,MovieReviewAdapter.ListItemClickListener {
 
     private MovieTrailerAdapter movieTrailerAdapter;
     private TextView tv_trailers;
-    private ArrayList<Trailer> trailerList;
+    private List<Trailer> trailerList;
+    URL movieSearchURL;
 
-    private static final String MOVIE_SEARCH_QUERY = "queryMovieDetails";
-    private static final int MOVIE_SEARCH_LOADER = 46;
-    private LoaderManager loaderManager;
+    //private static final String MOVIE_SEARCH_QUERY = "queryMovieDetails";
+    //private static final int MOVIE_SEARCH_LOADER = 46;
+    //private LoaderManager loaderManager;
 
     private MovieReviewAdapter movieReviewAdapter;
     private TextView tv_movie_reviews;
@@ -128,18 +131,32 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         return (networkInfo != null) && (networkInfo.isConnected());
     }
 
+    private void setUpViewModel(){
+        DetailMovieViewModelFactory detailMovieViewModelFactory = new DetailMovieViewModelFactory(getApplication(),movieSearchURL);
+        DetailMovieViewModel detailMovieViewModel = ViewModelProviders.of(this,detailMovieViewModelFactory)
+                                        .get(DetailMovieViewModel.class);
+        detailMovieViewModel.getMovieTrailers().observe(this, new Observer<List<Trailer>>() {
+            @Override
+            public void onChanged(List<Trailer> trailerList) {
+                movieTrailerAdapter.setMovieTrailerAdapter(trailerList);
+            }
+        });
+    }
+
     private void showErrorMessage(){
         //tv_trailer_error_message.setVisibility(View.VISIBLE);
         tv_trailers.setText(getString(R.string.movie_trailer_error_message));
     }
 
     private void startMovieTrailerSearch(String searchMovieVideos, String movieIdOrKey ){
-        URL movieSearchURL = NetworkUtils.buildUrl(searchMovieVideos,movieIdOrKey);
+        movieSearchURL = NetworkUtils.buildUrl(searchMovieVideos,movieIdOrKey);
         //fetch data on separate thread
         // and initialize the recycler viewer with data from movie adapter
         //new  FetchMovieTrailerTask().execute(movieSearchURL);
 
-        Bundle queryBundle = new Bundle();
+        setUpViewModel();
+
+        /*Bundle queryBundle = new Bundle();
         queryBundle.putString(MOVIE_SEARCH_QUERY,movieSearchURL.toString());
 
         loaderManager = LoaderManager.getInstance(this);
@@ -148,7 +165,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
             loaderManager.initLoader(MOVIE_SEARCH_LOADER,queryBundle,this);
         }else{
             loaderManager.restartLoader(MOVIE_SEARCH_LOADER,queryBundle,this);
-        }
+        }*/
     }
 
     private void showJSONData(String jsonData){
@@ -173,6 +190,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         playMovieTrailer(movieTrailerUri);
     }
 
+    /*
     @NonNull
     @Override
     public Loader<String> onCreateLoader(int id, final Bundle args) {
@@ -218,7 +236,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
     @Override
     public void onLoaderReset(@NonNull Loader<String> loader) {
 
-    }
+    }*/
 
     @Override
     public void onListItemClick(MovieReview movieReview) {

@@ -9,12 +9,13 @@ import com.example.witne.data.Trailer;
 import com.example.witne.popularmoviesstage2.R;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import androidx.recyclerview.widget.RecyclerView;
 
 public class MovieTrailerAdapter extends RecyclerView.Adapter<MovieTrailerAdapter.MovieTrailerHolderAdapter> {
 
-    private ArrayList<Trailer> movieTrailers;
+    private List<Trailer> movieTrailers;
     private Trailer trailer;
     private final ListItemClickListener trailerListItemClicked;
 
@@ -22,7 +23,7 @@ public class MovieTrailerAdapter extends RecyclerView.Adapter<MovieTrailerAdapte
         void onListItemClick(Trailer trailer);
     }
 
-    public MovieTrailerAdapter(ArrayList<Trailer> movieTrailers, ListItemClickListener trailerListItemClicked){
+    public MovieTrailerAdapter(List<Trailer> movieTrailers, ListItemClickListener trailerListItemClicked){
         this.movieTrailers = movieTrailers;
         this.trailerListItemClicked = trailerListItemClicked;
     }
@@ -48,7 +49,7 @@ public class MovieTrailerAdapter extends RecyclerView.Adapter<MovieTrailerAdapte
         return movieTrailers.size();
     }
 
-    public void setMovieTrailerAdapter(ArrayList<Trailer> movieTrailers){
+    public void setMovieTrailerAdapter(List<Trailer> movieTrailers){
         this.movieTrailers = movieTrailers;
         notifyDataSetChanged();
     }
