@@ -23,20 +23,13 @@ import androidx.annotation.Nullable;
     private static final String PARAM_PAGE = "page";
     private static final String page = "1";
 
-    //private static final String PARAM_VIDEO = "video";
-
     private static final String TRAILER_BASE_URL = "https://www.youtube.com/watch";
     private static final String PARAM_VIDEO_SEARCH = "v";
-
-    //private static final String PARAM_REVIEW = "reviews";
-    //private static final String review = "";
 
     public static URL buildUrl(String movieVideoReviewSearch, String movieIdOrKey) {
 
         URL url = null;
-        //Uri builtUri;
         try{
-            //URL url = null;
             Uri builtUri = null;
             if(movieVideoReviewSearch == null){
                 builtUri = Uri.parse(TRAILER_BASE_URL).buildUpon()
@@ -95,14 +88,4 @@ import androidx.annotation.Nullable;
             connection.disconnect();
         }
     }
-
-    /*private static boolean isStringAnInteger(String stringMovieId){
-        try{
-            Integer.parseInt(stringMovieId);
-        }catch(Exception e){
-            e.printStackTrace();
-            return false;
-        }
-        return true;
-    }*/
 }

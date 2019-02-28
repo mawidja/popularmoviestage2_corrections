@@ -62,6 +62,7 @@ public class MovieReviewAdapter extends RecyclerView.Adapter<MovieReviewAdapter.
         public MovieReviewHolderAdapter(@NonNull View itemView) {
             super(itemView);
             bt_movie_review = itemView.findViewById(R.id.bt_movie_review);
+            bt_movie_review.setOnClickListener(this);
         }
 
         // method for convenience to bind things up!

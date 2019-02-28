@@ -29,10 +29,10 @@
     <location key="edit.logcat.filter.dialog.dimensions.0.0.1366.768" x="394" y="245" />
     <location key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1.0.0.1366.768" x="407" y="246" />
     <location key="IDE.errors.dialog.0.0.1366.768" x="232" y="121" />
-    <size key="GridCell.Tab.0.left.0.0.1366.768" width="1258" height="185" />
-    <size key="GridCell.Tab.0.center.0.0.1366.768" width="1258" height="185" />
-    <size key="GridCell.Tab.0.right.0.0.1366.768" width="1258" height="185" />
-    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="1258" height="185" />
+    <size key="GridCell.Tab.0.left.0.0.1366.768" width="0" height="0" />
+    <size key="GridCell.Tab.0.center.0.0.1366.768" width="0" height="0" />
+    <size key="GridCell.Tab.0.right.0.0.1366.768" width="0" height="0" />
+    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="0" height="0" />
     <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1366.768" width="1092" height="713" />
     <size key="SettingsEditor.0.0.1366.768" width="1038" height="742" />
     <size key="ProcessPopupWindow.0.0.1366.768" width="940" height="498" />
@@ -47,6 +47,6 @@
     <size key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.1366.768" width="493" height="275" />
     <size key="XDebugger.FullValuePopup.0.0.1366.768" width="660" height="392" />
     <size key="DebuggerActiveHint.0.0.1366.768" width="452" height="431" />
-    <size key="javadoc.popup.new.0.0.1366.768" width="384" height="166" />
+    <size key="javadoc.popup.new.0.0.1366.768" width="378" height="166" />
   </component>
 </application>

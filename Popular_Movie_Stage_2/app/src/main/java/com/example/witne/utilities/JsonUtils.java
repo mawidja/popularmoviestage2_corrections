@@ -45,7 +45,6 @@ public class JsonUtils {
 
         try {
             JSONObject baseName = new JSONObject(json);
-            //JSONArray results = baseName.getJSONArray("results");
             JSONArray results = baseName.optJSONArray("results");
 
             for(int i=0; i<results.length();i++){
@@ -70,13 +69,10 @@ public class JsonUtils {
 
         try {
             JSONObject baseName = new JSONObject(json);
-            //JSONArray results = baseName.getJSONArray("results");
             JSONArray results = baseName.optJSONArray("results");
 
             for(int i=0; i<results.length();i++){
                 JSONObject jsonObject = results.getJSONObject(i);
-                //trailer = new Trailer(jsonObject.getString("id"),jsonObject.getString("key"),jsonObject.getString("site"),
-                //        jsonObject.getInt("size"),jsonObject.getString("type"),jsonObject.getString("name"));
                 movieReview = new MovieReview(jsonObject.getString("id"),jsonObject.getString("author"),
                                 jsonObject.getString("content"),jsonObject.getString("url"));
 

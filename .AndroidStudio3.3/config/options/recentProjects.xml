@@ -2,8 +2,8 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/Popular_Movie_Stage_1" />
         <option value="$USER_HOME$/Popular_Movie_Stage_2" />
+        <option value="$USER_HOME$/Popular_Movie_Stage_1" />
         <option value="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.10-Solution-AddViewModelToAddTaskActivity" />
         <option value="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.09-Solution-AddTheViewModel" />
         <option value="$USER_HOME$/sandwich-club-starter-code" />
@@ -57,11 +57,11 @@
     <option name="openPaths">
       <list>
         <option value="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.10-Solution-AddViewModelToAddTaskActivity" />
-        <option value="$USER_HOME$/Popular_Movie_Stage_2" />
         <option value="$USER_HOME$/Popular_Movie_Stage_1" />
+        <option value="$USER_HOME$/Popular_Movie_Stage_2" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Popular_Movie_Stage_1" />
+    <option name="lastPath" value="$USER_HOME$/Popular_Movie_Stage_2" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -192,7 +192,7 @@
               <option name="build" value="AI-182.5107.16.33.5264788" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1551377252980" />
+              <option name="projectOpenTimestamp" value="1551390831082" />
               <option name="buildTimestamp" value="1548719551588" />
             </RecentProjectMetaInfo>
           </value>
@@ -214,7 +214,7 @@
               <option name="build" value="AI-182.5107.16.33.5264788" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1551377252980" />
+              <option name="projectOpenTimestamp" value="1551390831082" />
               <option name="buildTimestamp" value="1548719551588" />
             </RecentProjectMetaInfo>
           </value>
@@ -654,7 +654,7 @@
               <option name="build" value="AI-182.5107.16.33.5264788" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1551377252980" />
+              <option name="projectOpenTimestamp" value="1551390831082" />
               <option name="buildTimestamp" value="1548719551588" />
             </RecentProjectMetaInfo>
           </value>

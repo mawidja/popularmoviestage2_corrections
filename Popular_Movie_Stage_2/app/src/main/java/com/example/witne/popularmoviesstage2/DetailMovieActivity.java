@@ -51,6 +51,8 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
     private TextView tv_movie_reviews;
     private ArrayList<MovieReview> movieReviews;
 
+    Intent intent;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -176,9 +178,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         movieTrailerAdapter.setMovieTrailerAdapter(trailerList);
     }
 
-    private void playMovieTrailer(Uri movieTrailerUri){
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(movieTrailerUri);
+    private void displayTrailerOrReview(){
         if(intent.resolveActivity(getPackageManager()) != null){
             startActivity(intent);
         }
@@ -186,14 +186,14 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
 
     @Override
     public void onListItemClick(Trailer trailer){
-        String movieTrailerKey = trailer.getMovieKey();
-        URL movieTrailerURL = NetworkUtils.buildUrl(null,movieTrailerKey);
-        Uri movieTrailerUri = Uri.parse(movieTrailerURL.toString());
-        playMovieTrailer(movieTrailerUri);
+        URL movieTrailerURL = NetworkUtils.buildUrl(null, trailer.getMovieKey());
+        intent = new Intent(Intent.ACTION_VIEW,Uri.parse(movieTrailerURL.toString()));
+        displayTrailerOrReview();
     }
 
     @Override
     public void onListItemClick(MovieReview movieReview) {
-
+        intent = new Intent(Intent.ACTION_VIEW,Uri.parse(movieReview.getReviewUrl()));
+        displayTrailerOrReview();
     }
 }

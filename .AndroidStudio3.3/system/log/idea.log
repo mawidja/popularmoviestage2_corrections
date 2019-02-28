@@ -7914,3 +7914,402 @@ java.net.UnknownHostException: dl.google.com
 2019-02-28 19:57:49,534 [   Monitor]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 
 2019-02-28 19:59:20,871 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
 2019-02-28 19:59:20,871 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-02-28 20:12:04,017 [entQueue-0]   INFO - ellij.project.impl.ProjectImpl - 158 project components initialized in 609 ms 
+2019-02-28 20:12:04,017 [entQueue-0]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2019-02-28 20:12:05,482 [entQueue-0]   INFO - idea.project.IndexingSuspender - Subscribing project 'Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2' to indexing suspender events (com.android.tools.idea.project.IndexingSuspender@2f1709b7) 
+2019-02-28 20:12:06,060 [hread 9437]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 375ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:12:06,310 [hread 9437]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 250ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:12:06,310 [hread 9437]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 479 files to update 
+2019-02-28 20:12:06,514 [hread 9425]   INFO - ge.ExternalProjectsDataStorage - Loaded external projects data in 891 millis 
+2019-02-28 20:12:06,685 [hread 9425]   INFO - tartup.impl.StartupManagerImpl - ExternalSystemStartupActivity run in 1062ms under project opening modal progress 
+2019-02-28 20:12:06,764 [hread 9425]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 1141ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:12:08,485 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-02-28 20:12:08,490 [entQueue-0]   INFO - tartup.impl.StartupManagerImpl - C:/Users/witne/Popular_Movie_Stage_2/.idea case-sensitivity: expected=false actual=false 
+2019-02-28 20:12:08,491 [hread 9422]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2019-02-28 20:12:08,507 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Started sync with Gradle for project 'Popular_Movie_Stage_2'. 
+2019-02-28 20:12:08,512 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-02-28 20:12:08,512 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 20:12:08,802 [entQueue-0]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 5695 ms 
+2019-02-28 20:12:08,849 [hread 9422]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-28 20:12:08,958 [hread 9422]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-02-28 20:12:09,067 [hread 9422]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\witne\AppData\Local\Temp\sync.java.lib2.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.3.1.0 
+2019-02-28 20:12:17,324 [hread 9422]   INFO - e.project.sync.GradleSyncState - Started setup of project 'Popular_Movie_Stage_2'. 
+2019-02-28 20:12:17,326 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SETUP_STARTED 
+2019-02-28 20:12:19,199 [hread 9422]   INFO - ule.android.SdkModuleSetupStep - Set Android SDK 'Android API 28 Platform' (C:\Users\witne\AppData\Local\Android\Sdk) to module 'app' 
+2019-02-28 20:12:19,824 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:12:20,214 [entQueue-0]   INFO - etup.post.PluginVersionUpgrade - Gradle model version: 3.3.1, recommended version for IDE: 3.3.1 
+2019-02-28 20:12:20,355 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:generateDebugSources] 
+2019-02-28 20:12:20,355 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-28 20:12:20,355 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Gradle sync finished in 11 s 848 ms 
+2019-02-28 20:12:20,417 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-02-28 20:12:20,417 [entQueue-0]   INFO - idea.project.IndexingSuspender - IndexingSuspender deactivation event received and ignored: SYNC_FINISHED 
+2019-02-28 20:12:20,464 [hread 9431]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-28 20:12:20,464 [hread 9431]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-02-28 20:12:20,511 [hread 9431]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-02-28 20:12:21,199 [hread 9417]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.0s 
+2019-02-28 20:12:33,980 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-28 20:12:33,980 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-28 20:12:33,980 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 20:12:34,214 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:12:34,527 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 14 s 57 ms 
+2019-02-28 20:12:34,558 [hread 9437]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update canceled 
+2019-02-28 20:12:34,669 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:12:35,022 [hread 9427]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 373ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:12:35,819 [hread 9437]   INFO -       #com.jetbrains.cidr.lang - Clearing symbols finished in 422 ms 
+2019-02-28 20:12:35,819 [hread 9437]   INFO -       #com.jetbrains.cidr.lang - Building symbols in FAST mode, 0 source files from total 0 project files 
+2019-02-28 20:12:35,819 [hread 9437]   INFO -       #com.jetbrains.cidr.lang - Loading symbols finished in 0 ms 
+2019-02-28 20:12:35,830 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:12:36,282 [hread 9437]   INFO -       #com.jetbrains.cidr.lang - Loading Header Maps finished in 0 ms 
+2019-02-28 20:12:36,360 [hread 9437]   INFO -       #com.jetbrains.cidr.lang - Loading Module Maps finished in 78 ms 
+2019-02-28 20:12:36,485 [hread 9437]   INFO -       #com.jetbrains.cidr.lang - Saving Module Maps finished in 109 ms 
+2019-02-28 20:12:36,485 [hread 9437]   INFO -       #com.jetbrains.cidr.lang - Loaded 0 tables for 0 files (0 project files) 
+2019-02-28 20:12:36,485 [hread 9437]   INFO -       #com.jetbrains.cidr.lang - Building symbols for 0 source files 
+2019-02-28 20:12:36,485 [hread 9437]   INFO -       #com.jetbrains.cidr.lang - Building symbols for 0 unused headers 
+2019-02-28 20:12:36,485 [hread 9437]   INFO -       #com.jetbrains.cidr.lang - Building symbols finished in 0 ms 
+2019-02-28 20:12:36,485 [hread 9437]   INFO -       #com.jetbrains.cidr.lang - Saving modified symbols for 0 files (0 tables of total 0) 
+2019-02-28 20:12:36,500 [hread 9437]   INFO -       #com.jetbrains.cidr.lang - Saving symbols finished in 15 ms 
+2019-02-28 20:12:36,500 [hread 9437]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 0 to update, calculated in 0ms 
+2019-02-28 20:12:36,500 [hread 9437]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:12:36,594 [hread 9437]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 94ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:12:36,953 [entQueue-0]   INFO - j.ide.ui.OptionsTopHitProvider - 359 ms spent to cache options in project 
+2019-02-28 20:12:36,953 [entQueue-0]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2019-02-28 20:12:36,953 [entQueue-0]   INFO - tartup.impl.StartupManagerImpl - Activity run in 359ms on UI thread 
+2019-02-28 20:12:37,172 [entQueue-0]   INFO - tartup.impl.StartupManagerImpl - CreateKotlinSdkActivity run in 140ms on UI thread 
+2019-02-28 20:12:37,466 [entQueue-0]   INFO - j.ide.ui.OptionsTopHitProvider - 235 ms spent on EDT to cache options in project 
+2019-02-28 20:12:37,747 [hread 9427]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 2725ms; general responsiveness: ok; EDT responsiveness: 1/3 sluggish, 1/3 very slow 
+2019-02-28 20:13:10,825 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-02-28 20:13:10,856 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-02-28 20:13:10,856 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-28 20:13:10,903 [hread 9423]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-28 20:13:10,965 [hread 9423]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-02-28 20:13:10,965 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-28 20:13:10,965 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 20:13:11,043 [hread 9423]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-02-28 20:13:18,887 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-28 20:13:18,887 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 20:13:18,918 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 8 s 14 ms 
+2019-02-28 20:13:18,934 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:13:19,137 [hread 9431]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-02-28 20:13:19,230 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:13:19,746 [hread 9431]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 94ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:13:19,809 [hread 9431]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 63ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:13:19,965 [hread 9429]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-02-28 20:13:22,287 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 5952 
+2019-02-28 20:13:22,505 [hread 9429]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
+2019-02-28 20:13:23,302 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 5952 
+2019-02-28 20:13:23,313 [   Monitor]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 20:13:34,737 [nt Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 20:13:34,737 [nt Monitor]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-02-28 20:13:36,559 [hread 9429]   INFO - ditor.DeployTargetPickerDialog - Successfully obtained list of AVDs 
+2019-02-28 20:13:38,473 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-02-28 20:13:38,489 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-02-28 20:13:38,489 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-28 20:13:38,554 [hread 9424]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-28 20:13:38,558 [hread 9424]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-02-28 20:13:38,583 [hread 9424]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-02-28 20:13:38,678 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-28 20:13:38,678 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 20:13:43,039 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-28 20:13:43,039 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 20:13:43,070 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 4 s 527 ms 
+2019-02-28 20:13:43,086 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:13:43,289 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:13:43,305 [hread 9431]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-02-28 20:13:43,933 [hread 9421]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:13:43,996 [hread 9421]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 63ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:13:44,042 [hread 9424]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-02-28 20:13:46,258 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 6167 
+2019-02-28 20:13:46,454 [hread 9424]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
+2019-02-28 20:13:47,272 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 6167 
+2019-02-28 20:13:47,276 [   Monitor]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 20:14:23,451 [nt Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 20:14:23,452 [nt Monitor]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-02-28 20:14:53,903 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:14:54,621 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:14:54,871 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:15:39,059 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:15:39,418 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:16:30,731 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:16:31,106 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:16:42,684 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:16:43,040 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:16:55,865 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:16:56,240 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:17:09,090 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:17:09,528 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:22:24,075 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:22:24,434 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:22:43,200 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:22:43,665 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:22:47,776 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:22:48,183 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:22:56,753 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:22:57,137 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:23:06,787 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:23:07,146 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:27:13,011 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-28 20:27:13,011 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-28 20:27:23,887 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-02-28 20:27:23,919 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-02-28 20:27:23,919 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-28 20:27:24,012 [hread 9592]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-28 20:27:24,012 [hread 9592]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-02-28 20:27:24,073 [hread 9592]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-02-28 20:27:24,174 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-28 20:27:24,175 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 20:27:52,683 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-28 20:27:52,683 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 20:27:52,683 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 28 s 669 ms 
+2019-02-28 20:27:52,714 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:27:53,027 [hread 9600]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-02-28 20:27:53,230 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:27:54,355 [hread 9601]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 47ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:27:54,418 [hread 9601]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 63ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:27:54,418 [hread 9601]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2019-02-28 20:27:54,536 [hread 9601]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 118ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:27:54,552 [hread 9633]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-02-28 20:28:05,480 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 7567 
+2019-02-28 20:28:05,672 [hread 9633]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
+2019-02-28 20:28:06,494 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 7567 
+2019-02-28 20:28:06,499 [   Monitor]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 20:28:46,449 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:28:46,801 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:29:00,868 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:29:01,255 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:29:20,227 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:29:20,731 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:29:57,194 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:29:57,853 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:29:58,564 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:29:58,965 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:30:22,264 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-02-28 20:30:22,269 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-02-28 20:30:22,270 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-28 20:30:22,309 [hread 9682]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-28 20:30:22,313 [hread 9682]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-02-28 20:30:22,343 [hread 9682]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-02-28 20:30:22,386 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-28 20:30:22,387 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 20:30:28,733 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-28 20:30:28,733 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 20:30:28,742 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 6 s 430 ms 
+2019-02-28 20:30:28,798 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:30:29,500 [hread 9687]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-02-28 20:30:29,540 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:30:30,306 [hread 9692]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 26ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:30:30,371 [hread 9692]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 64ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:30:30,489 [hread 9701]   INFO - run.AndroidLaunchTasksProvider - Using debugger: Auto 
+2019-02-28 20:30:30,490 [hread 9701]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-02-28 20:30:31,522 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 20:30:31,523 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-02-28 20:30:31,542 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 8244 
+2019-02-28 20:30:32,557 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 8244 
+2019-02-28 20:30:32,943 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8608 for client with pid 8315 
+2019-02-28 20:30:33,135 [entQueue-0]   INFO - .tasks.ConnectJavaDebuggerTask - Attempting to connect debugger to port 8608 [client 8315] 
+2019-02-28 20:30:33,135 [entQueue-0]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-02-28 20:30:33,227 [entQueue-0]   INFO - .tasks.ConnectJavaDebuggerTask - captureLogcatOutput("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 20:31:14,804 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:31:15,219 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:31:31,050 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:31:31,491 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:31:36,043 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:31:36,442 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:34:03,508 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:34:04,192 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:34:04,588 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:34:04,824 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:34:23,808 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:34:24,218 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:34:40,536 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:34:40,943 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:34:52,677 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:34:53,022 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:35:10,230 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:35:10,599 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:35:13,772 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:35:14,166 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:37:33,060 [hread 9786]   INFO - ditor.DeployTargetPickerDialog - Successfully obtained list of AVDs 
+2019-02-28 20:37:35,016 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-02-28 20:37:35,024 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-02-28 20:37:35,024 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-28 20:37:35,163 [hread 9800]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-28 20:37:35,177 [hread 9800]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-02-28 20:37:35,185 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-28 20:37:35,185 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 20:37:35,203 [hread 9800]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-02-28 20:38:03,806 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-28 20:38:03,806 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 20:38:03,812 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 28 s 645 ms 
+2019-02-28 20:38:03,840 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:38:04,117 [hread 9791]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-02-28 20:38:04,182 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:38:05,440 [hread 9801]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 21ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:38:05,589 [hread 9801]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 149ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:38:05,589 [hread 9801]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2019-02-28 20:38:05,620 [hread 9801]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 31ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:38:05,724 [agerThread]   INFO - .tasks.ConnectJavaDebuggerTask - captureLogcatOutput("huawei-ale_l21-QLF7N17911003609"): remove listener 
+2019-02-28 20:38:05,724 [agerThread]   INFO - .tasks.ConnectJavaDebuggerTask - Debugger-processTerminated: com.example.witne.popularmoviesstage2 
+2019-02-28 20:38:05,725 [entQueue-0]   INFO - .tasks.ConnectJavaDebuggerTask - Debugger-processWillTerminate: com.example.witne.popularmoviesstage2, willBeDestroyed=false 
+2019-02-28 20:38:05,725 [entQueue-0]   INFO - .tasks.ConnectJavaDebuggerTask - Debugger detaching, leaving process alive: com.example.witne.popularmoviesstage2 
+2019-02-28 20:38:05,741 [hread 9791]   INFO - run.AndroidLaunchTasksProvider - Using debugger: Auto 
+2019-02-28 20:38:05,741 [hread 9791]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-02-28 20:38:06,720 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 8315 
+2019-02-28 20:38:15,336 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 9149 
+2019-02-28 20:38:17,235 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 9245 
+2019-02-28 20:38:17,451 [entQueue-0]   INFO - .tasks.ConnectJavaDebuggerTask - Attempting to connect debugger to port 8607 [client 9245] 
+2019-02-28 20:38:17,451 [entQueue-0]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-02-28 20:38:17,502 [entQueue-0]   INFO - .tasks.ConnectJavaDebuggerTask - captureLogcatOutput("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 20:39:55,579 [agerThread]   INFO - .tasks.ConnectJavaDebuggerTask - Debugger-processWillTerminate: com.example.witne.popularmoviesstage2, willBeDestroyed=false 
+2019-02-28 20:39:55,579 [agerThread]   INFO - .tasks.ConnectJavaDebuggerTask - captureLogcatOutput("huawei-ale_l21-QLF7N17911003609"): remove listener 
+2019-02-28 20:39:55,580 [agerThread]   INFO - .tasks.ConnectJavaDebuggerTask - Debugger-processTerminated: com.example.witne.popularmoviesstage2 
+2019-02-28 20:39:55,580 [agerThread]   INFO - .tasks.ConnectJavaDebuggerTask - Debugger detaching, leaving process alive: com.example.witne.popularmoviesstage2 
+2019-02-28 20:40:17,195 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 9813 
+2019-02-28 20:40:18,208 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 9813 
+2019-02-28 20:41:17,714 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:41:18,144 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:41:31,469 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:41:31,883 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:41:45,184 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:41:45,624 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:41:54,977 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:41:55,393 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:42:12,708 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:42:13,111 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:42:16,091 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:42:16,464 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 20:42:40,052 [hread 9904]   INFO - ditor.DeployTargetPickerDialog - Successfully obtained list of AVDs 
+2019-02-28 20:42:43,517 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-02-28 20:42:43,524 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-02-28 20:42:43,524 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-28 20:42:43,729 [hread 9902]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-28 20:42:43,734 [hread 9902]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-02-28 20:42:43,750 [hread 9902]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-02-28 20:42:43,780 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-28 20:42:43,781 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 20:43:04,213 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-28 20:43:04,214 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 20:43:04,214 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 20 s 480 ms 
+2019-02-28 20:43:04,233 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:43:04,622 [hread 9904]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-02-28 20:43:04,870 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 20:43:05,951 [hread 9897]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 16ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:43:06,014 [hread 9897]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 63ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:43:06,014 [hread 9897]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 3 files to update 
+2019-02-28 20:43:06,061 [hread 9897]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 47ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 20:43:06,216 [hread 9902]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-02-28 20:43:15,006 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 10623 
+2019-02-28 20:43:16,020 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 10623 
+2019-02-28 20:43:17,479 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 10722 
+2019-02-28 20:43:17,677 [hread 9902]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
+2019-02-28 20:43:18,490 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 10722 
+2019-02-28 20:43:18,495 [   Monitor]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 20:44:45,829 [nt Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 20:44:45,829 [nt Monitor]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-02-28 22:17:10,100 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 22:17:10,481 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-02-28 22:19:59,163 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-28 22:19:59,163 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-28 22:21:47,261 [read 10032]   INFO - ditor.DeployTargetPickerDialog - Successfully obtained list of AVDs 
+2019-02-28 22:21:48,867 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-02-28 22:21:48,887 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-02-28 22:21:48,887 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-28 22:21:49,016 [read 10105]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-28 22:21:49,029 [read 10105]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-02-28 22:21:49,065 [read 10105]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-02-28 22:21:49,142 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-28 22:21:49,142 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 22:22:25,040 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-28 22:22:25,040 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 22:22:25,042 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 36 s 20 ms 
+2019-02-28 22:22:25,074 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 22:22:25,293 [read 10046]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-02-28 22:22:25,365 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 22:22:26,932 [read 10119]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 54ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 22:22:27,031 [read 10119]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 99ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 22:22:27,032 [read 10119]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2019-02-28 22:22:27,253 [read 10119]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 221ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 22:22:27,328 [read 10121]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-02-28 22:22:39,423 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 20999 
+2019-02-28 22:22:39,612 [read 10121]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 22:22:39,613 [read 10121]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
+2019-02-28 23:01:57,498 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-28 23:01:57,499 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-28 23:02:32,313 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-02-28 23:02:32,337 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-02-28 23:02:32,338 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-28 23:02:32,490 [read 10149]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-28 23:02:32,493 [read 10149]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-02-28 23:02:32,510 [read 10149]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-02-28 23:02:32,608 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-28 23:02:32,608 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 23:02:48,882 [nt Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 23:02:48,883 [nt Monitor]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-02-28 23:02:58,682 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-28 23:02:58,682 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 23:02:58,682 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 26 s 190 ms 
+2019-02-28 23:02:58,698 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 23:02:58,932 [read 10147]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-02-28 23:02:58,964 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 23:02:59,761 [read 10161]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 2ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 23:02:59,821 [read 10161]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 60ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 23:03:00,165 [read 10152]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-02-28 23:03:10,737 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 25400 
+2019-02-28 23:03:10,945 [read 10152]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 23:03:10,945 [read 10152]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
+2019-02-28 23:35:10,596 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-28 23:35:10,596 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-28 23:36:34,010 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-28 23:36:34,010 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-28 23:36:53,036 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-02-28 23:36:53,055 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-02-28 23:36:53,055 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-28 23:36:53,181 [read 10417]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-28 23:36:53,199 [read 10417]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-02-28 23:36:53,322 [read 10417]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-02-28 23:36:53,324 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-28 23:36:53,324 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 23:37:35,533 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-28 23:37:35,534 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 23:37:35,544 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 42 s 355 ms 
+2019-02-28 23:37:35,612 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 23:37:35,993 [read 10414]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-02-28 23:37:36,057 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 23:37:37,803 [read 10415]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 49ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 23:37:37,971 [read 10415]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 168ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 23:37:37,971 [read 10415]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2019-02-28 23:37:38,090 [read 10415]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 119ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 23:37:38,312 [entQueue-0]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-02-28 23:37:38,590 [read 10421]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-02-28 23:37:50,660 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8607 for client with pid 28173 
+2019-02-28 23:37:51,682 [nt Monitor]   WARN -            #com.android.ddmlib - Adb rejected connection to client '28173': closed 
+2019-02-28 23:37:52,775 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8608 for client with pid 28301 
+2019-02-28 23:37:52,939 [read 10421]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
+2019-02-28 23:37:53,798 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8608 for client with pid 28301 
+2019-02-28 23:37:53,808 [   Monitor]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 23:43:19,344 [nt Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 23:43:19,347 [nt Monitor]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-02-28 23:43:44,748 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-02-28 23:45:13,370 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-02-28 23:45:13,378 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-02-28 23:45:13,378 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-02-28 23:45:13,438 [read 10440]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-02-28 23:45:13,454 [read 10440]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-02-28 23:45:13,497 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-02-28 23:45:13,497 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 23:45:13,657 [read 10440]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-02-28 23:45:43,113 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-02-28 23:45:43,114 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-02-28 23:45:43,126 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 29 s 671 ms 
+2019-02-28 23:45:43,152 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 23:45:43,526 [read 10436]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-02-28 23:45:43,614 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-02-28 23:45:45,068 [read 10433]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 18ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 23:45:45,212 [read 10433]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 144ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 23:45:45,213 [read 10433]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2019-02-28 23:45:45,244 [read 10433]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 31ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-02-28 23:45:45,294 [read 10444]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-02-28 23:45:59,824 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8608 for client with pid 31650 
+2019-02-28 23:46:00,054 [read 10444]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 23:46:00,054 [read 10444]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
+2019-02-28 23:53:47,023 [nt Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-02-28 23:53:47,024 [nt Monitor]   INFO - idea.run.AndroidProcessHandler - stopAll() 
