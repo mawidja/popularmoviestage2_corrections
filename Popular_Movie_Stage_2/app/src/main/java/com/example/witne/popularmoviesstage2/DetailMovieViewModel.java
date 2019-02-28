@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.os.AsyncTask;
 
+import com.example.witne.data.MovieReview;
 import com.example.witne.data.Trailer;
 import com.example.witne.utilities.JsonUtils;
 import com.example.witne.utilities.NetworkUtils;
@@ -19,20 +20,27 @@ import androidx.lifecycle.LiveData;
 
 public class DetailMovieViewModel extends AndroidViewModel {
 
-    private FetchMovieTrailer movieTrailer;
-    //private LiveData<List<Trailer>> movieTrailerListLiveData;
+    private final Context context;
+    private URL movieSearchURL;
 
-    public DetailMovieViewModel(@NonNull Application application, URL movieSearchUrl) {
+    public DetailMovieViewModel(@NonNull Application application) {
         super(application);
-        movieTrailer = new FetchMovieTrailer(application,movieSearchUrl);
+        this.context = application.getApplicationContext();
     }
 
-    public LiveData<List<Trailer>> getMovieTrailers(){
-        return movieTrailer;
+    public LiveData<List<Trailer>> getMovieTrailers(URL movieSearchURL){
+        this.movieSearchURL = movieSearchURL;
+        return new FetchMovieTrailer(context,movieSearchURL);
+    }
+
+    public LiveData<List<MovieReview>> getMovieReviews(URL movieSearchURL) {
+        this.movieSearchURL = movieSearchURL;
+        return new FetchMovieReviews(context,movieSearchURL);
     }
 
     //Async inner class to fetch network data
-    public class FetchMovieTrailer extends LiveData<List<Trailer>>{
+    private class FetchMovieTrailer extends LiveData<List<Trailer>>{
+
         private final Context context;
         private URL movieSearchURL;
 
@@ -65,6 +73,44 @@ public class DetailMovieViewModel extends AndroidViewModel {
                 protected void onPostExecute(List<Trailer> trailerList) {
                     super.onPostExecute(trailerList);
                     setValue(trailerList);
+                }
+            }.execute(movieSearchURL);
+        }
+    }
+
+    private class FetchMovieReviews extends LiveData<List<MovieReview>>{
+        private final Context context;
+        private URL movieSearchURL;
+
+        FetchMovieReviews(Context context, URL movieSearchURL) {
+            this.context = context;
+            this.movieSearchURL = movieSearchURL;
+            loadMovieReviews();
+
+        }
+
+        private void loadMovieReviews(){
+            new AsyncTask<URL,Void,List<MovieReview>>(){
+
+                String jsonData = null;
+                //ArrayList<Trailer> trailers = new ArrayList<>();
+                ArrayList<MovieReview> movieReviews;
+                @Override
+                protected List<MovieReview> doInBackground(URL... urls) {
+                    URL searchUrl = urls[0];
+                    try {
+                        jsonData = NetworkUtils.fetchData(searchUrl);
+                        movieReviews = JsonUtils.parseMovieReviewJson(jsonData);
+                    }catch (IOException e){
+                        e.printStackTrace();
+                    }
+                    return movieReviews;
+                }
+
+                @Override
+                protected void onPostExecute(List<MovieReview>  movieReviews) {
+                    super.onPostExecute(movieReviews);
+                    setValue(movieReviews);
                 }
             }.execute(movieSearchURL);
         }

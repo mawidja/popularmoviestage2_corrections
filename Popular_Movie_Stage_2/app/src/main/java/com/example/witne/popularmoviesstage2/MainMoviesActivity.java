@@ -118,17 +118,6 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
         //setUpViewModel();
     }
 
-    /*private void setUpViewModel(){
-        MainMovieViewModel mainMovieViewModel = ViewModelProviders.of(this).get(MainMovieViewModel.class);
-        mainMovieViewModel.getMovieLiveData().observe(this, new Observer<List<Movie>>() {
-            @Override
-            public void onChanged(List<Movie> movies) {
-                movieAdapter.setMovieAdapter(movies);
-            }
-        });
-        //mainMovieViewModel.getMovieLiveData().observe(this,movieList);
-    }*/
-
     private boolean isNetworkAvailable(){
         ConnectivityManager cm = (ConnectivityManager)getBaseContext().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = cm.getActiveNetworkInfo();
@@ -143,7 +132,6 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
     private void showJSONData(String jsonData){
         progressBar.setVisibility(View.INVISIBLE);
         tv_error_message.setVisibility(View.INVISIBLE);
-        //movieList = new ArrayList<>();
         movieList = JsonUtils.parseMovieJson(jsonData);
         movieAdapter.setMovieAdapter(movieList);
     }

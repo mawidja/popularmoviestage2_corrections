@@ -44,9 +44,8 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
     private List<Trailer> trailerList;
     URL movieSearchURL;
 
-    //private static final String MOVIE_SEARCH_QUERY = "queryMovieDetails";
-    //private static final int MOVIE_SEARCH_LOADER = 46;
-    //private LoaderManager loaderManager;
+    //View Model for both Movie trailers and Movie Reviews....hope it works!
+    DetailMovieViewModel detailMovieViewModel;
 
     private MovieReviewAdapter movieReviewAdapter;
     private TextView tv_movie_reviews;
@@ -83,6 +82,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         rv_movie_reviews.setHasFixedSize(true);
         movieReviews = new ArrayList<>();
         movieReviewAdapter = new MovieReviewAdapter(movieReviews,this);
+        rv_movie_reviews.setAdapter(movieReviewAdapter);
 
         //get movie details from the intent that started the activity
         //Intent intentStartedThisActivity = getIntent();
@@ -102,10 +102,12 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
             String movieRating = getString(R.string.movie_rating_total,String.valueOf(movie.getVote_average()));
             tv_movie_rating.setText(movieRating);
             tv_movie_overview.setText(movie.getMovie_overview());
-            String movieVideos = "videos";
+            String movieVideosOrReviews = "videos";
+            String movieReviews = "reviews";
 
             if(isNetworkAvailable()) {
-                startMovieTrailerSearch(movieVideos,String.valueOf(movie.getMovieId()));
+                startMovieTrailerSearch(movieVideosOrReviews,String.valueOf(movie.getMovieId()));
+                startMovieReviewSearch(movieReviews,String.valueOf(movie.getMovieId()));
             }else{
                 showErrorMessage();
             }
@@ -120,9 +122,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
                     }
                 }
             });
-
         }
-
     }
 
     private boolean isNetworkAvailable(){
@@ -131,15 +131,27 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         return (networkInfo != null) && (networkInfo.isConnected());
     }
 
-    private void setUpViewModel(){
-        DetailMovieViewModelFactory detailMovieViewModelFactory = new DetailMovieViewModelFactory(getApplication(),movieSearchURL);
-        DetailMovieViewModel detailMovieViewModel = ViewModelProviders.of(this,detailMovieViewModelFactory)
-                                        .get(DetailMovieViewModel.class);
-        detailMovieViewModel.getMovieTrailers().observe(this, new Observer<List<Trailer>>() {
+    private void setUpMovieTrailerMovieViewModel(){
+
+        detailMovieViewModel = ViewModelProviders.of(this).get(DetailMovieViewModel.class);
+
+        //create movie trailers observer
+        detailMovieViewModel.getMovieTrailers(movieSearchURL).observe(this, new Observer<List<Trailer>>() {
             @Override
             public void onChanged(List<Trailer> trailerList) {
                 movieTrailerAdapter.setMovieTrailerAdapter(trailerList);
             }
+        });
+    }
+
+    private void setUpMovieReviewMovieModel(){
+
+        //create movie reviews observer
+        detailMovieViewModel.getMovieReviews(movieSearchURL).observe(this, new Observer<List<MovieReview>>() {
+             @Override
+             public void onChanged(List<MovieReview> movieReviews) {
+                    movieReviewAdapter.setMovieReviewAdapter(movieReviews);
+                }
         });
     }
 
@@ -148,24 +160,14 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         tv_trailers.setText(getString(R.string.movie_trailer_error_message));
     }
 
-    private void startMovieTrailerSearch(String searchMovieVideos, String movieIdOrKey ){
-        movieSearchURL = NetworkUtils.buildUrl(searchMovieVideos,movieIdOrKey);
-        //fetch data on separate thread
-        // and initialize the recycler viewer with data from movie adapter
-        //new  FetchMovieTrailerTask().execute(movieSearchURL);
+    private void startMovieTrailerSearch(String movieVideosOrReviews, String movieIdOrKey ){
+        movieSearchURL = NetworkUtils.buildUrl(movieVideosOrReviews,movieIdOrKey);
+        setUpMovieTrailerMovieViewModel();
+    }
 
-        setUpViewModel();
-
-        /*Bundle queryBundle = new Bundle();
-        queryBundle.putString(MOVIE_SEARCH_QUERY,movieSearchURL.toString());
-
-        loaderManager = LoaderManager.getInstance(this);
-        Loader<String> fetchMovieDetails = loaderManager.getLoader(MOVIE_SEARCH_LOADER);
-        if(fetchMovieDetails == null){
-            loaderManager.initLoader(MOVIE_SEARCH_LOADER,queryBundle,this);
-        }else{
-            loaderManager.restartLoader(MOVIE_SEARCH_LOADER,queryBundle,this);
-        }*/
+    private void startMovieReviewSearch(String searchMovieReviews, String movieId){
+        movieSearchURL = NetworkUtils.buildUrl(searchMovieReviews,movieId);
+        setUpMovieReviewMovieModel();
     }
 
     private void showJSONData(String jsonData){
@@ -189,54 +191,6 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         Uri movieTrailerUri = Uri.parse(movieTrailerURL.toString());
         playMovieTrailer(movieTrailerUri);
     }
-
-    /*
-    @NonNull
-    @Override
-    public Loader<String> onCreateLoader(int id, final Bundle args) {
-        return new AsyncTaskLoader<String>(this) {
-            @Override
-            protected void onStartLoading() {
-                super.onStartLoading();
-                if(args == null){
-                    return;
-                }
-                forceLoad();
-            }
-
-            @Nullable
-            @Override
-            public String loadInBackground() {
-                String jsonData;
-                String searchMovieQuery = args.getString(MOVIE_SEARCH_QUERY);
-                if(searchMovieQuery == null || TextUtils.isEmpty(searchMovieQuery)){
-                    return null;
-                }try {
-                    URL movieSearchURL = new URL(searchMovieQuery);
-                    jsonData = NetworkUtils.fetchData(movieSearchURL);
-                    return jsonData;
-                }catch (IOException e){
-                    e.printStackTrace();
-                    return null;
-                }
-            }
-        };
-    }
-
-    @Override
-    public void onLoadFinished(@NonNull Loader<String> loader, String data) {
-        if(data != null && !data.equals("")) {
-            showJSONData(data);
-        }else{
-            showErrorMessage();
-        }
-
-    }
-
-    @Override
-    public void onLoaderReset(@NonNull Loader<String> loader) {
-
-    }*/
 
     @Override
     public void onListItemClick(MovieReview movieReview) {

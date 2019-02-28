@@ -8,12 +8,14 @@ import android.widget.Button;
 
 import com.example.witne.data.MovieReview;
 import java.util.ArrayList;
+import java.util.List;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class MovieReviewAdapter extends RecyclerView.Adapter<MovieReviewAdapter.MovieReviewHolderAdapter> {
 
-    private ArrayList<MovieReview> movieReviews;
+    private List<MovieReview> movieReviews;
     private MovieReview movieReview;
     private final ListItemClickListener listItemClickListener;
 
@@ -21,7 +23,7 @@ public class MovieReviewAdapter extends RecyclerView.Adapter<MovieReviewAdapter.
         void onListItemClick(MovieReview movieReview);
     }
 
-    public MovieReviewAdapter(ArrayList<MovieReview> movieReviews, ListItemClickListener listItemClickListener) {
+    public MovieReviewAdapter(List<MovieReview> movieReviews, ListItemClickListener listItemClickListener) {
         this.movieReviews = movieReviews;
         this.listItemClickListener = listItemClickListener;
     }
@@ -48,7 +50,7 @@ public class MovieReviewAdapter extends RecyclerView.Adapter<MovieReviewAdapter.
         return movieReviews.size();
     }
 
-    public void setMovieReviewAdapter(ArrayList<MovieReview> movieReviews){
+    public void setMovieReviewAdapter(List<MovieReview> movieReviews){
         this.movieReviews = movieReviews;
         notifyDataSetChanged();
     }
@@ -64,6 +66,7 @@ public class MovieReviewAdapter extends RecyclerView.Adapter<MovieReviewAdapter.
 
         // method for convenience to bind things up!
         public void bind(MovieReview movieReview){
+            bt_movie_review.setText(movieReview.getMovieReviewAuthor());
             //bt_movie_trailer.setText(movieTrailer.getMovieName());
             //String movieKey = movieTrailer.getMovieKey();
         }
