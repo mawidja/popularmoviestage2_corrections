@@ -65,11 +65,11 @@
                     android:layout_height="wrap_content" />
 
                 <Switch
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:id="@+id/btAddFavouriteMovie"
-                    android:text="Favourite Movie"
-                    android:thumbTint="@color/colorPrimaryDark"/>
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="@string/mark_movie_as_favourite"
+                    android:thumbTint="@color/colorPrimaryDark" />
 
             </LinearLayout>
         </LinearLayout>

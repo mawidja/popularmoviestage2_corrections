@@ -12,6 +12,7 @@
     <string name="movie_detail_movie_rating">Rating:</string>
     <string name="movie_rating_total"> %1$s /10</string>
     <string name="movie_trailer_error_message">Failed to get movie trailers, please try again later.</string>
+    <string name="mark_movie_as_favourite">Mark as Favourite</string>
 
     <!--For Movie Trailer layout -->
     <string name="movie_trailer_tv">Trailers</string>
