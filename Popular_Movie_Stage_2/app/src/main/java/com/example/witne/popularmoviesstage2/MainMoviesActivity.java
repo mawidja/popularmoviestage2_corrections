@@ -62,7 +62,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
     private TextView tv_error_message;
     private ProgressBar progressBar;
 
-    private MovieDataRepository movieDataRepository;
+    //private MovieDataRepository movieDataRepository;
 
     /*@Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
@@ -114,7 +114,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
             showErrorMessage();
         }
 
-        movieDataRepository = new MovieDataRepository(getApplication());
+        //movieDataRepository = new MovieDataRepository(getApplication());
         //setUpViewModel();
     }
 
@@ -141,8 +141,6 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
         //fetch data on separate thread
         // and initialize the recycler viewer with data from movie adapter
         //New  FetchMovieTask().execute(movieSearchURL);
-
-        //LoaderManager.LoaderCallbacks<String> callbacks = MainMoviesActivity.this;
 
         Bundle queryBundle = new Bundle();
         queryBundle.putString(MOVIE_SEARCH_QUERY,movieSearchURL.toString());

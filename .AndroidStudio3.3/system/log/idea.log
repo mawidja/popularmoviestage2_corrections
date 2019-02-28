@@ -8364,3 +8364,147 @@ java.net.UnknownHostException: dl.google.com
 2019-03-01 00:11:10,481 [read 10604]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
 2019-03-01 00:15:32,616 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
 2019-03-01 00:15:32,617 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-03-01 00:21:09,937 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:21:10,328 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:25:29,700 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:25:30,094 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:25:55,625 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:25:56,049 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:26:12,030 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:26:12,468 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:26:23,387 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:26:23,809 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:26:30,575 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:26:31,000 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:26:56,561 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:26:57,059 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:27:05,339 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:27:05,980 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:27:12,151 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:27:12,575 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:27:15,167 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:27:15,573 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:27:33,875 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:27:34,281 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:27:42,355 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:27:42,746 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:27:53,949 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:27:54,402 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:27:59,111 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:27:59,501 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:28:01,464 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:28:01,855 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:28:39,969 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:28:40,422 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:28:44,167 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:28:44,543 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:28:51,293 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:28:51,684 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:28:59,216 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:28:59,577 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:29:49,917 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:29:50,308 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:30:36,984 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:30:37,468 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:30:53,550 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:30:53,964 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:31:14,892 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:31:15,339 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:31:28,761 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:31:29,137 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:33:08,558 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:33:08,980 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:33:21,245 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:33:21,621 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:33:32,370 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:33:32,779 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:33:43,403 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:33:43,731 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:34:11,829 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:34:12,199 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:34:31,261 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:34:31,653 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:36:12,794 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:36:13,171 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:36:24,933 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:36:25,308 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:38:04,390 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:38:04,781 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:38:11,439 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:38:11,782 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:44:25,469 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:44:25,844 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:44:52,027 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:44:53,386 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:44:53,776 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:45:33,621 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:45:34,042 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:47:05,277 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:47:05,683 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:47:20,027 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:47:20,668 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:47:20,938 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:50:11,261 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:50:11,918 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:50:14,589 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:50:14,995 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:50:17,590 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:50:17,965 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:50:20,121 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:50:20,527 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:51:05,996 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:51:06,386 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:51:17,464 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:51:17,792 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:51:24,840 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:51:25,234 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:53:17,418 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:53:17,778 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:54:11,028 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:54:11,387 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:54:33,704 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:54:34,105 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:54:57,953 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:54:58,281 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:55:38,869 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:55:39,408 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:55:47,689 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:55:48,043 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:56:48,167 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:56:48,543 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:56:52,469 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:56:55,104 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:56:55,354 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:57:21,003 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8609 for client with pid 10475 
+2019-03-01 00:57:22,017 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8609 for client with pid 10475 
+2019-03-01 00:57:41,787 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:57:42,138 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:57:50,618 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:57:50,985 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:58:17,098 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:58:17,501 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-01 00:58:59,654 [read 11328]   INFO - ditor.DeployTargetPickerDialog - Successfully obtained list of AVDs 
+2019-03-01 00:59:01,107 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-03-01 00:59:01,131 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-03-01 00:59:01,132 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-03-01 00:59:01,162 [read 11328]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-03-01 00:59:01,172 [read 11328]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-03-01 00:59:01,211 [read 11328]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-03-01 00:59:01,256 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-03-01 00:59:01,256 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-03-01 00:59:22,586 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-03-01 00:59:22,586 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-03-01 00:59:22,588 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 21 s 416 ms 
+2019-03-01 00:59:22,656 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-01 00:59:22,888 [read 11332]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-03-01 00:59:22,954 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-01 00:59:24,697 [read 11329]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 3ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-01 00:59:24,762 [read 11329]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 65ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-01 00:59:24,762 [read 11329]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2019-03-01 00:59:24,878 [read 11329]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 116ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-01 00:59:25,130 [read 11328]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-03-01 00:59:36,699 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8609 for client with pid 10810 
+2019-03-01 00:59:38,750 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8609 for client with pid 11024 
+2019-03-01 00:59:38,967 [read 11328]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
+2019-03-01 00:59:39,764 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8609 for client with pid 11024 
+2019-03-01 00:59:39,771 [   Monitor]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 

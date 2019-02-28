@@ -25,6 +25,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.witne.data.Movie;
+import com.example.witne.data.MovieDataRepository;
 import com.example.witne.data.MovieReview;
 import com.example.witne.data.Trailer;
 import com.example.witne.utilities.JsonUtils;
@@ -51,7 +52,10 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
     private TextView tv_movie_reviews;
     private ArrayList<MovieReview> movieReviews;
 
-    Intent intent;
+    private Intent intent;
+
+    private MovieDataRepository movieDataRepository;
+    private FavouriteMovieViewModel favouriteMovieModel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
