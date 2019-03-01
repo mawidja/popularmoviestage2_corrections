@@ -11,4 +11,9 @@
         android:orderInCategory="2"
         app:showAsAction="ifRoom"
         android:title="@string/top_rated_movies" />
+    <item
+        android:id="@+id/action_favourite_movies"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom"
+        android:title="@string/favourite_movies"/>
 </menu>

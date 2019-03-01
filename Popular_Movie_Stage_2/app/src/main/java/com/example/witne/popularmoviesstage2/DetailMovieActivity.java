@@ -38,7 +38,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class DetailMovieActivity extends AppCompatActivity implements MovieTrailerAdapter.ListItemClickListener,MovieReviewAdapter.ListItemClickListener {
+public class DetailMovieActivity extends AppCompatActivity implements MovieTrailerAdapter.ListItemClickListener,
+        MovieReviewAdapter.ListItemClickListener {
 
     private MovieTrailerAdapter movieTrailerAdapter;
     private TextView tv_trailers;
@@ -54,8 +55,9 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
 
     private Intent intent;
 
-    private MovieDataRepository movieDataRepository;
-    private FavouriteMovieViewModel favouriteMovieModel;
+    //private MovieDataRepository movieDataRepository;
+    private FavouriteMovieViewModel favouriteMovieViewModel;
+    private MovieAdapter movieAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,7 +95,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         //get movie details from the intent that started the activity
         //Intent intentStartedThisActivity = getIntent();
         Bundle movieData = getIntent().getExtras();
-        Movie movie = Objects.requireNonNull(movieData).getParcelable("Movie_Details");
+        final Movie movie = Objects.requireNonNull(movieData).getParcelable("Movie_Details");
 
         if(movie != null){
             tv_movie_title.setText(movie.getTitle());
@@ -112,18 +114,26 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
             String movieReviews = "reviews";
 
             if(isNetworkAvailable()) {
+                //setupFavouriteMovieViewModel();
                 startMovieTrailerSearch(movieVideosOrReviews,String.valueOf(movie.getMovieId()));
                 startMovieReviewSearch(movieReviews,String.valueOf(movie.getMovieId()));
             }else{
                 showErrorMessage();
             }
 
+
+            //final MovieDataRepository movieDataRepository = new MovieDataRepository(getApplication());
+
             bAddFavouriteMovie.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                     if(isChecked){
+                        //movieDataRepository.insertFavouriteMovie(movie);
+                        favouriteMovieViewModel.insertFavouriteMovie(movie);
                         Toast.makeText(getApplicationContext(),"Favourite Movie",Toast.LENGTH_SHORT).show();
                     }else {
+                        //movieDataRepository.deleteFavouriteMovie(movie.getMovieId());
+                        favouriteMovieViewModel.deleteFavouriteMovie(movie.getMovieId());
                         Toast.makeText(getApplicationContext(),"Un-Favourite",Toast.LENGTH_SHORT).show();
                     }
                 }
@@ -137,11 +147,21 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         return (networkInfo != null) && (networkInfo.isConnected());
     }
 
+   private void setupFavouriteMovieViewModel(){
+       //MovieDataRepository movieDataRepository = new MovieDataRepository(getApplication());
+        //movieDataRepository = new MovieDataRepository(getApplication());
+        favouriteMovieViewModel = ViewModelProviders.of(this).get(FavouriteMovieViewModel.class);
+        favouriteMovieViewModel.getFavouriteMovies().observe(this, new Observer<List<Movie>>() {
+            @Override
+            public void onChanged(List<Movie> movies) {
+                movieAdapter.setMovieAdapter(movies);
+            }
+        });
+   }
+
     private void setUpMovieTrailerMovieViewModel(){
-
+        //create movie view model and add observer for the LiveData returned
         detailMovieViewModel = ViewModelProviders.of(this).get(DetailMovieViewModel.class);
-
-        //create movie trailers observer
         detailMovieViewModel.getMovieTrailers(movieSearchURL).observe(this, new Observer<List<Trailer>>() {
             @Override
             public void onChanged(List<Trailer> trailerList) {
@@ -151,8 +171,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
     }
 
     private void setUpMovieReviewMovieModel(){
-
-        //create movie reviews observer
+        //add observer for the LiveData returned by the view model
         detailMovieViewModel.getMovieReviews(movieSearchURL).observe(this, new Observer<List<MovieReview>>() {
              @Override
              public void onChanged(List<MovieReview> movieReviews) {

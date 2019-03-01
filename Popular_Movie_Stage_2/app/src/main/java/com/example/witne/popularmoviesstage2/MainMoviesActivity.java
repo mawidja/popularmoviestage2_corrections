@@ -28,6 +28,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.witne.data.MovieDataRepository;
+import com.example.witne.data.Trailer;
 import com.example.witne.popularmoviesstage2.MovieAdapter;
 import com.example.witne.popularmoviesstage2.R;
 import com.example.witne.utilities.JsonUtils;
@@ -63,6 +64,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
     private ProgressBar progressBar;
 
     //private MovieDataRepository movieDataRepository;
+    private FavouriteMovieViewModel favouriteMovieViewModel;
 
     /*@Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
@@ -115,6 +117,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
         }
 
         //movieDataRepository = new MovieDataRepository(getApplication());
+        //favouriteMovieViewModel = ViewModelProviders.of(this).get(FavouriteMovieViewModel.class);
         //setUpViewModel();
     }
 
@@ -180,6 +183,16 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
             popularOrTopRatedMovies = "top_rated";
             startMovieSearch(popularOrTopRatedMovies);
             return true;
+        }
+        if(itemThatWasSelected == R.id.action_favourite_movies){
+            //detailMovieViewModel = ViewModelProviders.of(this).get(DetailMovieViewModel.class);
+            favouriteMovieViewModel = ViewModelProviders.of(this).get(FavouriteMovieViewModel.class);
+            favouriteMovieViewModel.getFavouriteMovies().observe(this, new Observer<List<Movie>>() {
+                @Override
+                public void onChanged(List<Movie> movies) {
+                    movieAdapter.setMovieAdapter(movies);
+                }
+            });
         }
         return super.onOptionsItemSelected(menuItem);
     }

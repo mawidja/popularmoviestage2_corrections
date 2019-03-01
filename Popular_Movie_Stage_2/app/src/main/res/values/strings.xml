@@ -6,6 +6,7 @@
     <!-- For Main Movie Activity menu options -->
     <string name="popular_movies">Popular Movies</string>
     <string name="top_rated_movies">Top Rated Movies</string>
+    <string name="favourite_movies">Favourite Movies</string>
 
     <!--For DetailMovieActivity -->
     <string name="movie_detail_release_date">Released Date:</string>

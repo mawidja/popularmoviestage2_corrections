@@ -8,6 +8,7 @@ import java.util.concurrent.Executors;
 import java.util.logging.LogRecord;
 
 import androidx.annotation.MainThread;
+import androidx.annotation.NonNull;
 
 public class MovieAppExecutor {
 
@@ -48,7 +49,7 @@ public class MovieAppExecutor {
     private static class MainThreadExecutor implements Executor{
         private Handler mainThreadHandler = new Handler(Looper.getMainLooper());
         @Override
-        public void execute(Runnable command) {
+        public void execute(@NonNull Runnable command) {
             mainThreadHandler.post(command);
         }
     }
