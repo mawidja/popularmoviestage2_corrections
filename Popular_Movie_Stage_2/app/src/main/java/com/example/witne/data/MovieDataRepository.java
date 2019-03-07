@@ -37,7 +37,7 @@ public class MovieDataRepository {
 
     public void insertFavouriteMovie(final Movie movie)
     {
-        MovieAppExecutor.getInstance().getDiskIO().execute(new Runnable() {
+        MovieAppExecutor.getInstance().diskIO().execute(new Runnable() {
             @Override
             public void run() {
                 movieDao.insertFavouriteMovie(movie);
@@ -47,7 +47,7 @@ public class MovieDataRepository {
 
     public void deleteFavouriteMovie(final Movie movie){
 
-        MovieAppExecutor.getInstance().getDiskIO().execute(new Runnable() {
+        MovieAppExecutor.getInstance().diskIO().execute(new Runnable() {
             @Override
             public void run() {
                 movieDao.deleteFavouriteMovie(movie);
