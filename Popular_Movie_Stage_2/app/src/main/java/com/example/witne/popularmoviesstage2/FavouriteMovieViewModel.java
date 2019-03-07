@@ -33,8 +33,8 @@ public class FavouriteMovieViewModel extends AndroidViewModel {
         movieDataRepository.insertFavouriteMovie(movie);
     }
 
-    public void deleteFavouriteMovie(int movieId){
-        movieDataRepository.deleteFavouriteMovie(movieId);
+    public void deleteFavouriteMovie(Movie movie){
+        movieDataRepository.deleteFavouriteMovie(movie);
     }
 
     public LiveData<Movie> getFavouriteMovie(int movieId){

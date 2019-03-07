@@ -45,12 +45,12 @@ public class MovieDataRepository {
         });
     }
 
-    public void deleteFavouriteMovie(final int movieId){
+    public void deleteFavouriteMovie(final Movie movie){
 
         MovieAppExecutor.getInstance().getDiskIO().execute(new Runnable() {
             @Override
             public void run() {
-                movieDao.deleteFavouriteMovie(movieId);
+                movieDao.deleteFavouriteMovie(movie);
             }
         });
     }

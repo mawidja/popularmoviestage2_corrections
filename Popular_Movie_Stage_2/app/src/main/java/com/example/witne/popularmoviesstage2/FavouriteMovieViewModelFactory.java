@@ -9,11 +9,11 @@ import androidx.lifecycle.ViewModelProvider;
 public class FavouriteMovieViewModelFactory extends ViewModelProvider.NewInstanceFactory {
 
     private final Application application;
-    private final int mvoieId;
+    //private final int mvoieId;
 
-    public FavouriteMovieViewModelFactory(Application application, int mvoieId) {
+    public FavouriteMovieViewModelFactory(Application application) {
         this.application = application;
-        this.mvoieId = mvoieId;
+        //this.mvoieId = mvoieId;
     }
 
     @NonNull

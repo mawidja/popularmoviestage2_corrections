@@ -133,7 +133,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
                         Toast.makeText(getApplicationContext(),"Favourite Movie",Toast.LENGTH_SHORT).show();
                     }else {
                         //movieDataRepository.deleteFavouriteMovie(movie.getMovieId());
-                        favouriteMovieViewModel.deleteFavouriteMovie(movie.getMovieId());
+                        favouriteMovieViewModel.deleteFavouriteMovie(movie);
                         Toast.makeText(getApplicationContext(),"Un-Favourite",Toast.LENGTH_SHORT).show();
                     }
                 }

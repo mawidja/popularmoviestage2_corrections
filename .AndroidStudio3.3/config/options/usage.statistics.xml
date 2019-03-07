@@ -36,15 +36,15 @@
       <entry action="EditCustomProperties" count="2" />
       <entry action="EditCustomVmOptions" count="2" />
       <entry action="EditLibraryAndDependencies" count="2" />
-      <entry action="EditorBackSpace" count="29915" />
+      <entry action="EditorBackSpace" count="29976" />
       <entry action="EditorChooseLookupItem" count="1" />
-      <entry action="EditorChooseLookupItemReplace" count="8001" />
+      <entry action="EditorChooseLookupItemReplace" count="8007" />
       <entry action="EditorCodeBlockStart" count="6" />
       <entry action="EditorContextInfo" count="2" />
       <entry action="EditorCopy" count="199" />
       <entry action="EditorCut" count="185" />
-      <entry action="EditorDelete" count="5793" />
-      <entry action="EditorDown" count="12607" />
+      <entry action="EditorDelete" count="5802" />
+      <entry action="EditorDown" count="12610" />
       <entry action="EditorEnter" count="4738" />
       <entry action="EditorIndentSelection" count="6" />
       <entry action="EditorLeft" count="6282" />
@@ -123,12 +123,12 @@
       <entry action="Rerun" count="1" />
       <entry action="Resume" count="1" />
       <entry action="RevealIn" count="41" />
-      <entry action="Run" count="1042" />
+      <entry action="Run" count="1045" />
       <entry action="RunClass" count="1" />
       <entry action="RunCoverage" count="1" />
       <entry action="RunToCursor" count="1" />
       <entry action="Runner.RestoreLayout" count="1" />
-      <entry action="SaveAll" count="1646" />
+      <entry action="SaveAll" count="1654" />
       <entry action="SearchEverywhere" count="6" />
       <entry action="SendFeedback" count="1" />
       <entry action="ShowErrorDescription" count="1" />
@@ -234,7 +234,7 @@
     <feature id="codeassists.parameterInfo" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.inlineParameter" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="0" last-shown="1547495638540" last-used="0" shown-count="5" />
-    <feature id="editing.completion.basic" count="8215" last-shown="0" last-used="1551908847737" shown-count="0" />
+    <feature id="editing.completion.basic" count="8221" last-shown="0" last-used="1551987475798" shown-count="0" />
     <feature id="refactoring.inlineConst" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="generate.definitions" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -246,7 +246,7 @@
     <feature id="navigation.goto.declaration" count="50" last-shown="0" last-used="1551488879142" shown-count="0" />
     <feature id="refactoring.inlineMethod" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.extractSubclass" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.smarttype.general" count="0" last-shown="1551908843650" last-used="0" shown-count="4002" />
+    <feature id="editing.completion.smarttype.general" count="0" last-shown="1551987395591" last-used="0" shown-count="4003" />
     <feature id="navigation.popup.file.structure" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.liveTemplates" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.select.in" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -258,11 +258,11 @@
     <feature id="refactoring.appCodeIntroduceVariable" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.moveMembers" count="0" last-shown="0" last-used="0" shown-count="0" />
     <completionStatsTag>
-      <option name="sparedCharacters" value="69703" />
-      <option name="invocations" value="5981" />
+      <option name="sparedCharacters" value="69724" />
+      <option name="invocations" value="5986" />
       <option name="startDate" value="1518904800000" />
-      <option name="dayCount" value="91" />
-      <option name="lastDate" value="1551823200000" />
+      <option name="dayCount" value="92" />
+      <option name="lastDate" value="1551909600000" />
     </completionStatsTag>
     <fixesStatsTag>
       <option name="invocations" value="14" />
@@ -338,7 +338,7 @@
     <counts>
       <entry shortcut="Alt+Enter" count="5" />
       <entry shortcut="Alt+Q" count="2" />
-      <entry shortcut="Backspace" count="29911" />
+      <entry shortcut="Backspace" count="29972" />
       <entry shortcut="Ctrl+0" count="1" />
       <entry shortcut="Ctrl+1" count="2" />
       <entry shortcut="Ctrl+8" count="1" />
@@ -354,14 +354,14 @@
       <entry shortcut="Ctrl+Minus" count="1" />
       <entry shortcut="Ctrl+Open Bracket" count="6" />
       <entry shortcut="Ctrl+Period" count="1" />
-      <entry shortcut="Ctrl+S" count="1527" />
+      <entry shortcut="Ctrl+S" count="1535" />
       <entry shortcut="Ctrl+Slash" count="16" />
       <entry shortcut="Ctrl+T" count="4" />
       <entry shortcut="Ctrl+V" count="1159" />
       <entry shortcut="Ctrl+X" count="186" />
       <entry shortcut="Ctrl+Z" count="857" />
-      <entry shortcut="Delete" count="5803" />
-      <entry shortcut="Down" count="12634" />
+      <entry shortcut="Delete" count="5812" />
+      <entry shortcut="Down" count="12637" />
       <entry shortcut="End" count="42" />
       <entry shortcut="Enter" count="4740" />
       <entry shortcut="Home" count="31" />
@@ -377,20 +377,20 @@
       <entry shortcut="Shift+F8" count="7" />
       <entry shortcut="Shift+Insert" count="2" />
       <entry shortcut="Shift+Shift" count="6" />
-      <entry shortcut="Tab" count="9094" />
+      <entry shortcut="Tab" count="9100" />
       <entry shortcut="Up" count="1798" />
     </counts>
   </component>
   <component name="ToolWindowCollector">
     <counts>
       <entry toolWindow="Assistant by Activation" count="8" />
-      <entry toolWindow="Build by Activation" count="77" />
+      <entry toolWindow="Build by Activation" count="79" />
       <entry toolWindow="Debug by Activation" count="106" />
       <entry toolWindow="Event Log by Activation" count="6" />
       <entry toolWindow="Find by Activation" count="4" />
       <entry toolWindow="Gradle by Activation" count="2" />
       <entry toolWindow="Logcat by Activation" count="4" />
-      <entry toolWindow="Project by Activation" count="246" />
+      <entry toolWindow="Project by Activation" count="248" />
       <entry toolWindow="Run by Activation" count="5" />
       <entry toolWindow="TODO by Activation" count="2" />
     </counts>
@@ -410,7 +410,7 @@
       <entry action="Images.Editor.ZoomOut@Images.Editor" count="16" />
       <entry action="Images.Thumbnails.ToggleRecursive@Images.Thumbnails" count="1" />
       <entry action="Rerun@RunnerToolbar" count="1" />
-      <entry action="Run@NavBarToolbar" count="1023" />
+      <entry action="Run@NavBarToolbar" count="1026" />
       <entry action="RunConfiguration@NavBarToolbar" count="5" />
       <entry action="RunToCursor@DebuggerToolbar" count="1" />
       <entry action="Runner.RestoreLayout@RunnerToolbar" count="1" />
@@ -464,7 +464,7 @@
       <entry feature="execute.AndroidJUnit.Run" count="10" />
       <entry feature="execute.AndroidRunConfigurationType.Android Profiler" count="1" />
       <entry feature="execute.AndroidRunConfigurationType.Debug" count="271" />
-      <entry feature="execute.AndroidRunConfigurationType.Run" count="1109" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="1112" />
       <entry feature="execute.GradleRunConfiguration.Debug" count="1" />
       <entry feature="execute.GradleRunConfiguration.Run" count="5" />
       <entry feature="ide.settings.Android SDK" count="3" />
