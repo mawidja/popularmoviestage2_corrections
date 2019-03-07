@@ -24,9 +24,9 @@ public class MovieDataRepository {
     //private LiveData<List<Movie>> movieLiveData;
     //private MovieAppExecutor movieAppExecutor;
 
-    public MovieDataRepository(@NonNull Application application) {
-        context = application.getApplicationContext();
-        roomDatabase = MovieRoomDatabase.getInstance(application);
+    public MovieDataRepository(Context context) {
+        this.context = context;
+        roomDatabase = MovieRoomDatabase.getInstance(context);
         movieDao = roomDatabase.movieDao();
         //movieAppExecutor = MovieAppExecutor.getInstance();
     }

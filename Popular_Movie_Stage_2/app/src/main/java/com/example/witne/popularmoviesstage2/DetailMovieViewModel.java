@@ -21,13 +21,13 @@ import androidx.lifecycle.LiveData;
 
 public class DetailMovieViewModel extends AndroidViewModel {
 
-    private final Context context;
+    //private final Context context;
     private MovieDataRepository movieDataRepository;
 
-    public DetailMovieViewModel(@NonNull Application application) {
+    public DetailMovieViewModel(Application application) {
         super(application);
-        this.context = application.getApplicationContext();
-        movieDataRepository = new MovieDataRepository(application);
+        //this.context = application.getApplicationContext();
+        movieDataRepository = new MovieDataRepository(application.getApplicationContext());
     }
 
     public LiveData<List<Trailer>> getMovieTrailers(URL movieSearchURL){

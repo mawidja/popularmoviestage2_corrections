@@ -18,10 +18,10 @@ public interface MovieDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertFavouriteMovie(Movie movie);
 
-    @Query("delete from movie where movie_id = :movieId")
+    @Query("delete from movie where movieid = :movieId")
     void deleteFavouriteMovie(int movieId);
 
-    @Query("select * from movie where movie_id = :movieId")
+    @Query("select * from movie where movieid = :movieId")
     LiveData<Movie> getFavouriteMovie(int movieId);
 
 }

@@ -12,7 +12,7 @@ public abstract class MovieRoomDatabase extends RoomDatabase {
     private static final Object LOCK = new Object();
     private static MovieRoomDatabase sInstance;
 
-    public static MovieRoomDatabase getInstance(final Context context){
+    public static MovieRoomDatabase getInstance(Context context){
         if(sInstance == null){
             synchronized (LOCK){
                 sInstance = Room.databaseBuilder(context.getApplicationContext(),MovieRoomDatabase.class,"movie_room_database")
