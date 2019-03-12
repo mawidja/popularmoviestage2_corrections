@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.loader.app.LoaderManager;
 import androidx.loader.content.AsyncTaskLoader;
@@ -185,14 +186,26 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
             return true;
         }
         if(itemThatWasSelected == R.id.action_favourite_movies){
-            //detailMovieViewModel = ViewModelProviders.of(this).get(DetailMovieViewModel.class);
-            favouriteMovieViewModel = ViewModelProviders.of(this).get(FavouriteMovieViewModel.class);
-            favouriteMovieViewModel.getFavouriteMovies().observe(this, new Observer<List<Movie>>() {
+            /*DetailMovieViewModel detailMovieViewModel = ViewModelProviders.of(this).get(DetailMovieViewModel.class);
+
+
+            detailMovieViewModel.getFavouriteMovies().observe(this, new Observer<List<Movie>>() {
                 @Override
                 public void onChanged(List<Movie> movies) {
-                    movieAdapter.setMovieAdapter(movies);
+                    if(movies != null) {
+                        movieAdapter.setMovieAdapter(movies);
+                    }
                 }
-            });
+            });*/
+            return true;
+
+            //favouriteMovieViewModel = ViewModelProviders.of(this).get(FavouriteMovieViewModel.class);
+            //favouriteMovieViewModel.getFavouriteMovies().observe(this, new Observer<List<Movie>>() {
+            //    @Override
+            //    public void onChanged(List<Movie> movies) {
+            //        movieAdapter.setMovieAdapter(movies);
+            //    }
+            //});
         }
         return super.onOptionsItemSelected(menuItem);
     }

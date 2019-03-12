@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.os.AsyncTask;
 
+import com.example.witne.data.Movie;
 import com.example.witne.data.MovieDataRepository;
 import com.example.witne.data.MovieReview;
 import com.example.witne.data.Trailer;
@@ -24,10 +25,11 @@ public class DetailMovieViewModel extends AndroidViewModel {
     //private final Context context;
     private MovieDataRepository movieDataRepository;
 
-    public DetailMovieViewModel(Application application) {
+    public DetailMovieViewModel(@NonNull Application application) {
         super(application);
         //this.context = application.getApplicationContext();
-        movieDataRepository = new MovieDataRepository(application.getApplicationContext());
+        //movieDataRepository = new MovieDataRepository(application.getApplicationContext());
+        movieDataRepository = MovieDataRepository.getInstance(application.getApplicationContext());
     }
 
     public LiveData<List<Trailer>> getMovieTrailers(URL movieSearchURL){

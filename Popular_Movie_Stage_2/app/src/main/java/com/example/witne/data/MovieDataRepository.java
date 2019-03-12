@@ -15,35 +15,86 @@ import java.util.List;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
+import androidx.room.Room;
 
 public class MovieDataRepository {
+
+    private static MovieDataRepository sInstance;
+    private static final Object LOCK = new Object();
 
     private MovieRoomDatabase roomDatabase;
     private MovieDao movieDao;
     private final Context context;
-    //private LiveData<List<Movie>> movieLiveData;
+    private Movie movie;
+    private LiveData<List<Movie>> movieLiveData;
     //private MovieAppExecutor movieAppExecutor;
 
-    public MovieDataRepository(Context context) {
+    private MovieDataRepository(Context context) {
         this.context = context;
         roomDatabase = MovieRoomDatabase.getInstance(context);
         movieDao = roomDatabase.movieDao();
+        movieLiveData = movieDao.getAllFavouriteMovies();
         //movieAppExecutor = MovieAppExecutor.getInstance();
     }
 
-    public LiveData<List<Movie>> getAllFavouriteMovies(){
-        return movieDao.getAllFavouriteMovies();
+
+    public static MovieDataRepository getInstance(Context context){
+        if(sInstance == null){
+            synchronized (LOCK){
+                sInstance = new MovieDataRepository(context);
+            }
+        }return sInstance;
     }
 
-    public void insertFavouriteMovie(final Movie movie)
+    public LiveData<List<Movie>> getAllFavouriteMovies(){
+        //return movieDao.getAllFavouriteMovies();
+        return movieLiveData;
+    }
+
+    /*public void insertFavouriteMovie(final Movie movie)
     {
         MovieAppExecutor.getInstance().diskIO().execute(new Runnable() {
             @Override
             public void run() {
-                movieDao.insertFavouriteMovie(movie);
+                //movieDao.insertFavouriteMovie(movie);
+                MovieRoomDatabase.getInstance(context).movieDao().insertFavouriteMovie(movie);
+            }
+        });
+    }*/
+
+    public void insertMovie(final Movie movie)
+    {
+        MovieAppExecutor.getInstance().diskIO().execute(new Runnable() {
+            @Override
+            public void run() {
+                if(movie != null) {
+                    movieDao.insertFavouriteMovie(movie);
+                    //MovieRoomDatabase.getInstance(context).movieDao().insertFavouriteMovie(movie);
+                }
             }
         });
     }
+
+    /*public void insertFavouriteMovie(Movie movie)
+    {
+        new InsertMovies(movieDao).execute(movie);
+    }
+
+    //Async class to insert movies
+    private static class InsertMovies extends AsyncTask<Movie, Void, Void>{
+
+        MovieDao movieDao;
+        public InsertMovies(MovieDao mDao) {
+            movieDao = mDao;
+        }
+
+        @Override
+        protected Void doInBackground(Movie...params) {
+            movieDao.insertFavouriteMovie(params[0]);
+            return null;
+        }
+    }*/
+
 
     public void deleteFavouriteMovie(final Movie movie){
 
@@ -66,6 +117,7 @@ public class MovieDataRepository {
     public LiveData<List<MovieReview>> getMovieReviews(URL movieSearchURL) {
         return new FetchMovieReviews(context,movieSearchURL);
     }
+
 
     //Async inner class to fetch movie trailers on the internet
     private class FetchMovieTrailer extends LiveData<List<Trailer>>{

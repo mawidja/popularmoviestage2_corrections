@@ -95,7 +95,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         //get movie details from the intent that started the activity
         //Intent intentStartedThisActivity = getIntent();
         Bundle movieData = getIntent().getExtras();
-        final Movie movie = Objects.requireNonNull(movieData).getParcelable("Movie_Details");
+        Movie movie = Objects.requireNonNull(movieData).getParcelable("Movie_Details");
 
         if(movie != null){
             tv_movie_title.setText(movie.getTitle());
@@ -123,21 +123,26 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
 
 
             //final MovieDataRepository movieDataRepository = new MovieDataRepository(getApplication());
-
+            final Movie favouriteMovie = new Movie(movie.getMovieId(),movie.getTitle(),movie.getRelease_date(),movie.getPopularity(),
+                                    movie.getVote_average(), movie.getPoster_path(),movie.getMovie_overview());
             bAddFavouriteMovie.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                     if(isChecked){
                         //movieDataRepository.insertFavouriteMovie(movie);
-                        favouriteMovieViewModel.insertFavouriteMovie(movie);
+                        //favouriteMovieViewModel.insertFavouriteMovie(movie);
+
+                        //detailMovieViewModel.insertMyFavouriteMovie(favouriteMovie);
                         Toast.makeText(getApplicationContext(),"Favourite Movie",Toast.LENGTH_SHORT).show();
                     }else {
                         //movieDataRepository.deleteFavouriteMovie(movie.getMovieId());
-                        favouriteMovieViewModel.deleteFavouriteMovie(movie);
+                        //favouriteMovieViewModel.deleteFavouriteMovie(movie);
+                        //detailMovieViewModel.deleteFavouriteMovie(favouriteMovie);
                         Toast.makeText(getApplicationContext(),"Un-Favourite",Toast.LENGTH_SHORT).show();
                     }
                 }
             });
+
         }
     }
 
@@ -147,7 +152,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         return (networkInfo != null) && (networkInfo.isConnected());
     }
 
-   private void setupFavouriteMovieViewModel(){
+   /*private void setupFavouriteMovieViewModel(){
        //MovieDataRepository movieDataRepository = new MovieDataRepository(getApplication());
         //movieDataRepository = new MovieDataRepository(getApplication());
         favouriteMovieViewModel = ViewModelProviders.of(this).get(FavouriteMovieViewModel.class);
@@ -157,7 +162,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
                 movieAdapter.setMovieAdapter(movies);
             }
         });
-   }
+   }*/
 
     private void setUpMovieTrailerMovieViewModel(){
         //create movie view model and add observer for the LiveData returned
