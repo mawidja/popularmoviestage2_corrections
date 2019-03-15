@@ -69,6 +69,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="57dp"
                     android:text="@string/mark_movie_as_favourite"
+                    android:checked="false"
                     android:thumbTint="@color/colorPrimaryDark" />
 
             </LinearLayout>

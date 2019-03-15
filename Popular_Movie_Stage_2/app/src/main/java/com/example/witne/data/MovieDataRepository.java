@@ -27,6 +27,7 @@ public class MovieDataRepository {
     private final Context context;
     private Movie movie;
     private LiveData<List<Movie>> movieLiveData;
+    private List<Trailer> movieTrailerList;
     //private MovieAppExecutor movieAppExecutor;
 
     private MovieDataRepository(Context context) {
@@ -50,17 +51,6 @@ public class MovieDataRepository {
         //return movieDao.getAllFavouriteMovies();
         return movieLiveData;
     }
-
-    /*public void insertFavouriteMovie(final Movie movie)
-    {
-        MovieAppExecutor.getInstance().diskIO().execute(new Runnable() {
-            @Override
-            public void run() {
-                //movieDao.insertFavouriteMovie(movie);
-                MovieRoomDatabase.getInstance(context).movieDao().insertFavouriteMovie(movie);
-            }
-        });
-    }*/
 
     public void insertMovie(final Movie movie)
     {

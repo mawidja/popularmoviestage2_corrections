@@ -19,18 +19,23 @@ import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
+import androidx.lifecycle.ViewModel;
 
-public class DetailMovieViewModel extends AndroidViewModel {
+public class DetailMovieViewModel extends ViewModel {
 
     //private final Context context;
     private MovieDataRepository movieDataRepository;
 
-    public DetailMovieViewModel(@NonNull Application application) {
+    public DetailMovieViewModel(MovieDataRepository movieDataRepository) {
+        this.movieDataRepository = movieDataRepository;
+    }
+
+    /*public DetailMovieViewModel(@NonNull Application application) {
         super(application);
         //this.context = application.getApplicationContext();
         //movieDataRepository = new MovieDataRepository(application.getApplicationContext());
         movieDataRepository = MovieDataRepository.getInstance(application.getApplicationContext());
-    }
+    }*/
 
     public LiveData<List<Trailer>> getMovieTrailers(URL movieSearchURL){
         return movieDataRepository.getMovieTrailers(movieSearchURL);
@@ -38,5 +43,13 @@ public class DetailMovieViewModel extends AndroidViewModel {
 
     public LiveData<List<MovieReview>> getMovieReviews(URL movieSearchURL) {
         return movieDataRepository.getMovieReviews(movieSearchURL);
+    }
+
+    public void insertMyFavouriteMovie(Movie movie){
+        movieDataRepository.insertMovie(movie);
+    }
+
+    public void deleteFavouriteMovie(Movie movie){
+        movieDataRepository.deleteFavouriteMovie(movie);
     }
 }

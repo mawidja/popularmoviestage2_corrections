@@ -16,6 +16,7 @@ public abstract class MovieRoomDatabase extends RoomDatabase {
         if(sInstance == null){
             synchronized (LOCK){
                 sInstance = Room.databaseBuilder(context.getApplicationContext(),MovieRoomDatabase.class,"movie_room_database")
+                        .fallbackToDestructiveMigration()
                         .build();
             }
         }return sInstance;

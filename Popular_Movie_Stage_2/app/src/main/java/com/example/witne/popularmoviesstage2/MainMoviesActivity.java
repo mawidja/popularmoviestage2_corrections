@@ -12,6 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
+import androidx.lifecycle.LiveData;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.lifecycle.ViewModelProviders;
@@ -55,6 +56,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
     private List<Movie> movieList;
     private MovieAdapter movieAdapter;
 
+    private LiveData<List<Movie>> movieList1;
     /*@BindView(R.id.rv_popularMovies)
     RecyclerView recyclerView;
 
@@ -65,7 +67,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
     private ProgressBar progressBar;
 
     //private MovieDataRepository movieDataRepository;
-    private FavouriteMovieViewModel favouriteMovieViewModel;
+    //private FavouriteMovieViewModel favouriteMovieViewModel;
 
     /*@Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
@@ -117,9 +119,6 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
             showErrorMessage();
         }
 
-        //movieDataRepository = new MovieDataRepository(getApplication());
-        //favouriteMovieViewModel = ViewModelProviders.of(this).get(FavouriteMovieViewModel.class);
-        //setUpViewModel();
     }
 
     private boolean isNetworkAvailable(){
@@ -186,28 +185,22 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
             return true;
         }
         if(itemThatWasSelected == R.id.action_favourite_movies){
-            /*DetailMovieViewModel detailMovieViewModel = ViewModelProviders.of(this).get(DetailMovieViewModel.class);
-
-
-            detailMovieViewModel.getFavouriteMovies().observe(this, new Observer<List<Movie>>() {
+            FavouriteMovieViewModel favouriteMovieViewModel = ViewModelProviders.of(this).get(FavouriteMovieViewModel.class);
+            favouriteMovieViewModel.getFavouriteMovies().observe(this, new Observer<List<Movie>>() {
                 @Override
                 public void onChanged(List<Movie> movies) {
-                    if(movies != null) {
-                        movieAdapter.setMovieAdapter(movies);
-                    }
+                    loadFavouriteMovies(movieList);
                 }
-            });*/
+            });
             return true;
-
-            //favouriteMovieViewModel = ViewModelProviders.of(this).get(FavouriteMovieViewModel.class);
-            //favouriteMovieViewModel.getFavouriteMovies().observe(this, new Observer<List<Movie>>() {
-            //    @Override
-            //    public void onChanged(List<Movie> movies) {
-            //        movieAdapter.setMovieAdapter(movies);
-            //    }
-            //});
         }
         return super.onOptionsItemSelected(menuItem);
+    }
+
+    private void loadFavouriteMovies(List<Movie> movieList1){
+        progressBar.setVisibility(View.INVISIBLE);
+        tv_error_message.setVisibility(View.INVISIBLE);
+        movieAdapter.setMovieAdapter(movieList1);
     }
 
     @NonNull

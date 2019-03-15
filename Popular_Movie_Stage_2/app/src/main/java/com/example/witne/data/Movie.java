@@ -22,8 +22,6 @@ public class Movie implements Parcelable {
     private double vote_average;
     private String poster_path;
     private String movie_overview;
-
-    @Ignore
     private static final String IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w185";
 
     //No args constructor
@@ -31,7 +29,6 @@ public class Movie implements Parcelable {
     public Movie(){
 
     }
-
     //Args constructor
     public Movie(int movieId, String title, String release_date, double popularity,
                      double vote_average, String poster_path, String movie_overview){
@@ -45,7 +42,6 @@ public class Movie implements Parcelable {
     }
 
     //De-parcel object
-    @Ignore
     private Movie(Parcel in){
         movieId = in.readInt();
         title = in.readString();
@@ -57,13 +53,11 @@ public class Movie implements Parcelable {
     }
 
     @Override
-    @Ignore
     public int describeContents(){
         return 0;
     }
 
     @Override
-    @Ignore
     public void writeToParcel(Parcel dest, int flag){
         dest.writeInt(movieId);
         dest.writeString(title);
@@ -75,7 +69,6 @@ public class Movie implements Parcelable {
     }
 
     //Creator]
-    @Ignore
     public static final Parcelable.Creator CREATOR = new Parcelable.Creator(){
         public Movie createFromParcel(Parcel in){
             return new Movie(in);
@@ -88,7 +81,6 @@ public class Movie implements Parcelable {
     public int getMovieId() {
         return movieId;
     }
-
     public void setMovieId(int movieId) {
         this.movieId = movieId;
     }
@@ -96,7 +88,6 @@ public class Movie implements Parcelable {
     public String getTitle() {
         return title;
     }
-
     public void setTitle(String title) {
         this.title = title;
     }
@@ -104,7 +95,6 @@ public class Movie implements Parcelable {
     public String getRelease_date() {
         return release_date;
     }
-
     public void setRelease_date(String release_date) {
         this.release_date = release_date;
     }
@@ -112,7 +102,6 @@ public class Movie implements Parcelable {
     public double getPopularity() {
         return popularity;
     }
-
     public void setPopularity(double popularity) {
         this.popularity = popularity;
     }
@@ -120,7 +109,6 @@ public class Movie implements Parcelable {
     public double getVote_average() {
         return vote_average;
     }
-
     public void setVote_average(double vote_average) {
         this.vote_average = vote_average;
     }
@@ -128,7 +116,6 @@ public class Movie implements Parcelable {
     public String getPoster_path() {
         return poster_path;
     }
-
     public void setPoster_path(String poster_path) {
         this.poster_path = IMAGE_BASE_URL + poster_path;
     }
@@ -136,7 +123,6 @@ public class Movie implements Parcelable {
     public String getMovie_overview() {
         return movie_overview;
     }
-
     public void setMovie_overview(String movie_overview) {
         this.movie_overview = movie_overview;
     }
