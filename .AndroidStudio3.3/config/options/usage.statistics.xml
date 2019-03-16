@@ -1,7 +1,7 @@
 <application>
   <component name="ActionsCollector">
     <counts>
-      <entry action="$Copy" count="933" />
+      <entry action="$Copy" count="935" />
       <entry action="$Cut" count="176" />
       <entry action="$Delete" count="73" />
       <entry action="$Paste" count="425" />
@@ -43,7 +43,7 @@
       <entry action="EditorContextInfo" count="2" />
       <entry action="EditorCopy" count="205" />
       <entry action="EditorCut" count="202" />
-      <entry action="EditorDelete" count="5996" />
+      <entry action="EditorDelete" count="6028" />
       <entry action="EditorDown" count="12982" />
       <entry action="EditorEnter" count="4939" />
       <entry action="EditorIndentSelection" count="6" />
@@ -110,7 +110,7 @@
       <entry action="NewModuleInGroup" count="1" />
       <entry action="NewProject" count="12" />
       <entry action="NextTemplateVariable" count="4" />
-      <entry action="OpenFile" count="199" />
+      <entry action="OpenFile" count="200" />
       <entry action="OptimizeImports" count="1" />
       <entry action="Override Resource in Other Configuration..." count="1" />
       <entry action="OverrideMethods" count="55" />
@@ -129,12 +129,12 @@
       <entry action="RunCoverage" count="1" />
       <entry action="RunToCursor" count="1" />
       <entry action="Runner.RestoreLayout" count="1" />
-      <entry action="SaveAll" count="1678" />
+      <entry action="SaveAll" count="1683" />
       <entry action="SearchEverywhere" count="6" />
       <entry action="SendFeedback" count="1" />
       <entry action="ShowErrorDescription" count="1" />
       <entry action="ShowExecutionPoint" count="2" />
-      <entry action="ShowFilePath" count="2" />
+      <entry action="ShowFilePath" count="3" />
       <entry action="ShowIntentionActions" count="5" />
       <entry action="ShowProcessWindow" count="1" />
       <entry action="ShowSettings" count="29" />
@@ -203,7 +203,7 @@
           <entry key="ide.freeze.62" value="2" />
           <entry key="ide.freeze.64" value="1" />
           <entry key="ide.freeze.66" value="1" />
-          <entry key="ide.freeze.7" value="21" />
+          <entry key="ide.freeze.7" value="22" />
           <entry key="ide.freeze.73" value="1" />
           <entry key="ide.freeze.77" value="1" />
           <entry key="ide.freeze.79" value="1" />
@@ -249,7 +249,7 @@
     <feature id="refactoring.extractMethod" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.introduceDefine" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.surroundwith.expression" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.select.word" count="1475" last-shown="0" last-used="1552687416541" shown-count="0" />
+    <feature id="editing.select.word" count="1477" last-shown="0" last-used="1552729325601" shown-count="0" />
     <feature id="refactoring.extractSuperclass" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.goto.declaration" count="52" last-shown="0" last-used="1552422125320" shown-count="0" />
     <feature id="refactoring.inlineMethod" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -314,12 +314,12 @@
       <entry path="File -&gt; New -&gt; Open..." count="1" />
       <entry path="File -&gt; New -&gt; XML -&gt; Layout XML File" count="1" />
       <entry path="File -&gt; Open Recent -&gt; Reopen Project" count="2" />
-      <entry path="File -&gt; Open..." count="198" />
+      <entry path="File -&gt; Open..." count="199" />
       <entry path="File -&gt; Other Settings -&gt; Default Project Structure..." count="1" />
       <entry path="File -&gt; Other Settings -&gt; Default Settings..." count="6" />
       <entry path="File -&gt; Profile or Debug APK..." count="1" />
       <entry path="File -&gt; Project Structure..." count="28" />
-      <entry path="File -&gt; Save All" count="122" />
+      <entry path="File -&gt; Save All" count="123" />
       <entry path="File -&gt; Settings..." count="29" />
       <entry path="File -&gt; Sync Project with Gradle Files" count="9" />
       <entry path="Help -&gt; Android Studio Help" count="3" />
@@ -364,13 +364,13 @@
       <entry shortcut="Ctrl+Minus" count="1" />
       <entry shortcut="Ctrl+Open Bracket" count="6" />
       <entry shortcut="Ctrl+Period" count="1" />
-      <entry shortcut="Ctrl+S" count="1555" />
+      <entry shortcut="Ctrl+S" count="1559" />
       <entry shortcut="Ctrl+Slash" count="16" />
       <entry shortcut="Ctrl+T" count="4" />
       <entry shortcut="Ctrl+V" count="1219" />
       <entry shortcut="Ctrl+X" count="203" />
       <entry shortcut="Ctrl+Z" count="871" />
-      <entry shortcut="Delete" count="6006" />
+      <entry shortcut="Delete" count="6038" />
       <entry shortcut="Down" count="13009" />
       <entry shortcut="End" count="42" />
       <entry shortcut="Enter" count="4941" />
@@ -400,7 +400,7 @@
       <entry toolWindow="Find by Activation" count="4" />
       <entry toolWindow="Gradle by Activation" count="2" />
       <entry toolWindow="Logcat by Activation" count="4" />
-      <entry toolWindow="Project by Activation" count="289" />
+      <entry toolWindow="Project by Activation" count="290" />
       <entry toolWindow="Run by Activation" count="5" />
       <entry toolWindow="TODO by Activation" count="2" />
     </counts>
@@ -458,14 +458,14 @@
       <entry action="com.intellij.openapi.editor.actions.ScrollToTheEndToolbarAction@AndroidLogcatView" count="2" />
       <entry action="com.intellij.openapi.editor.actions.ScrollToTheEndToolbarAction@EventLog" count="1" />
       <entry action="com.intellij.openapi.editor.actions.ScrollToTheEndToolbarAction@RunnerToolbar" count="1" />
-      <entry action="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction@ToolwindowTitle" count="132" />
+      <entry action="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction@ToolwindowTitle" count="133" />
       <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="2" />
     </counts>
   </component>
   <component name="UsageTrigger">
     <counts>
       <entry feature="CreateFile.CreateFileAction" count="1" />
-      <entry feature="StripeButton[Android Profiler].hidden" count="173" />
+      <entry feature="StripeButton[Android Profiler].hidden" count="174" />
       <entry feature="StripeButton[Android Profiler].shown" count="65" />
       <entry feature="StripeButton[Android_Profiler].hidden" count="15" />
       <entry feature="StripeButton[Android_Profiler].shown" count="8" />

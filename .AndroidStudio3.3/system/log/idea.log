@@ -5796,3 +5796,102 @@ Elapsed time on auto-detect: 0 ms
 2019-03-16 00:15:15,617 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8600 for client with pid 9532 
 2019-03-16 00:17:14,132 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8600 for client with pid 10895 
 2019-03-16 00:17:15,146 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8600 for client with pid 10895 
+2019-03-16 07:54:48,837 [hread 2464]   INFO - ateSettings.impl.UpdateChecker - dl.google.com 
+java.net.UnknownHostException: dl.google.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:558)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:47)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:329)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getInputStream(HttpRequests.java:338)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:356)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:349)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$checkPlatformUpdate$1.process(UpdateChecker.kt:174)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$checkPlatformUpdate$1.process(UpdateChecker.kt:53)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:475)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:451)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:47)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:303)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.checkPlatformUpdate(UpdateChecker.kt:171)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.doUpdateAndShowResult(UpdateChecker.kt:122)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.access$doUpdateAndShowResult(UpdateChecker.kt:53)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$updateAndShowResult$1.run(UpdateChecker.kt:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-03-16 07:54:50,047 [hread 2464]   INFO - ateSettings.impl.UpdateChecker - Connection failed (dl.google.com). Please check network connection and try again. 
+2019-03-16 08:19:11,402 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-16 08:19:12,052 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-16 08:19:25,064 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-16 08:19:25,644 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-16 08:19:34,536 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-16 08:19:34,921 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-16 08:39:41,852 [hread 2562]   INFO - ide.actions.ShowFilePathAction - 
+Exit code 1 
+2019-03-16 11:32:06,269 [hread 2614]   INFO - ellij.project.impl.ProjectImpl - 158 project components initialized in 607 ms 
+2019-03-16 11:32:06,466 [hread 2614]   INFO - le.impl.ModuleManagerComponent - 2 module(s) loaded in 194 ms 
+2019-03-16 11:32:07,214 [entQueue-0]   INFO - idea.project.IndexingSuspender - Subscribing project 'Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2' to indexing suspender events (com.android.tools.idea.project.IndexingSuspender@1144800e) 
+2019-03-16 11:32:07,450 [hread 2612]   INFO - tartup.impl.StartupManagerImpl - EditorHistoryManagerStartUpActivity run in 102ms under project opening modal progress 
+2019-03-16 11:32:07,783 [hread 2613]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 6ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-16 11:32:07,955 [hread 2613]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 172ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-16 11:32:08,211 [hread 2612]   INFO - ge.ExternalProjectsDataStorage - Loaded external projects data in 619 millis 
+2019-03-16 11:32:08,307 [hread 2612]   INFO - tartup.impl.StartupManagerImpl - ExternalSystemStartupActivity run in 853ms under project opening modal progress 
+2019-03-16 11:32:08,727 [entQueue-0]   INFO - j.ide.ui.OptionsTopHitProvider - 708 ms spent to cache options in project 
+2019-03-16 11:32:08,727 [entQueue-0]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2019-03-16 11:32:08,727 [entQueue-0]   INFO - tartup.impl.StartupManagerImpl - Activity run in 708ms on UI thread 
+2019-03-16 11:32:09,657 [entQueue-0]   INFO - tartup.impl.StartupManagerImpl - CreateKotlinSdkActivity run in 467ms on UI thread 
+2019-03-16 11:32:09,662 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-03-16 11:32:09,664 [entQueue-0]   INFO - j.ide.ui.OptionsTopHitProvider - 348 ms spent on EDT to cache options in project 
+2019-03-16 11:32:09,803 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Started sync with Gradle for project 'Popular_Movie_Stage_2'. 
+2019-03-16 11:32:09,841 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-03-16 11:32:09,842 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-03-16 11:32:10,948 [hread 2615]   INFO - e.project.sync.GradleSyncState - Started setup of project 'Popular_Movie_Stage_2'. 
+2019-03-16 11:32:11,007 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SETUP_STARTED 
+2019-03-16 11:32:11,355 [hread 2612]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 3001ms under project opening modal progress 
+2019-03-16 11:32:11,362 [hread 2612]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 4021ms; general responsiveness: ok; EDT responsiveness: 2/4 sluggish, 1/4 very slow 
+2019-03-16 11:32:11,815 [entQueue-0]   INFO - tartup.impl.StartupManagerImpl - C:/Users/witne/Popular_Movie_Stage_2/.idea case-sensitivity: expected=false actual=false 
+2019-03-16 11:32:11,871 [hread 2613]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2019-03-16 11:32:12,105 [entQueue-0]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6510 ms 
+2019-03-16 11:32:13,477 [entQueue-0]   INFO - etup.post.PluginVersionUpgrade - Gradle model version: 3.3.2, recommended version for IDE: 3.3.2 
+2019-03-16 11:32:13,594 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Gradle sync finished in 3 s 790 ms (from cached state) 
+2019-03-16 11:32:13,596 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-03-16 11:32:13,596 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-03-16 11:32:13,628 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-16 11:32:13,962 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-03-16 11:32:13,962 [entQueue-0]   INFO - idea.project.IndexingSuspender - IndexingSuspender deactivation event received and ignored: BUILD_FINISHED 
+2019-03-16 11:32:19,731 [hread 2618]   INFO -       #com.jetbrains.cidr.lang - Clearing symbols finished in 45 ms 
+2019-03-16 11:32:19,734 [hread 2618]   INFO -       #com.jetbrains.cidr.lang - Building symbols in FAST mode, 0 source files from total 0 project files 
+2019-03-16 11:32:19,735 [hread 2618]   INFO -       #com.jetbrains.cidr.lang - Loading symbols finished in 3 ms 
+2019-03-16 11:32:19,736 [hread 2618]   INFO -       #com.jetbrains.cidr.lang - Loading Header Maps finished in 1 ms 
+2019-03-16 11:32:19,742 [hread 2618]   INFO -       #com.jetbrains.cidr.lang - Loading Module Maps finished in 6 ms 
+2019-03-16 11:32:19,744 [hread 2618]   INFO -       #com.jetbrains.cidr.lang - Saving Module Maps finished in 1 ms 
+2019-03-16 11:32:19,744 [hread 2618]   INFO -       #com.jetbrains.cidr.lang - Loaded 0 tables for 0 files (0 project files) 
+2019-03-16 11:32:19,744 [hread 2618]   INFO -       #com.jetbrains.cidr.lang - Building symbols for 0 source files 
+2019-03-16 11:32:19,746 [hread 2618]   INFO -       #com.jetbrains.cidr.lang - Building symbols for 0 unused headers 
+2019-03-16 11:32:19,746 [hread 2618]   INFO -       #com.jetbrains.cidr.lang - Building symbols finished in 2 ms 
+2019-03-16 11:32:19,746 [hread 2618]   INFO -       #com.jetbrains.cidr.lang - Saving modified symbols for 0 files (0 tables of total 0) 
+2019-03-16 11:32:19,747 [hread 2618]   INFO -       #com.jetbrains.cidr.lang - Saving symbols finished in 1 ms 
+2019-03-16 11:32:19,786 [hread 2618]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 10ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-16 11:32:19,905 [hread 2618]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 118ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-16 11:32:24,658 [hread 2614]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.0s 
+2019-03-16 11:32:33,397 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-03-16 11:32:33,786 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
