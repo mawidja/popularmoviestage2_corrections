@@ -6135,3 +6135,7 @@ java.net.SocketException: Network is unreachable: connect
 2019-03-17 10:08:49,297 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8600 for client with pid 19997 
 2019-03-17 10:08:50,406 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8600 for client with pid 19997 
 2019-03-17 10:08:50,422 [   Monitor]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-03-17 10:21:41,895 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8601 for client with pid 22057 
+2019-03-17 10:21:41,937 [   Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-03-17 10:21:42,138 [entQueue-0]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-03-17 10:21:42,929 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8600 for client with pid 22057 
