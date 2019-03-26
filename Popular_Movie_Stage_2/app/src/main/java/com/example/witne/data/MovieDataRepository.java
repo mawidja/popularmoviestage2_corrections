@@ -1,6 +1,5 @@
 package com.example.witne.data;
 
-import android.app.Application;
 import android.content.Context;
 import android.os.AsyncTask;
 
@@ -13,110 +12,74 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
-import androidx.room.Room;
 
 public class MovieDataRepository {
 
     private static MovieDataRepository sInstance;
     private static final Object LOCK = new Object();
-
     private MovieRoomDatabase roomDatabase;
     private MovieDao movieDao;
-    private final Context context;
-    private Movie movie;
-    private LiveData<List<Movie>> movieLiveData;
-    private List<Trailer> movieTrailerList;
-    //private MovieAppExecutor movieAppExecutor;
 
     private MovieDataRepository(Context context) {
-        this.context = context;
         roomDatabase = MovieRoomDatabase.getInstance(context);
         movieDao = roomDatabase.movieDao();
-        movieLiveData = movieDao.getAllFavouriteMovies();
-        //movieAppExecutor = MovieAppExecutor.getInstance();
     }
 
 
     public static MovieDataRepository getInstance(Context context){
         if(sInstance == null){
             synchronized (LOCK){
-                sInstance = new MovieDataRepository(context);
+                sInstance = new MovieDataRepository(context.getApplicationContext());
             }
         }return sInstance;
     }
 
-    public LiveData<List<Movie>> getAllFavouriteMovies(){
-        //return movieDao.getAllFavouriteMovies();
-        return movieLiveData;
+    public LiveData<List<FavouriteMovie>> getAllFavouriteMovies(){
+        return movieDao.getAllFavouriteMovies();
     }
 
-    public void insertMovie(final Movie movie)
+    public void insertFavouriteMovie(final FavouriteMovie favouriteMovie)
     {
         MovieAppExecutor.getInstance().diskIO().execute(new Runnable() {
             @Override
             public void run() {
-                if(movie != null) {
-                    movieDao.insertFavouriteMovie(movie);
-                    //MovieRoomDatabase.getInstance(context).movieDao().insertFavouriteMovie(movie);
+                if( favouriteMovie!= null) {
+                    movieDao.insertFavouriteMovie(favouriteMovie);
                 }
             }
         });
     }
 
-    /*public void insertFavouriteMovie(Movie movie)
-    {
-        new InsertMovies(movieDao).execute(movie);
-    }
-
-    //Async class to insert movies
-    private static class InsertMovies extends AsyncTask<Movie, Void, Void>{
-
-        MovieDao movieDao;
-        public InsertMovies(MovieDao mDao) {
-            movieDao = mDao;
-        }
-
-        @Override
-        protected Void doInBackground(Movie...params) {
-            movieDao.insertFavouriteMovie(params[0]);
-            return null;
-        }
-    }*/
-
-
-    public void deleteFavouriteMovie(final Movie movie){
+    public void deleteFavouriteMovie(final FavouriteMovie favouriteMovie){
 
         MovieAppExecutor.getInstance().diskIO().execute(new Runnable() {
             @Override
             public void run() {
-                movieDao.deleteFavouriteMovie(movie);
+                movieDao.deleteFavouriteMovie(favouriteMovie);
             }
         });
     }
 
-    public  LiveData<Movie> getFavouriteMovie(int movieId){
+    public  LiveData<FavouriteMovie> getFavouriteMovie(int movieId){
         return movieDao.getFavouriteMovie(movieId);
     }
 
     public LiveData<List<Trailer>> getMovieTrailers(URL movieSearchURL){
-        return new FetchMovieTrailer(context,movieSearchURL);
+        return new FetchMovieTrailer(movieSearchURL);
     }
 
     public LiveData<List<MovieReview>> getMovieReviews(URL movieSearchURL) {
-        return new FetchMovieReviews(context,movieSearchURL);
+        return new FetchMovieReviews(movieSearchURL);
     }
 
 
     //Async inner class to fetch movie trailers on the internet
     private class FetchMovieTrailer extends LiveData<List<Trailer>>{
 
-        private final Context context;
         private URL movieSearchURL;
 
-        FetchMovieTrailer(Context context, URL movieSearchURL) {
-            this.context = context;
+        FetchMovieTrailer(URL movieSearchURL) {
             this.movieSearchURL = movieSearchURL;
             loadMovieTrailer();
 
@@ -151,11 +114,9 @@ public class MovieDataRepository {
 
     //Async inner class to fetch movie reviews on the internet
     private class FetchMovieReviews extends LiveData<List<MovieReview>>{
-        private final Context context;
         private URL movieSearchURL;
 
-        FetchMovieReviews(Context context, URL movieSearchURL) {
-            this.context = context;
+        FetchMovieReviews(URL movieSearchURL) {
             this.movieSearchURL = movieSearchURL;
             loadMovieReviews();
 

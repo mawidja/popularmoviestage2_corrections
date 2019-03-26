@@ -5600,6 +5600,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.sjs">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="uk.co.reecedunn.intellij.plugin.xquery" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.slice">
       <plugins>
         <option name="myPlugins">

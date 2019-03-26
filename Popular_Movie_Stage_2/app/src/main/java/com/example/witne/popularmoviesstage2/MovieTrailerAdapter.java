@@ -5,10 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import com.example.witne.data.Trailer;
-import com.example.witne.popularmoviesstage2.R;
 
-import java.util.ArrayList;
+import com.example.witne.data.Trailer;
+
 import java.util.List;
 
 import androidx.recyclerview.widget.RecyclerView;

@@ -1,21 +1,20 @@
  package com.example.witne.utilities;
 
-import android.net.Uri;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.Scanner;
+ import android.net.Uri;
 
-import androidx.annotation.Nullable;
+ import java.io.IOException;
+ import java.io.InputStream;
+ import java.net.HttpURLConnection;
+ import java.net.MalformedURLException;
+ import java.net.URL;
+ import java.util.Scanner;
 
  public class NetworkUtils {
 
     private static final String MOVIE_BASE_URL = "https://api.themoviedb.org/3/movie/";
     private static final String API_KEY = "api_key";
     @SuppressWarnings("SpellCheckingInspection")
-    private static final String myPersonalApiKey = "";
+    private static final String myPersonalApiKey = "98626ee46e48c23fface6dac4d55c5ea";
 
     private static final String PARAM_LANGUAGE = "language";
     private static final String language = "en-US";

@@ -1,9 +1,8 @@
 package com.example.witne.popularmoviesstage2;
 
 import android.app.Application;
-import android.content.Context;
 
-import com.example.witne.data.Movie;
+import com.example.witne.data.FavouriteMovie;
 import com.example.witne.data.MovieDataRepository;
 
 import java.util.List;
@@ -15,26 +14,16 @@ import androidx.lifecycle.LiveData;
 public class FavouriteMovieViewModel extends AndroidViewModel {
 
     private MovieDataRepository movieDataRepository;
-    LiveData<List<Movie>> movieListLiveData;
-    LiveData<Movie> movieLiveData;
-    //private final Context context;
-    //private LiveData<List<Movie>> movieList;
-    ///private LiveData<Movie> movieLiveData;
+    private LiveData<List<FavouriteMovie>> favouriteMovies;
 
     public FavouriteMovieViewModel(@NonNull Application application) {
         super(application);
-        movieDataRepository = MovieDataRepository.getInstance(application.getApplicationContext());
+        movieDataRepository = MovieDataRepository.getInstance(this.getApplication());
+        favouriteMovies = movieDataRepository.getAllFavouriteMovies();
+
     }
 
-    public LiveData<List<Movie>> getFavouriteMovies(){
-        return movieListLiveData = movieDataRepository.getAllFavouriteMovies();
+    public LiveData<List<FavouriteMovie>> getFavouriteMovies(){
+        return favouriteMovies;
     }
-
-    /*public LiveData<Movie> getFavouriteMovie(int movieId){
-        return movieLiveData = movieDataRepository.getFavouriteMovie(movieId);
-    }
-
-    public void deleteFavouriteMovie(Movie movie){
-        movieDataRepository.deleteFavouriteMovie(movie);
-    }*/
 }

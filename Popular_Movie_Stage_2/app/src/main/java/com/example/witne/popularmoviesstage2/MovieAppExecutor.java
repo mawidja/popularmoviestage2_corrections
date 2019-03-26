@@ -5,9 +5,7 @@ import android.os.Looper;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
-import java.util.logging.LogRecord;
 
-import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 
 public class MovieAppExecutor {

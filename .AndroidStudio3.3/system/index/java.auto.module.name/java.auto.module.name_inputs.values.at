@@ -1,96 +1,75 @@
-/Header Record For PersistentHashMapValueStorageaccess.bridgecharsetsdnsns
+/Header Record For PersistentHashMapValueStoragecharsetsaccess.bridgecldrdatadnsns
 jaccess
-localedatacldrdata
-nashornsunec	sunmscapi	sunpkcs11sunjce.providerzipfsjcejssemanagement.agent	resourcesrt
-androidslidingpanelayout
-classeslifecycle.livedata
+localedata
+nashornsunecsunjce.provider	sunmscapi	sunpkcs11zipfsjcejssemanagement.agent	resourcesrt
+androiddrawerlayout
+classesdocumentfile
+classes
+monitor
+classeslocalbroadcastmanager
+classescardview
 classeslifecycle.runtime
-classesdrawerlayoutexifinterface
 classeslifecycle.livedata.core
-classes
-classescore	appcompat
-classes
-classes
-classeslegacy.support.core.utils
-classesfragment
-classeslifecycle.commonversionedparcelableswiperefreshlayoutlifecycle.common
-classesconstraintlayout.solverlifecycle.viewmodel
-classes
-classescoordinatorlayoutokio
-classesokiodocumentfile
-classescore.commoncore.common
-classesrecyclerview	viewpager
-classescore.runtimelegacy.support.core.ui
-classes
+classes	runner
+classescursoradapter
+classescore
+classes
+customview
+classesasynclayoutinflater
+classes	sqlite
+classesinterpolator
+classeslifecycle.service
+classesroom.runtime
+classesslidingpanelayout
+classesmaterial
 classes
 annotation
-annotationinterpolatorvectordrawable
-classes
-classes
-classesvectordrawable.animated	okhttp
-okhttp3	loader
-customview
-classes
-picasso
-classeslocalbroadcastmanager
-classesasynclayoutinflater
-classes
-classescursoradapterprint
-classes
+annotation	appcompat
+classescore.runtime
+classeslistenablefuturelistenablefutureconcurrent.futuresconcurrent.futuresfragment
+classeskxml2kxml2swiperefreshlayout
+classes	viewpager
+classeslegacy.support.core.ui
+classes	loader
+classesactivity
+classeslifecycle.livedata
+classesversionedparcelable
 classes
 collection
-collection
-androidsupport.fragment
-classesappcompat.v7
-classessupport.compat
-classessupport.core.utils
-classessupport.media.compat
-classes
-classessupport.vector.drawable
-classesanimated.vector.drawable
-classessupport.annotationssupport.annotationssupport.core.ui
-classes	runnerjunitjunithamcrest.corehamcrest.corerecyclerview.v7&#exposed.instrumentation.api.publishrules
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classescardview
-classes
+collectionvectordrawable
+classesvectordrawable.animated
+classeslifecycle.commonlifecycle.commonlegacy.support.core.utils
+classesprint
+classeslifecycle.viewmodel
+classescore.commoncore.common
 transition
+classesjunitjunithamcrest.corehamcrest.coresqlite.framework
+classeslifecycle.extensions
+classesrecyclerview
+classesroom.commonroom.commoncoordinatorlayout
+classeslifecycle.process
+classes
+classesrecyclerviewexifinterface
+classesvectordrawable
+classesfragment
+classesokiookio
+classescoordinatorlayout	appcompat
 classes
 classes
+classesversionedparcelable
 classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
-classes
+picassoconstraintlayout.solver
+transition
+classes	okhttp
+classescore
+okhttp3
+classes
+collection
+collection	objenesis	objenesisroom.migrationroom.testing
+classesroom.migrationgsongsonannotationsmockito.coreannotationsorg.mockitoroom.runtime
+classeskotlin.stdlibkotlin.stdlibsqlite.framework
+classesroom.commonroom.common
+annotation
+annotation	sqlite
+classescore.testing
+classeskotlin.stdlib.commonkotlin.stdlib.common

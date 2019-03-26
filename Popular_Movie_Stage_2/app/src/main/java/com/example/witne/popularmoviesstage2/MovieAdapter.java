@@ -1,30 +1,24 @@
 package com.example.witne.popularmoviesstage2;
 
 import android.content.Context;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.example.witne.data.Movie;
-import com.example.witne.popularmoviesstage2.R;
 import com.squareup.picasso.Picasso;
-import java.util.ArrayList;
+
 import java.util.List;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHolder> {
 
     private List<Movie> movieList;
     private Movie movie;
-   //private MovieAdapterOnClickHandler movieAdapterOnClickHandler;
     private final ListItemClickLister listItemClickLister;
-
-    //interface to handle movie click event
-    /*public interface MovieAdapterOnClickHandler{
-        void onClick(Movie  movie);
-    }*/
 
     public interface ListItemClickLister{
         void onListItemClick(Movie movie);

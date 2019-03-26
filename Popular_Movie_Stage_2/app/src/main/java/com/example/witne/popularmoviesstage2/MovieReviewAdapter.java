@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.witne.data.MovieReview;
-import java.util.ArrayList;
+
 import java.util.List;
 
 import androidx.annotation.NonNull;

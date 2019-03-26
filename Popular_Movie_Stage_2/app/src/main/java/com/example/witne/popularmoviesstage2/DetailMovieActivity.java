@@ -1,31 +1,18 @@
 package com.example.witne.popularmoviesstage2;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.LiveData;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
-import androidx.loader.app.LoaderManager;
-import androidx.loader.content.AsyncTaskLoader;
-import androidx.loader.content.Loader;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
-import android.text.TextUtils;
-import android.view.MotionEvent;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.witne.data.FavouriteMovie;
 import com.example.witne.data.Movie;
 import com.example.witne.data.MovieDataRepository;
 import com.example.witne.data.MovieReview;
@@ -34,11 +21,16 @@ import com.example.witne.utilities.JsonUtils;
 import com.example.witne.utilities.NetworkUtils;
 import com.squareup.picasso.Picasso;
 
-import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class DetailMovieActivity extends AppCompatActivity implements MovieTrailerAdapter.ListItemClickListener,
         MovieReviewAdapter.ListItemClickListener{
@@ -52,9 +44,6 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
     private DetailMovieViewModel detailMovieViewModel;
 
     private MovieReviewAdapter movieReviewAdapter;
-    private TextView tv_movie_reviews;
-    private List<MovieReview> movieReviews;
-
     private Intent intent;
 
     @Override
@@ -69,7 +58,6 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         TextView tv_movie_overview = findViewById(R.id.tv_movie_overview);
         Switch bAddFavouriteMovie = findViewById(R.id.btAddFavouriteMovie);
         tv_trailers = findViewById(R.id.tv_trailers);
-        tv_movie_reviews = findViewById(R.id.tv_movie_reviews);
 
 
         //set the movie trailer recycler view
@@ -86,7 +74,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         rv_movie_reviews.setLayoutManager(layoutManager);
         rv_movie_reviews.setHasFixedSize(true);
-        movieReviews = new ArrayList<>();
+        List<MovieReview>  movieReviews = new ArrayList<>();
         movieReviewAdapter = new MovieReviewAdapter(movieReviews,this);
         rv_movie_reviews.setAdapter(movieReviewAdapter);
 
@@ -108,31 +96,41 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
             String movieRating = getString(R.string.movie_rating_total,String.valueOf(movie.getVote_average()));
             tv_movie_rating.setText(movieRating);
             tv_movie_overview.setText(movie.getMovie_overview());
-            String movieVideosOrReviews = "videos";
-            String movieReviews = "reviews";
+
+            MovieDataRepository movieDataRepository = MovieDataRepository.getInstance(getApplicationContext());
+            DetailMovieViewModelFactory detailMovieViewModelFactory = new DetailMovieViewModelFactory(movieDataRepository);
+            detailMovieViewModel = ViewModelProviders.of(this,detailMovieViewModelFactory).get(DetailMovieViewModel.class);
+
+            if(detailMovieViewModel.getFavouriteMovie(movie.getMovieId()).getValue() != null){
+                bAddFavouriteMovie.setChecked(true);
+                bAddFavouriteMovie.setText(R.string.favourite_movie);
+            }else{
+                bAddFavouriteMovie.setChecked(false);
+                bAddFavouriteMovie.setText(R.string.mark_movie_as_favourite);
+            }
 
             if(isNetworkAvailable()) {
-                //setupFavouriteMovieViewModel();
+                String movieVideosOrReviews = "videos";
+                String movie_Reviews = "reviews";
+
                 startMovieTrailerSearch(movieVideosOrReviews,String.valueOf(movie.getMovieId()));
-                startMovieReviewSearch(movieReviews,String.valueOf(movie.getMovieId()));
+                startMovieReviewSearch(movie_Reviews,String.valueOf(movie.getMovieId()));
             }else{
                 showErrorMessage();
             }
 
-
-            final Context context = getApplicationContext();
-            //final Movie favouriteMovie = new Movie(movie.getMovieId(),movie.getTitle());
-            final Movie favouriteMovie = new Movie(movie.getMovieId(),movie.getTitle(),movie.getRelease_date(),movie.getPopularity(),
-                                    movie.getVote_average(), movie.getPoster_path(),movie.getMovie_overview());
+            final FavouriteMovie favouriteMovieData = new FavouriteMovie(movie.getMovieId(),movie.getMovie_overview(),movie.getPopularity(),
+                                       movie.getPoster_path(),movie.getRelease_date(),
+                                       movie.getTitle(),movie.getVote_average());
             bAddFavouriteMovie.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                     if(isChecked){
-                        detailMovieViewModel.insertMyFavouriteMovie(favouriteMovie);
-                        Toast.makeText(context,"Favourite Movie",Toast.LENGTH_SHORT).show();
+                        detailMovieViewModel.insertFavouriteMovie(favouriteMovieData);
+                        Toast.makeText(getApplicationContext(),"Favourite Movie",Toast.LENGTH_SHORT).show();
                     }else {
-                        detailMovieViewModel.deleteFavouriteMovie(favouriteMovie);
-                        Toast.makeText(context,"Un-Favourite",Toast.LENGTH_SHORT).show();
+                        detailMovieViewModel.deleteFavouriteMovie(favouriteMovieData);
+                        Toast.makeText(getApplicationContext(),"Un-Favourite",Toast.LENGTH_SHORT).show();
                     }
                 }
             });
@@ -145,12 +143,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         return (networkInfo != null) && (networkInfo.isConnected());
     }
 
-    private void setUpMovieTrailerMovieViewModel(){
-        //create movie view model and add observer for the LiveData returned
-        MovieDataRepository movieDataRepository = MovieDataRepository.getInstance(getApplicationContext());
-        DetailViewModelFactory detailViewModelFactory = new DetailViewModelFactory(movieDataRepository);
-        //detailMovieViewModel = ViewModelProviders.of(this).get(DetailMovieViewModel.class);
-        detailMovieViewModel = ViewModelProviders.of(this,detailViewModelFactory).get(DetailMovieViewModel.class);
+    private void setUpMovieTrailerMovieViewModel(URL movieSearchURL){
         detailMovieViewModel.getMovieTrailers(movieSearchURL).observe(this, new Observer<List<Trailer>>() {
             @Override
             public void onChanged(List<Trailer> trailerList) {
@@ -159,13 +152,12 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         });
     }
 
-    private void setUpMovieReviewMovieModel(){
-        //add observer for the LiveData returned by the view model
+    private void setUpMovieReviewMovieModel(URL movieSearchURL){
         detailMovieViewModel.getMovieReviews(movieSearchURL).observe(this, new Observer<List<MovieReview>>() {
-             @Override
-             public void onChanged(List<MovieReview> movieReviews) {
-                    movieReviewAdapter.setMovieReviewAdapter(movieReviews);
-                }
+            @Override
+            public void onChanged(List<MovieReview> movieReviews) {
+                movieReviewAdapter.setMovieReviewAdapter(movieReviews);
+            }
         });
     }
 
@@ -176,12 +168,12 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
 
     private void startMovieTrailerSearch(String movieVideosOrReviews, String movieIdOrKey ){
         movieSearchURL = NetworkUtils.buildUrl(movieVideosOrReviews,movieIdOrKey);
-        setUpMovieTrailerMovieViewModel();
+        setUpMovieTrailerMovieViewModel(movieSearchURL);
     }
 
     private void startMovieReviewSearch(String searchMovieReviews, String movieId){
         movieSearchURL = NetworkUtils.buildUrl(searchMovieReviews,movieId);
-        setUpMovieReviewMovieModel();
+        setUpMovieReviewMovieModel(movieSearchURL);
     }
 
     private void showJSONData(String jsonData){

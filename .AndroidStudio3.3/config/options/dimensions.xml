@@ -36,10 +36,10 @@
     <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1366.768" width="1092" height="713" />
     <size key="SettingsEditor.0.0.1366.768" width="1038" height="742" />
     <size key="ProcessPopupWindow.0.0.1366.768" width="940" height="498" />
-    <size key="GridCell.Tab.1.left.0.0.1366.768" width="1260" height="216" />
-    <size key="GridCell.Tab.1.center.0.0.1366.768" width="1260" height="216" />
-    <size key="GridCell.Tab.1.right.0.0.1366.768" width="1260" height="216" />
-    <size key="GridCell.Tab.1.bottom.0.0.1366.768" width="1260" height="216" />
+    <size key="GridCell.Tab.1.left.0.0.1366.768" width="1260" height="240" />
+    <size key="GridCell.Tab.1.center.0.0.1366.768" width="1260" height="240" />
+    <size key="GridCell.Tab.1.right.0.0.1366.768" width="1260" height="240" />
+    <size key="GridCell.Tab.1.bottom.0.0.1366.768" width="1260" height="240" />
     <size key="GotoFile_FileTypePopup.0.0.1366.768" width="200" height="200" />
     <size key="javadoc.popup.0.0.1366.768" width="446" height="170" />
     <size key="#Project_Structure.0.0.1366.768" width="973" height="696" />

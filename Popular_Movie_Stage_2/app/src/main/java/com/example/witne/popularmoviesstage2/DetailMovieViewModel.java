@@ -1,41 +1,27 @@
 package com.example.witne.popularmoviesstage2;
 
-import android.app.Application;
-import android.content.Context;
-import android.os.AsyncTask;
-
-import com.example.witne.data.Movie;
+import com.example.witne.data.FavouriteMovie;
 import com.example.witne.data.MovieDataRepository;
 import com.example.witne.data.MovieReview;
 import com.example.witne.data.Trailer;
-import com.example.witne.utilities.JsonUtils;
-import com.example.witne.utilities.NetworkUtils;
 
-import java.io.IOException;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.List;
 
-import androidx.annotation.NonNull;
-import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
 public class DetailMovieViewModel extends ViewModel {
 
-    //private final Context context;
     private MovieDataRepository movieDataRepository;
 
     public DetailMovieViewModel(MovieDataRepository movieDataRepository) {
         this.movieDataRepository = movieDataRepository;
     }
 
-    /*public DetailMovieViewModel(@NonNull Application application) {
-        super(application);
-        //this.context = application.getApplicationContext();
-        //movieDataRepository = new MovieDataRepository(application.getApplicationContext());
-        movieDataRepository = MovieDataRepository.getInstance(application.getApplicationContext());
-    }*/
+    public LiveData<FavouriteMovie> getFavouriteMovie(int movieId){
+        return movieDataRepository.getFavouriteMovie(movieId);
+    }
 
     public LiveData<List<Trailer>> getMovieTrailers(URL movieSearchURL){
         return movieDataRepository.getMovieTrailers(movieSearchURL);
@@ -45,11 +31,11 @@ public class DetailMovieViewModel extends ViewModel {
         return movieDataRepository.getMovieReviews(movieSearchURL);
     }
 
-    public void insertMyFavouriteMovie(Movie movie){
-        movieDataRepository.insertMovie(movie);
+    public void insertFavouriteMovie(FavouriteMovie favouriteMovie){
+        movieDataRepository.insertFavouriteMovie(favouriteMovie);
     }
 
-    public void deleteFavouriteMovie(Movie movie){
-        movieDataRepository.deleteFavouriteMovie(movie);
+    public void deleteFavouriteMovie(FavouriteMovie favouriteMovie){
+        movieDataRepository.deleteFavouriteMovie(favouriteMovie);
     }
 }
