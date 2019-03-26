@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import com.example.witne.data.FavouriteMovie;
 import com.example.witne.data.Movie;
+import com.example.witne.data.MovieDataRepository;
 import com.example.witne.utilities.JsonUtils;
 import com.example.witne.utilities.NetworkUtils;
 
@@ -45,9 +46,6 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
     private String moviesToSearchFor;
 
     private static final String MOVIE_SEARCH_QUERY = "queryMovies";
-    //private static final String DEFAULT_MOVIE_SEARCH = "popular";
-    //private String popularOrTopRatedMovies;
-    //private ArrayList<Movie> movieList;
     private List<Movie> movieList;
     private MovieAdapter movieAdapter;
 
@@ -115,8 +113,10 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
         recyclerView.setAdapter(movieAdapter);
 
         favouriteMovieList = new ArrayList<>();
-        favouriteMovieViewModel = ViewModelProviders.of(this).get(FavouriteMovieViewModel.class);
-
+        MovieDataRepository movieDataRepository = MovieDataRepository.getInstance(getApplicationContext());
+        //favouriteMovieViewModel = ViewModelProviders.of(this).get(FavouriteMovieViewModel.class);
+        FavouriteMovieViewModelFactory viewModelFactory = new FavouriteMovieViewModelFactory(movieDataRepository);
+        favouriteMovieViewModel = ViewModelProviders.of(this,viewModelFactory).get(FavouriteMovieViewModel.class);
         if(moviesToSearchFor == "favourite_movies"){
             favouriteMovieViewModel.getFavouriteMovies().observe(this, new Observer<List<FavouriteMovie>>() {
                 @Override

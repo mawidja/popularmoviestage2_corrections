@@ -56,7 +56,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         TextView tv_movie_release_date = findViewById(R.id.tv_movie_release_date);
         TextView tv_movie_rating = findViewById(R.id.tv_movie_vote_average);
         TextView tv_movie_overview = findViewById(R.id.tv_movie_overview);
-        Switch bAddFavouriteMovie = findViewById(R.id.btAddFavouriteMovie);
+        final Switch bAddFavouriteMovie = findViewById(R.id.btAddFavouriteMovie);
         tv_trailers = findViewById(R.id.tv_trailers);
 
 
@@ -128,9 +128,11 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
                     if(isChecked){
                         detailMovieViewModel.insertFavouriteMovie(favouriteMovieData);
                         Toast.makeText(getApplicationContext(),"Favourite Movie",Toast.LENGTH_SHORT).show();
+                        bAddFavouriteMovie.setText(R.string.favourite_movie);
                     }else {
                         detailMovieViewModel.deleteFavouriteMovie(favouriteMovieData);
                         Toast.makeText(getApplicationContext(),"Un-Favourite",Toast.LENGTH_SHORT).show();
+                        bAddFavouriteMovie.setText(R.string.mark_movie_as_favourite);
                     }
                 }
             });

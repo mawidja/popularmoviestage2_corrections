@@ -6,7 +6,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-@Database(entities = {FavouriteMovie.class}, version = 1,exportSchema = false)
+@Database(entities = {FavouriteMovie.class}, version = 2,exportSchema = false)
 public abstract class MovieRoomDatabase extends RoomDatabase {
 
     private static final Object LOCK = new Object();
