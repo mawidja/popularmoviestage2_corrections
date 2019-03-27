@@ -18,11 +18,11 @@ public class MovieDataRepository {
 
     private static MovieDataRepository sInstance;
     private static final Object LOCK = new Object();
-    private MovieRoomDatabase roomDatabase;
     private MovieDao movieDao;
 
     private MovieDataRepository(Context context) {
-        roomDatabase = MovieRoomDatabase.getInstance(context);
+        //this.context = context;
+        MovieRoomDatabase roomDatabase = MovieRoomDatabase.getInstance(context);
         movieDao = roomDatabase.movieDao();
     }
 
@@ -35,16 +35,19 @@ public class MovieDataRepository {
         }return sInstance;
     }
 
+    public LiveData<FavouriteMovie> getFavouriteMovie(int movieId){
+        return movieDao.getFavouriteMovie(movieId);
+    }
+
     public LiveData<List<FavouriteMovie>> getAllFavouriteMovies(){
         return movieDao.getAllFavouriteMovies();
     }
 
-    public void insertFavouriteMovie(final FavouriteMovie favouriteMovie)
-    {
+    public void insertFavouriteMovie(final FavouriteMovie favouriteMovie) {
         MovieAppExecutor.getInstance().diskIO().execute(new Runnable() {
             @Override
             public void run() {
-                if( favouriteMovie!= null) {
+                if(favouriteMovie != null) {
                     movieDao.insertFavouriteMovie(favouriteMovie);
                 }
             }
@@ -59,10 +62,6 @@ public class MovieDataRepository {
                 movieDao.deleteFavouriteMovie(favouriteMovie);
             }
         });
-    }
-
-    public  LiveData<FavouriteMovie> getFavouriteMovie(int movieId){
-        return movieDao.getFavouriteMovie(movieId);
     }
 
     public LiveData<List<Trailer>> getMovieTrailers(URL movieSearchURL){
@@ -80,9 +79,9 @@ public class MovieDataRepository {
         private URL movieSearchURL;
 
         FetchMovieTrailer(URL movieSearchURL) {
+            //this.context = context;
             this.movieSearchURL = movieSearchURL;
             loadMovieTrailer();
-
         }
 
         private void loadMovieTrailer(){
@@ -114,9 +113,11 @@ public class MovieDataRepository {
 
     //Async inner class to fetch movie reviews on the internet
     private class FetchMovieReviews extends LiveData<List<MovieReview>>{
+
         private URL movieSearchURL;
 
         FetchMovieReviews(URL movieSearchURL) {
+            //this.context = context;
             this.movieSearchURL = movieSearchURL;
             loadMovieReviews();
 

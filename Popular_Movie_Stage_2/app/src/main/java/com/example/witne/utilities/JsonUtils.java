@@ -29,9 +29,9 @@ public class JsonUtils {
             for(int i=0; i<results.length();i++){
                 JSONObject jsonObject = results.getJSONObject(i);
                 poster_path = IMAGE_BASE_URL + jsonObject.getString("poster_path");
-               movie = new Movie(jsonObject.getInt("id"),jsonObject.getString("overview"),jsonObject.getDouble("popularity"),
-                                 poster_path,jsonObject.getString("release_date"),
-                                 jsonObject.getString("title"),jsonObject.getDouble("vote_average"));
+                movie = new Movie( jsonObject.getInt("id"), jsonObject.getString("overview"), jsonObject.getDouble("popularity"),
+                                   poster_path, jsonObject.getString("release_date"),
+                                   jsonObject.getString("title"), jsonObject.getDouble("vote_average") );
                 movieArrayList.add(movie);
             }
             return movieArrayList;

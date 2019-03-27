@@ -1,5 +1,7 @@
 package com.example.witne.popularmoviesstage2;
 
+import android.content.Context;
+
 import com.example.witne.data.FavouriteMovie;
 import com.example.witne.data.MovieDataRepository;
 import com.example.witne.data.MovieReview;
@@ -13,10 +15,11 @@ import androidx.lifecycle.ViewModel;
 
 public class DetailMovieViewModel extends ViewModel {
 
+
     private MovieDataRepository movieDataRepository;
 
-    public DetailMovieViewModel(MovieDataRepository movieDataRepository) {
-        this.movieDataRepository = movieDataRepository;
+    public DetailMovieViewModel(Context context) {
+        this.movieDataRepository = MovieDataRepository.getInstance(context);
     }
 
     public LiveData<FavouriteMovie> getFavouriteMovie(int movieId){

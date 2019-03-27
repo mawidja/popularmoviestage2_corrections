@@ -3,6 +3,7 @@ package com.example.witne.data;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
+
 @Entity(tableName = "favourite_movie")
 public class FavouriteMovie {
 
@@ -17,7 +18,7 @@ public class FavouriteMovie {
 
     //Args constructor
     public FavouriteMovie(int movieId, String movie_overview, double popularity, String poster_path,
-                          String release_date, String title, double vote_average ){
+                 String release_date, String title, double vote_average ){
         this.movieId = movieId;
         this.movie_overview = movie_overview;
         this.popularity = popularity;

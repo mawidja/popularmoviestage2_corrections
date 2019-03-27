@@ -1,6 +1,6 @@
 package com.example.witne.popularmoviesstage2;
 
-import com.example.witne.data.MovieDataRepository;
+import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;
@@ -8,15 +8,15 @@ import androidx.lifecycle.ViewModelProvider;
 
 public class DetailMovieViewModelFactory extends ViewModelProvider.NewInstanceFactory {
 
-    private final MovieDataRepository movieDataRepository;
+    private Context context;
 
-    public DetailMovieViewModelFactory(MovieDataRepository movieDataRepository) {
-        this.movieDataRepository = movieDataRepository;
+    public DetailMovieViewModelFactory(Context context) {
+        this.context = context;
     }
 
     @NonNull
     @Override
     public <T extends ViewModel> T create(@NonNull Class<T> modelClass) {
-        return (T) new DetailMovieViewModel(movieDataRepository);
+        return (T) new DetailMovieViewModel(context);
     }
 }

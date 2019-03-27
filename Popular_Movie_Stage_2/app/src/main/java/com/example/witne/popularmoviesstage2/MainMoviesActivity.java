@@ -14,7 +14,6 @@ import android.widget.TextView;
 
 import com.example.witne.data.FavouriteMovie;
 import com.example.witne.data.Movie;
-import com.example.witne.data.MovieDataRepository;
 import com.example.witne.utilities.JsonUtils;
 import com.example.witne.utilities.NetworkUtils;
 
@@ -34,25 +33,29 @@ import androidx.loader.content.Loader;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-//import android.os.AsyncTask;
 
 public class MainMoviesActivity extends AppCompatActivity implements MovieAdapter.ListItemClickLister,
         LoaderManager.LoaderCallbacks<String>{
 
     //to uniquely identify the loader
     private static final int MOVIE_SEARCH_LOADER = 46;
-    // static final String MOVIE_SEARCH_KEY = "movieSearchKey";
+    //private LoaderManager loaderManager;
+    //private String movieSearchQuery;
     private static final String SEARCH_MOVIES_KEY = "movieSearchKey";
-    private String moviesToSearchFor;
 
     private static final String MOVIE_SEARCH_QUERY = "queryMovies";
+    //private static final String DEFAULT_MOVIE_SEARCH = "popular";
+    private String popularOrTopRatedMovies;
+
+    private String moviesToSearchFor;
+    //private ArrayList<Movie> movieList;
     private List<Movie> movieList;
     private MovieAdapter movieAdapter;
 
-    //private LiveData<List<Movie>> movieList1;
-    private List<FavouriteMovie> favouriteMovieList;
     private FavouriteMovieViewModel favouriteMovieViewModel;
+    //private List<FavouriteMovie> favouriteMovieList;
 
+    //private LiveData<List<Movie>> movieList1;
     /*@BindView(R.id.rv_popularMovies)
     RecyclerView recyclerView;
 
@@ -93,6 +96,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
             moviesToSearchFor = "popular";
         }
 
+        //popularOrTopRatedMovies = savedInstanceState.getString(MOVIE_SEARCH_KEY);
         setContentView(R.layout.activity_main_movies);
         //ButterKnife.bind(this);
 
@@ -112,11 +116,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
         movieAdapter = new MovieAdapter(movieList,this);
         recyclerView.setAdapter(movieAdapter);
 
-        favouriteMovieList = new ArrayList<>();
-        MovieDataRepository movieDataRepository = MovieDataRepository.getInstance(getApplicationContext());
-        //favouriteMovieViewModel = ViewModelProviders.of(this).get(FavouriteMovieViewModel.class);
-        FavouriteMovieViewModelFactory viewModelFactory = new FavouriteMovieViewModelFactory(movieDataRepository);
-        favouriteMovieViewModel = ViewModelProviders.of(this,viewModelFactory).get(FavouriteMovieViewModel.class);
+        favouriteMovieViewModel = ViewModelProviders.of(this).get(FavouriteMovieViewModel.class);
         if(moviesToSearchFor == "favourite_movies"){
             favouriteMovieViewModel.getFavouriteMovies().observe(this, new Observer<List<FavouriteMovie>>() {
                 @Override
@@ -134,18 +134,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
                 showErrorMessage();
             }
         }
-    }
 
-    private void loadFavouriteMovies(List<FavouriteMovie> listOfFavouriteMovies){
-        movieList.clear();
-        for(int i = 0; i<listOfFavouriteMovies.size();i++){
-            Movie movie = new Movie(listOfFavouriteMovies.get(i).getMovieId(),listOfFavouriteMovies.get(i).getMovie_overview(),
-                    listOfFavouriteMovies.get(i).getPopularity(),listOfFavouriteMovies.get(i).getPoster_path(),
-                    listOfFavouriteMovies.get(i).getRelease_date(),listOfFavouriteMovies.get(i).getTitle(),
-                    listOfFavouriteMovies.get(i).getVote_average());
-            movieList.add(movie);
-        }
-        movieAdapter.setMovieAdapter(movieList);
     }
 
     private boolean isNetworkAvailable(){
@@ -167,6 +156,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
     }
 
     private void startMovieSearch(String popularOrTopRatedMovies){
+        movieList.clear();
         URL movieSearchURL = NetworkUtils.buildUrl(popularOrTopRatedMovies,null);
         //fetch data on separate thread
         // and initialize the recycler viewer with data from movie adapter
@@ -210,25 +200,33 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
                 startMovieSearch(moviesToSearchFor);
                 return true;
             case R.id.action_favourite_movies:
-                //not searching from the internet by getting data from the room database
-                progressBar.setVisibility(View.INVISIBLE);
-                tv_error_message.setVisibility(View.INVISIBLE);
-
-                //search room database
                 moviesToSearchFor = "favourite_movies";
-                favouriteMovieList = favouriteMovieViewModel.getFavouriteMovies().getValue();
-                if(favouriteMovieList!= null){
-                    favouriteMovieViewModel.getFavouriteMovies().observe(this, new Observer<List<FavouriteMovie>>() {
-                        @Override
-                        public void onChanged(List<FavouriteMovie> favouriteMovies) {
+                favouriteMovieViewModel.getFavouriteMovies().observe(this, new Observer<List<FavouriteMovie>>() {
+                    @Override
+                    public void onChanged(List<FavouriteMovie> favouriteMovies) {
+                        if(favouriteMovies!= null){
                             loadFavouriteMovies(favouriteMovies);
                         }
-                    });
-
-                }
-                return (favouriteMovieList!= null);
+                    }
+                });
+                return (favouriteMovieViewModel.getFavouriteMovies().getValue()!= null);
         }
         return super.onOptionsItemSelected(menuItem);
+    }
+
+    private void loadFavouriteMovies(List<FavouriteMovie> listOfFavouriteMovies){
+        progressBar.setVisibility(View.INVISIBLE);
+        tv_error_message.setVisibility(View.INVISIBLE);
+
+        movieList.clear();
+        for(int i = 0; i<listOfFavouriteMovies.size();i++){
+            Movie movie = new Movie(listOfFavouriteMovies.get(i).getMovieId(),listOfFavouriteMovies.get(i).getMovie_overview(),
+                    listOfFavouriteMovies.get(i).getPopularity(),listOfFavouriteMovies.get(i).getPoster_path(),
+                    listOfFavouriteMovies.get(i).getRelease_date(),listOfFavouriteMovies.get(i).getTitle(),
+                    listOfFavouriteMovies.get(i).getVote_average());
+            movieList.add(movie);
+        }
+        movieAdapter.setMovieAdapter(movieList);
     }
 
     @NonNull

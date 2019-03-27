@@ -18,6 +18,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
 
     private List<Movie> movieList;
     private Movie movie;
+   //private MovieAdapterOnClickHandler movieAdapterOnClickHandler;
     private final ListItemClickLister listItemClickLister;
 
     public interface ListItemClickLister{

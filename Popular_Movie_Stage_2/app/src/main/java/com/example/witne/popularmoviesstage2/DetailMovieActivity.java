@@ -14,7 +14,6 @@ import android.widget.Toast;
 
 import com.example.witne.data.FavouriteMovie;
 import com.example.witne.data.Movie;
-import com.example.witne.data.MovieDataRepository;
 import com.example.witne.data.MovieReview;
 import com.example.witne.data.Trailer;
 import com.example.witne.utilities.JsonUtils;
@@ -58,6 +57,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         TextView tv_movie_overview = findViewById(R.id.tv_movie_overview);
         final Switch bAddFavouriteMovie = findViewById(R.id.btAddFavouriteMovie);
         tv_trailers = findViewById(R.id.tv_trailers);
+        //TextView tv_movie_reviews = findViewById(R.id.tv_movie_reviews);
 
 
         //set the movie trailer recycler view
@@ -74,9 +74,10 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         rv_movie_reviews.setLayoutManager(layoutManager);
         rv_movie_reviews.setHasFixedSize(true);
-        List<MovieReview>  movieReviews = new ArrayList<>();
+        List<MovieReview> movieReviews = new ArrayList<>();
         movieReviewAdapter = new MovieReviewAdapter(movieReviews,this);
         rv_movie_reviews.setAdapter(movieReviewAdapter);
+
 
         //get movie details from the intent that started the activity
         //Intent intentStartedThisActivity = getIntent();
@@ -97,17 +98,32 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
             tv_movie_rating.setText(movieRating);
             tv_movie_overview.setText(movie.getMovie_overview());
 
-            MovieDataRepository movieDataRepository = MovieDataRepository.getInstance(getApplicationContext());
-            DetailMovieViewModelFactory detailMovieViewModelFactory = new DetailMovieViewModelFactory(movieDataRepository);
+            DetailMovieViewModelFactory detailMovieViewModelFactory = new DetailMovieViewModelFactory(getApplicationContext());
             detailMovieViewModel = ViewModelProviders.of(this,detailMovieViewModelFactory).get(DetailMovieViewModel.class);
 
-            if(detailMovieViewModel.getFavouriteMovie(movie.getMovieId()).getValue() != null){
-                bAddFavouriteMovie.setChecked(true);
-                bAddFavouriteMovie.setText(R.string.favourite_movie);
-            }else{
+            //final FavouriteMovie favouriteMovieData = detailMovieViewModel.getFavouriteMovie().getValue();
+            if(detailMovieViewModel.getFavouriteMovie(movie.getMovieId()).getValue() == null){
                 bAddFavouriteMovie.setChecked(false);
-                bAddFavouriteMovie.setText(R.string.mark_movie_as_favourite);
+            }else{
+                bAddFavouriteMovie.setChecked(true);
             }
+
+
+            final FavouriteMovie favouriteMovieData = new FavouriteMovie(movie.getMovieId(),movie.getMovie_overview(),
+                                            movie.getPopularity(),movie.getPoster_path(),movie.getRelease_date(),
+                                            movie.getTitle(),movie.getVote_average());
+            bAddFavouriteMovie.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                @Override
+                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                    if(isChecked){
+                        detailMovieViewModel.insertFavouriteMovie(favouriteMovieData);
+                        Toast.makeText(getApplicationContext(),"Favourite Movie",Toast.LENGTH_SHORT).show();
+                    }else{
+                        detailMovieViewModel.deleteFavouriteMovie(favouriteMovieData);
+                        Toast.makeText(getApplicationContext(),"Un-Favourite",Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
 
             if(isNetworkAvailable()) {
                 String movieVideosOrReviews = "videos";
@@ -118,24 +134,6 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
             }else{
                 showErrorMessage();
             }
-
-            final FavouriteMovie favouriteMovieData = new FavouriteMovie(movie.getMovieId(),movie.getMovie_overview(),movie.getPopularity(),
-                                       movie.getPoster_path(),movie.getRelease_date(),
-                                       movie.getTitle(),movie.getVote_average());
-            bAddFavouriteMovie.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-                @Override
-                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                    if(isChecked){
-                        detailMovieViewModel.insertFavouriteMovie(favouriteMovieData);
-                        Toast.makeText(getApplicationContext(),"Favourite Movie",Toast.LENGTH_SHORT).show();
-                        bAddFavouriteMovie.setText(R.string.favourite_movie);
-                    }else {
-                        detailMovieViewModel.deleteFavouriteMovie(favouriteMovieData);
-                        Toast.makeText(getApplicationContext(),"Un-Favourite",Toast.LENGTH_SHORT).show();
-                        bAddFavouriteMovie.setText(R.string.mark_movie_as_favourite);
-                    }
-                }
-            });
         }
     }
 
@@ -156,10 +154,10 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
 
     private void setUpMovieReviewMovieModel(URL movieSearchURL){
         detailMovieViewModel.getMovieReviews(movieSearchURL).observe(this, new Observer<List<MovieReview>>() {
-            @Override
-            public void onChanged(List<MovieReview> movieReviews) {
-                movieReviewAdapter.setMovieReviewAdapter(movieReviews);
-            }
+             @Override
+             public void onChanged(List<MovieReview> movieReviews) {
+                    movieReviewAdapter.setMovieReviewAdapter(movieReviews);
+                }
         });
     }
 

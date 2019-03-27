@@ -3,7 +3,6 @@ package com.example.witne.data;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-
 public class Movie implements Parcelable {
 
     private int movieId;
@@ -13,6 +12,7 @@ public class Movie implements Parcelable {
     private String release_date;
     private String title;
     private double vote_average;
+    //private static final String IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w185";
 
     //No args constructor
     public Movie(){
@@ -21,7 +21,7 @@ public class Movie implements Parcelable {
 
     //Args constructor
     public Movie(int movieId, String movie_overview, double popularity, String poster_path,
-                 String release_date, String title, double vote_average ){
+                     String release_date, String title, double vote_average ){
         this.movieId = movieId;
         this.movie_overview = movie_overview;
         this.popularity = popularity;

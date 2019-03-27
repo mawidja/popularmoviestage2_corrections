@@ -29,12 +29,12 @@
     <location key="edit.logcat.filter.dialog.dimensions.0.0.1366.768" x="394" y="245" />
     <location key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1.0.0.1366.768" x="407" y="246" />
     <location key="IDE.errors.dialog.0.0.1366.768" x="232" y="121" />
-    <location key="#xdebugger.evaluate.0.0.1366.768" x="502" y="218" />
+    <location key="#xdebugger.evaluate.0.0.1366.768" x="380" y="328" />
     <location key="#xdebugger.XInspectDialog.0.0.1366.768" x="207" y="161" />
-    <size key="GridCell.Tab.0.left.0.0.1366.768" width="1260" height="240" />
-    <size key="GridCell.Tab.0.center.0.0.1366.768" width="1260" height="240" />
-    <size key="GridCell.Tab.0.right.0.0.1366.768" width="1260" height="240" />
-    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="1260" height="240" />
+    <size key="GridCell.Tab.0.left.0.0.1366.768" width="0" height="0" />
+    <size key="GridCell.Tab.0.center.0.0.1366.768" width="0" height="0" />
+    <size key="GridCell.Tab.0.right.0.0.1366.768" width="0" height="0" />
+    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="0" height="0" />
     <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1366.768" width="1092" height="713" />
     <size key="SettingsEditor.0.0.1366.768" width="1038" height="742" />
     <size key="ProcessPopupWindow.0.0.1366.768" width="940" height="498" />
