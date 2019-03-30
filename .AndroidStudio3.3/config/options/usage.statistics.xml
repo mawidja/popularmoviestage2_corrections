@@ -120,7 +120,7 @@
       <entry action="NewModuleInGroup" count="1" />
       <entry action="NewProject" count="12" />
       <entry action="NextTemplateVariable" count="4" />
-      <entry action="OpenFile" count="224" />
+      <entry action="OpenFile" count="225" />
       <entry action="OptimizeImports" count="354" />
       <entry action="Override Resource in Other Configuration..." count="1" />
       <entry action="OverrideMethods" count="66" />
@@ -155,7 +155,7 @@
       <entry action="StepOver" count="1813" />
       <entry action="TemplateProjectProperties" count="6" />
       <entry action="TemplateProjectStructure" count="1" />
-      <entry action="ToggleLineBreakpoint" count="590" />
+      <entry action="ToggleLineBreakpoint" count="591" />
       <entry action="Vcs.UpdateProject" count="4" />
       <entry action="XDebugger.CopyName" count="1" />
       <entry action="XDebugger.CopyValue" count="60" />
@@ -241,7 +241,7 @@
           <entry key="ide.freeze.79" value="1" />
           <entry key="ide.freeze.8" value="25" />
           <entry key="ide.freeze.87" value="1" />
-          <entry key="ide.freeze.9" value="25" />
+          <entry key="ide.freeze.9" value="26" />
           <entry key="ide.freeze.91" value="1" />
           <entry key="ide.start" value="39" />
         </counts>
@@ -347,7 +347,7 @@
       <entry path="File -&gt; New -&gt; Open..." count="1" />
       <entry path="File -&gt; New -&gt; XML -&gt; Layout XML File" count="1" />
       <entry path="File -&gt; Open Recent -&gt; Reopen Project" count="2" />
-      <entry path="File -&gt; Open..." count="223" />
+      <entry path="File -&gt; Open..." count="224" />
       <entry path="File -&gt; Other Settings -&gt; Default Project Structure..." count="1" />
       <entry path="File -&gt; Other Settings -&gt; Default Settings..." count="6" />
       <entry path="File -&gt; Profile or Debug APK..." count="1" />
@@ -525,7 +525,7 @@
   <component name="UsageTrigger">
     <counts>
       <entry feature="CreateFile.CreateFileAction" count="1" />
-      <entry feature="StripeButton[Android Profiler].hidden" count="196" />
+      <entry feature="StripeButton[Android Profiler].hidden" count="197" />
       <entry feature="StripeButton[Android Profiler].shown" count="86" />
       <entry feature="StripeButton[Android_Profiler].hidden" count="15" />
       <entry feature="StripeButton[Android_Profiler].shown" count="8" />
