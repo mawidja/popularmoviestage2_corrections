@@ -42,6 +42,9 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
     //View Model for both Movie trailers and Movie Reviews....hope it works!
     private DetailMovieViewModel detailMovieViewModel;
 
+    //private Movie movie;
+    //private FavouriteMovieViewModel favouriteMovieViewModel;
+
     private MovieReviewAdapter movieReviewAdapter;
     private Intent intent;
 
@@ -82,7 +85,7 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
         //get movie details from the intent that started the activity
         //Intent intentStartedThisActivity = getIntent();
         Bundle movieData = getIntent().getExtras();
-        final Movie movie = Objects.requireNonNull(movieData).getParcelable("Movie_Details");
+        Movie movie = Objects.requireNonNull(movieData).getParcelable("Movie_Details");
 
         if(movie != null){
             tv_movie_title.setText(movie.getTitle());
@@ -101,17 +104,76 @@ public class DetailMovieActivity extends AppCompatActivity implements MovieTrail
             DetailMovieViewModelFactory detailMovieViewModelFactory = new DetailMovieViewModelFactory(getApplicationContext());
             detailMovieViewModel = ViewModelProviders.of(this,detailMovieViewModelFactory).get(DetailMovieViewModel.class);
 
-            //final FavouriteMovie favouriteMovieData = detailMovieViewModel.getFavouriteMovie().getValue();
-            if(detailMovieViewModel.getFavouriteMovie(movie.getMovieId()).getValue() == null){
-                bAddFavouriteMovie.setChecked(false);
-            }else{
+            detailMovieViewModel.getFavouriteMovie(movie.getMovieId()).observe(this, new Observer<FavouriteMovie>() {
+                @Override
+                public void onChanged(FavouriteMovie favouriteMovie) {
+                    if(favouriteMovie != null){
+                        //bAddFavouriteMovie.setChecked(true);
+                        bAddFavouriteMovie.setText(R.string.favourite_movie);
+                    }
+                    else{
+                        //bAddFavouriteMovie.setChecked(false);
+                        bAddFavouriteMovie.setText(R.string.mark_movie_as_favourite);
+                    }
+                }
+            });
+
+            //reset favourite movie button
+            if(bAddFavouriteMovie.getText()== "Favourite"){
                 bAddFavouriteMovie.setChecked(true);
+                //bAddFavouriteMovie.toggle();
+                //bAddFavouriteMovie.setText(R.string.favourite_movie);
+            }else{
+                bAddFavouriteMovie.setChecked(false);
             }
 
+            //get detail view model
+            /*DetailMovieViewModelFactory detailMovieViewModelFactory = new DetailMovieViewModelFactory(getApplicationContext());
+            detailMovieViewModel = ViewModelProviders.of(this,detailMovieViewModelFactory).get(DetailMovieViewModel.class);
+
+            //create the observer to update the UI
+            final Observer<FavouriteMovie> favouriteMovieObserver = new Observer<FavouriteMovie>() {
+                @Override
+                public void onChanged(FavouriteMovie favouriteMovie) {
+                    if(favouriteMovie != null){
+                        //bAddFavouriteMovie.setChecked(true);
+                        bAddFavouriteMovie.setText(R.string.favourite_movie);
+                    }
+                    else{
+                        //bAddFavouriteMovie.setChecked(false);
+                        bAddFavouriteMovie.setText(R.string.mark_movie_as_favourite);
+                    }
+                }
+            };
+            if(bAddFavouriteMovie.getText()== "Favourite"){
+                bAddFavouriteMovie.setChecked(true);
+            }else{
+                bAddFavouriteMovie.setChecked(false);
+            }
+            //Observe the Favourite Movie LiveData
+            detailMovieViewModel.getFavouriteMovie(movie.getMovieId()).observe(this,favouriteMovieObserver);*/
+
+            /*detailMovieViewModel.getFavouriteMovie(movie.getMovieId()).observe(this, new Observer<FavouriteMovie>() {
+                @Override
+                public void onChanged(FavouriteMovie favouriteMovie) {
+                    if(favouriteMovie != null){
+                        //bAddFavouriteMovie.setChecked(true);
+                        //bAddFavouriteMovie.setChecked(true);
+                        bAddFavouriteMovie.toggle();
+                        bAddFavouriteMovie.setText(R.string.favourite_movie);
+                    }
+                    else{
+                        //bAddFavouriteMovie.setChecked(false);
+                        bAddFavouriteMovie.setText(R.string.mark_movie_as_favourite);
+                    }
+                }
+            });*/
 
             final FavouriteMovie favouriteMovieData = new FavouriteMovie(movie.getMovieId(),movie.getMovie_overview(),
                                             movie.getPopularity(),movie.getPoster_path(),movie.getRelease_date(),
                                             movie.getTitle(),movie.getVote_average());
+
+
             bAddFavouriteMovie.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
