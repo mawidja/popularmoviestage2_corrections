@@ -2,74 +2,72 @@
 jaccess
 localedata
 nashornsunecsunjce.provider	sunmscapi	sunpkcs11zipfsjcejsse	resourcesmanagement.agentrt
-androiddrawerlayout
-classesdocumentfile
-classes
-monitor
+android
+classesdrawerlayout	objenesis
+classesdocumentfile	objenesis
 classeslocalbroadcastmanager
-classescardview
+monitor
+classescardviewrecyclerview
 classeslifecycle.runtime
+classes
 classeslifecycle.livedata.core
-classes	runner
-classescursoradapter
-classescore
-classes
+classes	runnercursoradapter
+classesexifinterface
+classescore
 customview
-classesasynclayoutinflater
-classes	sqlite
-classesinterpolator
-classeslifecycle.service
-classesroom.runtime
-classesslidingpanelayout
-classesmaterial
-classes
-annotation
-annotation	appcompat
-classescore.runtime
-classeslistenablefuturelistenablefutureconcurrent.futuresconcurrent.futuresfragment
-classeskxml2swiperefreshlayoutkxml2
-classes	viewpagerlegacy.support.core.ui
+classesasynclayoutinflaterroom.migration
 classes
-classes	loaderactivity
-classeslifecycle.livedata
-classes
-classesversionedparcelable
-collection
-classesvectordrawable
-collectionvectordrawable.animated
-classes
-classeslifecycle.commonlegacy.support.core.utils
-classesprintlifecycle.commonlifecycle.viewmodel
-classes
-classescore.commoncore.common
-transitionjunit
-classesjunithamcrest.coresqlite.frameworkhamcrest.corelifecycle.extensions
-classes
-classesrecyclerviewroom.commonroom.common
-classescoordinatorlayout
-classeslifecycle.process
-classes
-classes	objenesis	objenesisrecyclerviewexifinterface
-classesroom.migrationroom.migration
 classesroom.testing
-classesvectordrawablegson
-classesfragment
-classesgsonannotationsannotationsokiomockito.coreokiocoordinatorlayoutorg.mockitoroom.runtime
 classes
-classes	appcompat
-classeskotlin.stdlibkotlin.stdlibversionedparcelable
+classes	sqlite
+classeslifecycle.service
+classesroom.runtimevectordrawableinterpolator
 classes
-classesconstraintlayout.solversqlite.framework
-classesroom.common
-picassoroom.common
-transition
+classes
+classesroom.migrationgsonfragmentslidingpanelayoutgson
 classes
 classes
+annotationannotationsmaterialannotationsokiomockito.core	appcompatokio
+annotationcore.runtimecoordinatorlayout
+classes
+classesroom.runtimelistenablefutureorg.mockitolistenablefuture
+classesconcurrent.futures
+classesconcurrent.futuresswiperefreshlayoutfragmentlegacy.support.core.ui
+classes
+classes
+classeskxml2	viewpagerkxml2
+classes	loader
+classesactivitylifecycle.livedata
+classes	appcompat
+classes
+classeskotlin.stdlibversionedparcelablekotlin.stdlib
+classes
+classes
+collection
+classesvectordrawable.animatedvectordrawablelifecycle.commonlegacy.support.core.utilslifecycle.common
+classesprint
+collection
+classeslifecycle.viewmodel
+classescore.common
+classescore.common
+classesversionedparcelable
+transitionsqlite.frameworkconstraintlayout.solverjunit
+classes
+classesjunithamcrest.corehamcrest.coreroom.common
+picassosqlite.frameworklifecycle.extensions
+classes
+classesroom.common
+classes
+transitionrecyclerview
+classesroom.commonroom.common
+classes
 annotation
-annotation	sqlite	okhttp
-classescore.testing
+annotation	sqlite
+classes	okhttp
+okhttp3core.testing
 classescore
 classeskotlin.stdlib.commonkotlin.stdlib.common
-collection
-okhttp3
-collection
+collection
+collectionlifecycle.process
+classescoordinatorlayout
+classes

@@ -1,6 +1,7 @@
 package com.example.witne.data;
 
 import androidx.room.Entity;
+import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
 
@@ -15,6 +16,7 @@ public class FavouriteMovie {
     private String release_date;
     private String title;
     private double vote_average;
+
 
     //Args constructor
     public FavouriteMovie(int movieId, String movie_overview, double popularity, String poster_path,

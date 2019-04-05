@@ -29,26 +29,26 @@
     <location key="edit.logcat.filter.dialog.dimensions.0.0.1366.768" x="394" y="245" />
     <location key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1.0.0.1366.768" x="407" y="246" />
     <location key="IDE.errors.dialog.0.0.1366.768" x="232" y="121" />
-    <location key="#xdebugger.evaluate.0.0.1366.768" x="304" y="0" />
+    <location key="#xdebugger.evaluate.0.0.1366.768" x="476" y="262" />
     <location key="#xdebugger.XInspectDialog.0.0.1366.768" x="207" y="161" />
-    <size key="GridCell.Tab.0.left.0.0.1366.768" width="1304" height="253" />
-    <size key="GridCell.Tab.0.center.0.0.1366.768" width="1304" height="253" />
-    <size key="GridCell.Tab.0.right.0.0.1366.768" width="1304" height="253" />
-    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="1304" height="253" />
+    <size key="GridCell.Tab.0.left.0.0.1366.768" width="0" height="0" />
+    <size key="GridCell.Tab.0.center.0.0.1366.768" width="0" height="0" />
+    <size key="GridCell.Tab.0.right.0.0.1366.768" width="0" height="0" />
+    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="0" height="0" />
     <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1366.768" width="1092" height="713" />
     <size key="SettingsEditor.0.0.1366.768" width="1038" height="742" />
     <size key="ProcessPopupWindow.0.0.1366.768" width="940" height="498" />
-    <size key="GridCell.Tab.1.left.0.0.1366.768" width="1304" height="253" />
-    <size key="GridCell.Tab.1.center.0.0.1366.768" width="1304" height="253" />
-    <size key="GridCell.Tab.1.right.0.0.1366.768" width="1304" height="253" />
-    <size key="GridCell.Tab.1.bottom.0.0.1366.768" width="1304" height="253" />
+    <size key="GridCell.Tab.1.left.0.0.1366.768" width="1260" height="243" />
+    <size key="GridCell.Tab.1.center.0.0.1366.768" width="1260" height="243" />
+    <size key="GridCell.Tab.1.right.0.0.1366.768" width="1260" height="243" />
+    <size key="GridCell.Tab.1.bottom.0.0.1366.768" width="1260" height="243" />
     <size key="GotoFile_FileTypePopup.0.0.1366.768" width="200" height="200" />
     <size key="javadoc.popup.0.0.1366.768" width="446" height="170" />
     <size key="#Project_Structure.0.0.1366.768" width="973" height="696" />
     <size key="find.popup.0.0.1366.768" width="805" height="623" />
     <size key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.1366.768" width="493" height="275" />
     <size key="XDebugger.FullValuePopup.0.0.1366.768" width="660" height="392" />
-    <size key="DebuggerActiveHint.0.0.1366.768" width="457" height="431" />
+    <size key="DebuggerActiveHint.0.0.1366.768" width="494" height="431" />
     <size key="javadoc.popup.new.0.0.1366.768" width="377" height="119" />
     <size key="#xdebugger.evaluate.0.0.1366.768" width="744" height="506" />
     <size key="#xdebugger.XInspectDialog.0.0.1366.768" width="781" height="495" />
