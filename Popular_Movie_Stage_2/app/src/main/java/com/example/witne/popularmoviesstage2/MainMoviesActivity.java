@@ -53,6 +53,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
     private MovieAdapter movieAdapter;
 
     private FavouriteMovieViewModel favouriteMovieViewModel;
+    //private Bundle instanceBundle;
     //private List<FavouriteMovie> favouriteMovieList;
 
     //private LiveData<List<Movie>> movieList1;
@@ -117,7 +118,11 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
         recyclerView.setAdapter(movieAdapter);
 
         favouriteMovieViewModel = ViewModelProviders.of(this).get(FavouriteMovieViewModel.class);
-        if(moviesToSearchFor == "favourite_movies"){
+        getMoviesToDisplay(moviesToSearchFor);
+    }
+
+    private void getMoviesToDisplay(String moviesToSearch){
+        if(moviesToSearch == "favourite_movies"){
             favouriteMovieViewModel.getFavouriteMovies().observe(this, new Observer<List<FavouriteMovie>>() {
                 @Override
                 public void onChanged(List<FavouriteMovie> favouriteMovies) {
@@ -129,7 +134,7 @@ public class MainMoviesActivity extends AppCompatActivity implements MovieAdapte
         }else {
             //check for network connection
             if (isNetworkAvailable()) {
-                startMovieSearch(moviesToSearchFor);
+                startMovieSearch(moviesToSearch);
             } else {
                 showErrorMessage();
             }
