@@ -2,20 +2,14 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/TextViewStyle"
         android:id="@+id/tv_movie_overview"
         android:paddingTop="@dimen/gv_horizontal_spacing"/>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/TextViewStyle.TopPadding_B"
         android:id="@+id/tv_trailers"
-        android:text="@string/movie_trailer_tv"
-        android:paddingTop="@dimen/gv_horizontal_spacing"
-        android:paddingBottom="@dimen/gv_vertical_spacing"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:text="@string/movie_trailer_tv"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
@@ -25,14 +19,9 @@
     </androidx.recyclerview.widget.RecyclerView>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/TextViewStyle.TopPadding_B"
         android:id="@+id/tv_movie_reviews"
-        android:text="@string/movie_reviews_tv"
-        android:paddingTop="@dimen/gv_horizontal_spacing"
-        android:paddingBottom="@dimen/gv_vertical_spacing"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:text="@string/movie_reviews_tv"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"

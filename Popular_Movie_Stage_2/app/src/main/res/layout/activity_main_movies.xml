@@ -8,8 +8,7 @@
     tools:context=".MainMoviesActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/TextViewStyle"
         android:id="@+id/tv_error_message"
         android:visibility="invisible"
         android:text="@string/error_message"

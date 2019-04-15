@@ -1,11 +1,29 @@
 <resources>
 
-    <!-- Base application theme. -->
+    <!-- Base application theme -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Custom text view styles -->
+    <style name="TextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextViewStyle.TopPadding_A">
+        <item name="android:paddingTop">@dimen/padding_dimensions</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewStyle.TopPadding_B">
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">@dimen/gv_horizontal_spacing</item>
+        <item name="android:paddingBottom">@dimen/gv_vertical_spacing</item>
+        <item name="android:textSize">20sp</item>
     </style>
 
 </resources>

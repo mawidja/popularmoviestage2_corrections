@@ -8,8 +8,7 @@
     android:paddingTop="@dimen/gv_vertical_spacing">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/TextViewStyle"
         android:id="@+id/tv_movie_title"
         android:textSize="@dimen/tv_size"
         android:background="@color/colorPrimaryDark"
