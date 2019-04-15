@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_dimensions"
+        android:text="@string/movie_detail_release_date"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_movie_release_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_dimensions"
+        android:text="@string/movie_detail_movie_rating"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_movie_vote_average"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:id="@+id/btAddFavouriteMovie"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:thumbTint="@color/colorPrimaryDark" />
+
+</merge>

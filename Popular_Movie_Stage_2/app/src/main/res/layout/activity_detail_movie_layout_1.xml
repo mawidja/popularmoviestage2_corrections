@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/layout_padding_dimensions"
+    android:paddingRight="@dimen/layout_padding_dimensions"
+    android:paddingTop="@dimen/gv_vertical_spacing">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_movie_title"
+        android:textSize="@dimen/tv_size"
+        android:background="@color/colorPrimaryDark"
+        android:paddingTop="@dimen/gv_horizontal_spacing"/>
+
+    <include
+        layout="@layout/activity_detail_movie_layout_2"/>
+
+    <include
+        layout="@layout/activity_detail_text_views_recycler_views_layout"/>
+
+</LinearLayout>
