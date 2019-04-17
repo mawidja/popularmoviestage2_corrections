@@ -19,7 +19,9 @@
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_annotation_annotation_1_1_0_alpha02_jar.xml" timestamp="1553151484480" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" timestamp="1551908373029" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" timestamp="1551377548915" />
+    <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_arch_core_core_common_2_0_1_jar.xml" timestamp="1555496988438" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" timestamp="1551908373192" />
+    <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_arch_core_core_runtime_2_0_1_aar.xml" timestamp="1555496988516" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_arch_core_core_testing_2_0_0_aar.xml" timestamp="1551908373339" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" timestamp="1551908373581" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_cardview_cardview_1_0_0_aar.xml" timestamp="1551908373894" />
@@ -51,9 +53,11 @@
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" timestamp="1551908375252" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_room_room_common_2_1_0_alpha04_jar.xml" timestamp="1551377552062" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_room_room_common_2_1_0_alpha05_jar.xml" timestamp="1553151484942" />
+    <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_room_room_common_2_1_0_alpha06_jar.xml" timestamp="1555496988594" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_room_room_migration_2_1_0_alpha04_jar.xml" timestamp="1551377552187" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_room_room_runtime_2_1_0_alpha04_aar.xml" timestamp="1551908375294" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_room_room_runtime_2_1_0_alpha05_aar.xml" timestamp="1553151485208" />
+    <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_room_room_runtime_2_1_0_alpha06_aar.xml" timestamp="1555496988672" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_room_room_testing_2_1_0_alpha04_aar.xml" timestamp="1551908375337" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" timestamp="1551908375396" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__androidx_sqlite_sqlite_2_0_0_aar.xml" timestamp="1551908375477" />
@@ -86,12 +90,12 @@
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_0_jar.xml" timestamp="1551377553652" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__org_mockito_mockito_core_2_19_0_jar.xml" timestamp="1551377553730" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\libraries\Gradle__org_objenesis_objenesis_2_6_jar.xml" timestamp="1551377553839" />
-    <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\misc.xml" timestamp="1555105167167" />
+    <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\misc.xml" timestamp="1555507397403" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\modules.xml" timestamp="1551377547152" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\runConfigurations.xml" timestamp="1551377528421" />
-    <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\workspace.xml" timestamp="1555105174229" />
+    <file path="C:\Users\witne\Popular_Movie_Stage_2\.idea\workspace.xml" timestamp="1555536354790" />
     <file path="C:\Users\witne\Popular_Movie_Stage_2\Popular_Movie_Stage_2.iml" timestamp="1551721420969" />
-    <file path="C:\Users\witne\Popular_Movie_Stage_2\app\app.iml" timestamp="1553899327604" />
+    <file path="C:\Users\witne\Popular_Movie_Stage_2\app\app.iml" timestamp="1555496987625" />
   </project-files>
 </conversion>
 

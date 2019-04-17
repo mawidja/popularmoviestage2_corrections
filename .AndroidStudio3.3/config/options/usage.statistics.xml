@@ -1,14 +1,14 @@
 <application>
   <component name="ActionsCollector">
     <counts>
-      <entry action="$Copy" count="1273" />
+      <entry action="$Copy" count="1275" />
       <entry action="$Cut" count="261" />
       <entry action="$Delete" count="84" />
-      <entry action="$Paste" count="545" />
+      <entry action="$Paste" count="547" />
       <entry action="$Redo" count="8" />
       <entry action="$SearchWeb" count="7" />
-      <entry action="$SelectAll" count="8" />
-      <entry action="$Undo" count="991" />
+      <entry action="$SelectAll" count="10" />
+      <entry action="$Undo" count="992" />
       <entry action="About" count="2" />
       <entry action="Actions.ActionsPlugin.GenerateToString" count="2" />
       <entry action="ActivateBuildToolWindow" count="1" />
@@ -28,7 +28,7 @@
       <entry action="CheckForUpdate" count="9" />
       <entry action="ChooseDebugConfiguration" count="23" />
       <entry action="ChooseRunConfiguration" count="8" />
-      <entry action="CleanGradleProject" count="348" />
+      <entry action="CleanGradleProject" count="351" />
       <entry action="CollapseRegion" count="2" />
       <entry action="CollapseSelection" count="1" />
       <entry action="CommentByLineComment" count="16" />
@@ -39,19 +39,19 @@
       <entry action="Debugger.AddToWatch" count="2" />
       <entry action="Debugger.ViewText" count="1" />
       <entry action="DelegateMethods" count="9" />
-      <entry action="DialogOkAction Enter" count="7" />
+      <entry action="DialogOkAction Enter" count="8" />
       <entry action="Edit intention settings" count="1" />
       <entry action="EditCustomProperties" count="2" />
       <entry action="EditCustomVmOptions" count="2" />
       <entry action="EditLibraryAndDependencies" count="2" />
-      <entry action="EditorBackSpace" count="40080" />
+      <entry action="EditorBackSpace" count="40083" />
       <entry action="EditorChooseLookupItem" count="4" />
       <entry action="EditorChooseLookupItemReplace" count="10269" />
       <entry action="EditorCodeBlockStart" count="6" />
       <entry action="EditorContextInfo" count="2" />
       <entry action="EditorCopy" count="286" />
       <entry action="EditorCut" count="266" />
-      <entry action="EditorDelete" count="7752" />
+      <entry action="EditorDelete" count="7755" />
       <entry action="EditorDown" count="15317" />
       <entry action="EditorEnter" count="6176" />
       <entry action="EditorIndentSelection" count="6" />
@@ -60,7 +60,7 @@
       <entry action="EditorLineStart" count="36" />
       <entry action="EditorPageDown" count="1" />
       <entry action="EditorPageUp" count="2" />
-      <entry action="EditorPaste" count="1697" />
+      <entry action="EditorPaste" count="1699" />
       <entry action="EditorPasteSimple" count="1" />
       <entry action="EditorRight" count="7819" />
       <entry action="EditorScrollToCenter" count="1" />
@@ -128,7 +128,7 @@
       <entry action="PasteMultiple" count="6" />
       <entry action="Progress Paused" count="1" />
       <entry action="Progress Resumed" count="1" />
-      <entry action="RebuildGradleProject" count="150" />
+      <entry action="RebuildGradleProject" count="152" />
       <entry action="Refactorings.QuickListPopupAction" count="3" />
       <entry action="ReformatCode" count="1" />
       <entry action="RenameElement" count="3" />
@@ -136,12 +136,12 @@
       <entry action="Rerun" count="4" />
       <entry action="Resume" count="1" />
       <entry action="RevealIn" count="54" />
-      <entry action="Run" count="1411" />
+      <entry action="Run" count="1417" />
       <entry action="RunClass" count="1" />
       <entry action="RunCoverage" count="1" />
       <entry action="RunToCursor" count="1" />
       <entry action="Runner.RestoreLayout" count="1" />
-      <entry action="SaveAll" count="1926" />
+      <entry action="SaveAll" count="1932" />
       <entry action="SearchEverywhere" count="7" />
       <entry action="SendFeedback" count="1" />
       <entry action="ShowErrorDescription" count="1" />
@@ -174,7 +174,7 @@
     <session id="655482535">
       <usages-collector id="statistics.lifecycle.app">
         <counts>
-          <entry key="ide.close" value="26" />
+          <entry key="ide.close" value="30" />
           <entry key="ide.close.restart" value="4" />
           <entry key="ide.error" value="131" />
           <entry key="ide.freeze.10" value="24" />
@@ -192,18 +192,18 @@
           <entry key="ide.freeze.18" value="8" />
           <entry key="ide.freeze.185" value="1" />
           <entry key="ide.freeze.19" value="7" />
-          <entry key="ide.freeze.20" value="7" />
+          <entry key="ide.freeze.20" value="8" />
           <entry key="ide.freeze.21" value="5" />
           <entry key="ide.freeze.22" value="2" />
           <entry key="ide.freeze.23" value="5" />
           <entry key="ide.freeze.24" value="3" />
-          <entry key="ide.freeze.25" value="5" />
-          <entry key="ide.freeze.26" value="4" />
+          <entry key="ide.freeze.25" value="6" />
+          <entry key="ide.freeze.26" value="5" />
           <entry key="ide.freeze.27" value="1" />
           <entry key="ide.freeze.28" value="2" />
           <entry key="ide.freeze.29" value="4" />
           <entry key="ide.freeze.30" value="3" />
-          <entry key="ide.freeze.31" value="2" />
+          <entry key="ide.freeze.31" value="3" />
           <entry key="ide.freeze.32" value="2" />
           <entry key="ide.freeze.33" value="2" />
           <entry key="ide.freeze.34" value="3" />
@@ -214,7 +214,7 @@
           <entry key="ide.freeze.38" value="3" />
           <entry key="ide.freeze.39" value="1" />
           <entry key="ide.freeze.4" value="2" />
-          <entry key="ide.freeze.40" value="1" />
+          <entry key="ide.freeze.40" value="2" />
           <entry key="ide.freeze.41" value="1" />
           <entry key="ide.freeze.43" value="1" />
           <entry key="ide.freeze.44" value="2" />
@@ -232,7 +232,7 @@
           <entry key="ide.freeze.55" value="1" />
           <entry key="ide.freeze.56" value="1" />
           <entry key="ide.freeze.58762" value="1" />
-          <entry key="ide.freeze.6" value="3" />
+          <entry key="ide.freeze.6" value="4" />
           <entry key="ide.freeze.60" value="1" />
           <entry key="ide.freeze.61" value="1" />
           <entry key="ide.freeze.62" value="3" />
@@ -247,19 +247,20 @@
           <entry key="ide.freeze.75" value="1" />
           <entry key="ide.freeze.77" value="1" />
           <entry key="ide.freeze.79" value="1" />
-          <entry key="ide.freeze.8" value="29" />
+          <entry key="ide.freeze.8" value="31" />
+          <entry key="ide.freeze.82" value="1" />
           <entry key="ide.freeze.87" value="1" />
-          <entry key="ide.freeze.9" value="29" />
+          <entry key="ide.freeze.9" value="31" />
           <entry key="ide.freeze.91" value="1" />
-          <entry key="ide.start" value="45" />
+          <entry key="ide.start" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.ide.self.update">
         <counts>
-          <entry key="dialog.shown" value="4" />
+          <entry key="dialog.shown" value="5" />
           <entry key="dialog.update.started" value="4" />
-          <entry key="notification.clicked" value="4" />
-          <entry key="notification.shown" value="4" />
+          <entry key="notification.clicked" value="5" />
+          <entry key="notification.shown" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -333,14 +334,14 @@
   <component name="MainMenuCollector">
     <counts>
       <entry path="Analyze -&gt; Inspect Code..." count="4" />
-      <entry path="Build -&gt; Clean Project" count="350" />
+      <entry path="Build -&gt; Clean Project" count="353" />
       <entry path="Build -&gt; Edit Libraries and Dependencies..." count="2" />
-      <entry path="Build -&gt; Rebuild Project" count="150" />
+      <entry path="Build -&gt; Rebuild Project" count="152" />
       <entry path="Build -&gt; Refresh Linked C++ Projects" count="3" />
       <entry path="Edit -&gt; Copy" count="1" />
       <entry path="Edit -&gt; Find -&gt; Find..." count="21" />
       <entry path="Edit -&gt; Redo" count="8" />
-      <entry path="Edit -&gt; Select All" count="2" />
+      <entry path="Edit -&gt; Select All" count="4" />
       <entry path="Edit -&gt; Undo" count="15" />
       <entry path="File -&gt; Exit" count="1" />
       <entry path="File -&gt; Export to HTML..." count="1" />
@@ -360,7 +361,7 @@
       <entry path="File -&gt; Other Settings -&gt; Default Settings..." count="6" />
       <entry path="File -&gt; Profile or Debug APK..." count="1" />
       <entry path="File -&gt; Project Structure..." count="29" />
-      <entry path="File -&gt; Save All" count="148" />
+      <entry path="File -&gt; Save All" count="153" />
       <entry path="File -&gt; Settings..." count="30" />
       <entry path="File -&gt; Sync Project with Gradle Files" count="11" />
       <entry path="Help -&gt; About" count="2" />
@@ -379,7 +380,7 @@
       <entry path="Run -&gt; Debug" count="546" />
       <entry path="Run -&gt; Debug..." count="23" />
       <entry path="Run -&gt; Resume Program" count="1" />
-      <entry path="Run -&gt; Run" count="33" />
+      <entry path="Run -&gt; Run" count="35" />
       <entry path="Run -&gt; Run with Coverage" count="3" />
       <entry path="Run -&gt; Run..." count="7" />
       <entry path="Run -&gt; Step Into" count="1" />
@@ -395,7 +396,7 @@
     <counts>
       <entry shortcut="Alt+Enter" count="6" />
       <entry shortcut="Alt+Q" count="2" />
-      <entry shortcut="Backspace" count="40075" />
+      <entry shortcut="Backspace" count="40078" />
       <entry shortcut="Ctrl+0" count="1" />
       <entry shortcut="Ctrl+1" count="2" />
       <entry shortcut="Ctrl+2" count="3" />
@@ -414,13 +415,13 @@
       <entry shortcut="Ctrl+Minus" count="2" />
       <entry shortcut="Ctrl+Open Bracket" count="6" />
       <entry shortcut="Ctrl+Period" count="1" />
-      <entry shortcut="Ctrl+S" count="1777" />
+      <entry shortcut="Ctrl+S" count="1778" />
       <entry shortcut="Ctrl+Slash" count="16" />
       <entry shortcut="Ctrl+T" count="4" />
-      <entry shortcut="Ctrl+V" count="1695" />
+      <entry shortcut="Ctrl+V" count="1697" />
       <entry shortcut="Ctrl+X" count="267" />
-      <entry shortcut="Ctrl+Z" count="977" />
-      <entry shortcut="Delete" count="7762" />
+      <entry shortcut="Ctrl+Z" count="978" />
+      <entry shortcut="Delete" count="7765" />
       <entry shortcut="Down" count="15344" />
       <entry shortcut="End" count="43" />
       <entry shortcut="Enter" count="6181" />
@@ -454,7 +455,7 @@
       <entry toolWindow="Find by Activation" count="7" />
       <entry toolWindow="Gradle by Activation" count="2" />
       <entry toolWindow="Logcat by Activation" count="37" />
-      <entry toolWindow="Project by Activation" count="527" />
+      <entry toolWindow="Project by Activation" count="531" />
       <entry toolWindow="Run by Activation" count="13" />
       <entry toolWindow="Structure by Activation" count="2" />
       <entry toolWindow="TODO by Activation" count="5" />
@@ -477,7 +478,7 @@
       <entry action="Images.Editor.ZoomOut@Images.Editor" count="16" />
       <entry action="Images.Thumbnails.ToggleRecursive@Images.Thumbnails" count="1" />
       <entry action="Rerun@RunnerToolbar" count="4" />
-      <entry action="Run@NavBarToolbar" count="1377" />
+      <entry action="Run@NavBarToolbar" count="1381" />
       <entry action="RunConfiguration@NavBarToolbar" count="6" />
       <entry action="RunToCursor@DebuggerToolbar" count="1" />
       <entry action="Runner.RestoreLayout@RunnerToolbar" count="1" />
@@ -537,8 +538,8 @@
   <component name="UsageTrigger">
     <counts>
       <entry feature="CreateFile.CreateFileAction" count="1" />
-      <entry feature="StripeButton[Android Profiler].hidden" count="203" />
-      <entry feature="StripeButton[Android Profiler].shown" count="93" />
+      <entry feature="StripeButton[Android Profiler].hidden" count="204" />
+      <entry feature="StripeButton[Android Profiler].shown" count="94" />
       <entry feature="StripeButton[Android_Profiler].hidden" count="15" />
       <entry feature="StripeButton[Android_Profiler].shown" count="8" />
       <entry feature="StripeButton[Version Control].shown" count="2" />
@@ -547,7 +548,7 @@
       <entry feature="execute.AndroidJUnit.Run" count="10" />
       <entry feature="execute.AndroidRunConfigurationType.Android Profiler" count="1" />
       <entry feature="execute.AndroidRunConfigurationType.Debug" count="561" />
-      <entry feature="execute.AndroidRunConfigurationType.Run" count="1481" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="1487" />
       <entry feature="execute.GradleRunConfiguration.Debug" count="1" />
       <entry feature="execute.GradleRunConfiguration.Run" count="5" />
       <entry feature="ide.settings.Android SDK" count="3" />
@@ -559,7 +560,7 @@
       <entry feature="ide.settings.Instant_Run" count="1" />
       <entry feature="ide.settings.Project Structure" count="8" />
       <entry feature="ide.settings.Project_Structure" count="1" />
-      <entry feature="ideaapp.started" count="101" />
+      <entry feature="ideaapp.started" count="105" />
       <entry feature="project.view.pane.AndroidView" count="22" />
       <entry feature="project.view.pane.PackagesPane" count="4" />
       <entry feature="project.view.pane.ProjectPane" count="21" />

@@ -42,12 +42,12 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
 
     //Room
-    implementation "androidx.room:room-runtime:$room_version"
+    implementation "androidx.room:room-runtime:2.1.0-alpha06"
     annotationProcessor "androidx.room:room-compiler:$room_version"
 
     //ViewModel and LiveData
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
-    annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.1.0-alpha03"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.1.0-alpha04"
 
     implementation 'com.google.android.material:material:1.0.0'
 
