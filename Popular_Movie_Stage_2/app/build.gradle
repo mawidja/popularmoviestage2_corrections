@@ -9,11 +9,23 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // to use My Movie API Key in a java class
+        buildConfigField 'String', "ApiKey", Popular_Movie_Stage_2_MyMovieApiKey
+
+        //to use My Movie API Key in an xml file
+        resValue  'string', "api_key", Popular_Movie_Stage_2_MyMovieApiKey
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            // to use My Movie API Key in a java class
+            buildConfigField 'String', "ApiKey", Popular_Movie_Stage_2_MyMovieApiKey
+
+            //to use My Movie API Key in an xml file
+            resValue  'string', "api_key", Popular_Movie_Stage_2_MyMovieApiKey
         }
     }
 }

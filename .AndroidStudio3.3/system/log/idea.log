@@ -1785,3 +1785,1355 @@ java.net.UnknownHostException: dl.google.com
 2019-04-15 22:23:32,089 [hread 1718]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
 2019-04-15 22:23:32,892 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8601 for client with pid 28915 
 2019-04-15 22:23:32,900 [   Monitor]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-04-15 22:33:02,508 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:generateDebugSources] 
+2019-04-15 22:33:02,508 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-15 22:33:02,535 [hread 1792]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-15 22:33:02,537 [hread 1792]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-04-15 22:33:02,540 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-15 22:33:02,540 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-15 22:33:02,565 [hread 1792]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-04-15 22:33:09,551 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-15 22:33:09,552 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-15 22:33:09,594 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 7 s 56 ms 
+2019-04-15 22:33:09,653 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-15 22:33:09,946 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-15 22:33:10,868 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-15 22:33:11,206 [hread 1789]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 26ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:33:11,366 [hread 1789]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 159ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:33:11,366 [hread 1789]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2019-04-15 22:33:11,373 [hread 1789]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 7ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:33:41,435 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:assembleDebug] 
+2019-04-15 22:33:41,435 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-15 22:33:41,478 [hread 1796]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-15 22:33:41,480 [hread 1796]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true] 
+2019-04-15 22:33:41,493 [hread 1796]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true 
+2019-04-15 22:33:41,500 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-15 22:33:41,501 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-15 22:34:57,201 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-15 22:34:57,201 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-15 22:34:57,271 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 1 m 15 s 726 ms 
+2019-04-15 22:34:57,330 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-15 22:34:57,845 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-15 22:34:58,360 [hread 1809]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 3ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:34:58,660 [hread 1809]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 299ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:34:59,070 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-15 22:34:59,392 [hread 1798]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 10 to update, calculated in 0ms 
+2019-04-15 22:34:59,886 [hread 1798]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 494ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:34:59,897 [hread 1798]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 5ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:35:00,001 [hread 1798]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 104ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:35:00,001 [hread 1798]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2019-04-15 22:35:00,028 [hread 1798]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 27ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:35:20,993 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:generateDebugSources] 
+2019-04-15 22:35:20,993 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-15 22:35:21,029 [hread 1859]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-15 22:35:21,032 [hread 1859]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-04-15 22:35:21,045 [hread 1859]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-04-15 22:35:21,083 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-15 22:35:21,083 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-15 22:35:29,573 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-15 22:35:29,573 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-15 22:35:29,580 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 8 s 547 ms 
+2019-04-15 22:35:29,621 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-15 22:35:30,039 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-15 22:35:30,417 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-15 22:35:31,021 [hread 1852]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 2ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:35:31,177 [hread 1852]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 156ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:35:31,177 [hread 1852]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2019-04-15 22:35:31,184 [hread 1852]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 7ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:35:39,208 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:assembleDebug] 
+2019-04-15 22:35:39,209 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-15 22:35:39,256 [hread 1853]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-15 22:35:39,260 [hread 1853]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true] 
+2019-04-15 22:35:39,272 [hread 1853]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true 
+2019-04-15 22:35:39,281 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-15 22:35:39,281 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-15 22:36:52,495 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-15 22:36:52,495 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-15 22:36:52,540 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 1 m 13 s 245 ms 
+2019-04-15 22:36:52,575 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-15 22:36:52,902 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-15 22:36:53,230 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-15 22:36:53,943 [hread 1860]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 10 to update, calculated in 0ms 
+2019-04-15 22:36:54,591 [hread 1860]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 647ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:36:54,598 [hread 1860]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 4ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:36:54,705 [hread 1860]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 106ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:36:54,705 [hread 1860]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2019-04-15 22:36:54,740 [hread 1860]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 34ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:37:12,428 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-04-15 22:37:12,433 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-04-15 22:37:12,433 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-15 22:37:12,453 [hread 1919]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-15 22:37:12,483 [hread 1919]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-04-15 22:37:12,590 [hread 1919]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-04-15 22:37:12,657 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-15 22:37:12,657 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-15 22:37:28,586 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-15 22:37:28,587 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-15 22:37:28,594 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 16 s 109 ms 
+2019-04-15 22:37:28,636 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-15 22:37:29,029 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-15 22:37:29,058 [hread 1921]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-04-15 22:37:29,598 [hread 1915]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 41ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:37:29,691 [hread 1915]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 92ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-15 22:37:30,477 [entQueue-0]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-04-15 22:37:30,563 [hread 1913]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-04-15 22:37:41,633 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8601 for client with pid 31740 
+2019-04-15 22:37:41,829 [hread 1913]   INFO - idea.run.AndroidProcessHandler - Adding device huawei-ale_l21-QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
+2019-04-15 22:37:42,647 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8601 for client with pid 31740 
+2019-04-15 22:37:42,654 [   Monitor]   INFO - idea.run.AndroidProcessHandler - startCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-04-15 22:42:18,778 [nt Monitor]   INFO - idea.run.AndroidProcessHandler - stopCapture("huawei-ale_l21-QLF7N17911003609") 
+2019-04-15 22:42:18,779 [nt Monitor]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-04-16 18:34:29,374 [hread 1922]   INFO - ateSettings.impl.UpdateChecker - dl.google.com 
+java.net.UnknownHostException: dl.google.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:558)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:47)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:329)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getInputStream(HttpRequests.java:338)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:356)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:349)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$checkPlatformUpdate$1.process(UpdateChecker.kt:174)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$checkPlatformUpdate$1.process(UpdateChecker.kt:53)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:475)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:451)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:47)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:303)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.checkPlatformUpdate(UpdateChecker.kt:171)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.doUpdateAndShowResult(UpdateChecker.kt:122)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.access$doUpdateAndShowResult(UpdateChecker.kt:53)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$updateAndShowResult$1.run(UpdateChecker.kt:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-04-16 18:34:29,374 [hread 1922]   INFO - ateSettings.impl.UpdateChecker - Connection failed (dl.google.com). Please check network connection and try again. 
+2019-04-16 19:31:47,102 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-16 19:31:47,500 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-16 19:33:20,765 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-16 19:33:21,126 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-16 19:35:37,491 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-04-16 19:35:37,522 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Started sync with Gradle for project 'Popular_Movie_Stage_2'. 
+2019-04-16 19:35:37,538 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-04-16 19:35:37,538 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:35:37,788 [hread 2037]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-16 19:35:38,393 [hread 2037]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-04-16 19:35:38,472 [hread 2037]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\witne\AppData\Local\Temp\sync.java.lib.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.3.2.0 
+2019-04-16 19:36:50,247 [hread 2037]   INFO - e.project.sync.GradleSyncState - Started setup of project 'Popular_Movie_Stage_2'. 
+2019-04-16 19:36:50,247 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SETUP_STARTED 
+2019-04-16 19:36:52,138 [hread 2037]   INFO - ule.android.SdkModuleSetupStep - Set Android SDK 'Android API 28 Platform' (C:\Users\witne\AppData\Local\Android\Sdk) to module 'app' 
+2019-04-16 19:36:53,161 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-16 19:36:53,707 [entQueue-0]   INFO - etup.post.PluginVersionUpgrade - Gradle model version: 3.3.2, recommended version for IDE: 3.3.2 
+2019-04-16 19:36:53,926 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:generateDebugSources] 
+2019-04-16 19:36:53,926 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-16 19:36:53,926 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Gradle sync finished in 1 m 16 s 404 ms 
+2019-04-16 19:36:53,958 [hread 2040]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-16 19:36:53,958 [hread 2040]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-04-16 19:36:53,973 [hread 2040]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-04-16 19:36:55,128 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-04-16 19:36:55,128 [entQueue-0]   INFO - idea.project.IndexingSuspender - IndexingSuspender deactivation event received and ignored: SYNC_FINISHED 
+2019-04-16 19:37:01,993 [hread 2044]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.0s 
+2019-04-16 19:37:06,081 [rImpl Pool]   INFO -  #git4idea.commands.GitHandler - git status took 12139 ms. Command parameters: 
+"C:\Program Files\Android\Android Studio\bin\runnerw.exe" "C:\Program Files\Git\cmd\git.exe" -c core.quotepath=false -c log.showSignature=false status --porcelain -z --untracked-files=no -- . 
+2019-04-16 19:37:06,815 [hread 2039]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 62ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-16 19:37:06,862 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-16 19:37:06,862 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-16 19:37:06,862 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:37:09,175 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-16 19:37:09,399 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 15 s 448 ms 
+2019-04-16 19:37:09,430 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-16 19:37:09,743 [hread 2039]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 2928ms; general responsiveness: 1/3 sluggish; EDT responsiveness: 1/3 sluggish, 2/3 very slow 
+2019-04-16 19:37:10,117 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-16 19:37:10,240 [hread 2042]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update canceled 
+2019-04-16 19:37:12,015 [hread 2042]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 78ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-16 19:37:12,155 [hread 2042]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 109ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-16 19:37:30,498 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-16 19:37:30,826 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-16 19:37:31,785 [hread 1949]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-16 19:37:31,939 [hread 2054]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 129ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-16 19:37:33,054 [hread 2054]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1114ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-16 19:37:33,054 [hread 2054]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 202 files to update 
+2019-04-16 19:37:33,227 [hread 1949]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1441ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-16 19:37:33,227 [hread 1949]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 202 files to update 
+2019-04-16 19:37:34,807 [hread 2054]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 1753ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-16 19:37:34,947 [hread 1949]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 1720ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-16 19:38:45,673 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-04-16 19:38:51,953 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-04-16 19:38:51,969 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Started sync with Gradle for project 'Popular_Movie_Stage_2'. 
+2019-04-16 19:38:51,969 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-04-16 19:38:51,969 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:38:52,000 [hread 2062]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-16 19:38:52,031 [hread 2062]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-04-16 19:38:52,047 [hread 2062]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\witne\AppData\Local\Temp\sync.java.lib1.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.3.2.0 
+2019-04-16 19:38:58,020 [hread 2062]   INFO - e.project.sync.GradleSyncState - Gradle sync failed: Could not find method myPersonalApiKey() for arguments ["98626ee46e48c23fface6dac4d55c5ea"] on DefaultConfig_Decorated{name=main, dimension=null, minSdkVersion=DefaultApiVersion{mApiLevel=19, mCodename='null'}, targetSdkVersion=DefaultApiVersion{mApiLevel=28, mCodename='null'}, renderscriptTargetApi=null, renderscriptSupportModeEnabled=null, renderscriptSupportModeBlasEnabled=null, renderscriptNdkModeEnabled=null, versionCode=1, versionName=1.0, applicationId=com.example.witne.popularmoviesstage2, testApplicationId=null, testInstrumentationRunner=androidx.test.runner.AndroidJUnitRunner, testInstrumentationRunnerArguments={}, testHandleProfiling=null, testFunctionalTest=null, signingConfig=null, resConfig=null, mBuildConfigFields={}, mResValues={}, mProguardFiles=[], mConsumerProguardFiles=[], mManifestPlaceholders={}, mWearAppUnbundled=null} of type com.android.build.gradle.internal.dsl.DefaultConfig. (6 s 51 ms) 
+2019-04-16 19:38:58,020 [hread 2062]   WARN - ject.sync.ng.SyncResultHandler - Gradle sync failed 
+org.gradle.tooling.BuildException: Could not run build action using Gradle distribution 'https://services.gradle.org/distributions/gradle-4.10.1-all.zip'.
+	at org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:51)
+	at org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:29)
+	at org.gradle.tooling.internal.consumer.ResultHandlerAdapter.onFailure(ResultHandlerAdapter.java:41)
+	at org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:57)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)
+	at org.gradle.tooling.internal.consumer.DefaultBuildActionExecuter.run(DefaultBuildActionExecuter.java:65)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.doFetchModels(SyncExecutor.java:255)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.executeFullSync(SyncExecutor.java:239)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.syncProject(SyncExecutor.java:197)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.lambda$syncProject$1(SyncExecutor.java:134)
+	at org.jetbrains.plugins.gradle.service.execution.GradleExecutionHelper.execute(GradleExecutionHelper.java:209)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.syncProject(SyncExecutor.java:139)
+	at com.android.tools.idea.gradle.project.sync.ng.NewGradleSync.sync(NewGradleSync.java:185)
+	at com.android.tools.idea.gradle.project.sync.ng.NewGradleSync.access$000(NewGradleSync.java:59)
+	at com.android.tools.idea.gradle.project.sync.ng.NewGradleSync$2.run(NewGradleSync.java:151)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:736)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:395)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.gradle.internal.exceptions.LocationAwareException: Build file 'C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle' line: 12
+A problem occurred evaluating project ':app'.
+	at org.gradle.initialization.DefaultExceptionAnalyser.transform(DefaultExceptionAnalyser.java:74)
+	at org.gradle.initialization.MultipleBuildFailuresExceptionAnalyser.transform(MultipleBuildFailuresExceptionAnalyser.java:49)
+	at org.gradle.initialization.StackTraceSanitizingExceptionAnalyser.transform(StackTraceSanitizingExceptionAnalyser.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:152)
+	at org.gradle.initialization.DefaultGradleLauncher.getConfiguredBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.internal.invocation.GradleBuildController$2.call(GradleBuildController.java:86)
+	at org.gradle.internal.invocation.GradleBuildController$2.call(GradleBuildController.java:83)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:154)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:38)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:96)
+	at org.gradle.internal.invocation.GradleBuildController.configure(GradleBuildController.java:83)
+	at org.gradle.tooling.internal.provider.runner.ClientProvidedBuildActionRunner.run(ClientProvidedBuildActionRunner.java:70)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:50)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:44)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:79)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:62)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:34)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:31)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:46)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:62)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:81)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:295)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.GradleScriptException: A problem occurred evaluating project ':app'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:211)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:66)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:48)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:105)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:68)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:687)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:140)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:41)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:274)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:141)
+	... 67 more
+Caused by: org.gradle.internal.metaobject.AbstractDynamicObject$CustomMessageMissingMethodException: Could not find method myPersonalApiKey() for arguments ["98626ee46e48c23fface6dac4d55c5ea"] on DefaultConfig_Decorated{name=main, dimension=null, minSdkVersion=DefaultApiVersion{mApiLevel=19, mCodename='null'}, targetSdkVersion=DefaultApiVersion{mApiLevel=28, mCodename='null'}, renderscriptTargetApi=null, renderscriptSupportModeEnabled=null, renderscriptSupportModeBlasEnabled=null, renderscriptNdkModeEnabled=null, versionCode=1, versionName=1.0, applicationId=com.example.witne.popularmoviesstage2, testApplicationId=null, testInstrumentationRunner=androidx.test.runner.AndroidJUnitRunner, testInstrumentationRunnerArguments={}, testHandleProfiling=null, testFunctionalTest=null, signingConfig=null, resConfig=null, mBuildConfigFields={}, mResValues={}, mProguardFiles=[], mConsumerProguardFiles=[], mManifestPlaceholders={}, mWearAppUnbundled=null} of type com.android.build.gradle.internal.dsl.DefaultConfig.
+	at org.gradle.internal.metaobject.AbstractDynamicObject.methodMissingException(AbstractDynamicObject.java:179)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:87)
+	at build_9vekruhlocvil8grjj101ybs4$_run_closure1$_closure3.doCall(C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle:12)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:167)
+	at com.android.build.gradle.BaseExtension.defaultConfig(BaseExtension.java:547)
+	at com.android.build.gradle.internal.dsl.BaseAppModuleExtension_Decorated.defaultConfig(Unknown Source)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
+	at build_9vekruhlocvil8grjj101ybs4$_run_closure1.doCall(C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle:5)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:167)
+	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:197)
+	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
+	at org.gradle.api.internal.plugins.DefaultConvention.configureExtension(DefaultConvention.java:412)
+	at org.gradle.api.internal.plugins.DefaultConvention.access$500(DefaultConvention.java:45)
+	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.tryInvokeMethod(DefaultConvention.java:349)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
+	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
+	at build_9vekruhlocvil8grjj101ybs4.run(C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle:3)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 103 more
+2019-04-16 19:38:58,067 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-04-16 19:38:58,067 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:38:59,044 [hread 2062]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.0s 
+2019-04-16 19:39:08,492 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-04-16 19:39:08,508 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Started sync with Gradle for project 'Popular_Movie_Stage_2'. 
+2019-04-16 19:39:08,508 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-04-16 19:39:08,508 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:39:08,586 [hread 2064]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-16 19:39:08,653 [hread 2064]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-04-16 19:39:08,718 [hread 2064]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\witne\AppData\Local\Temp\sync.java.lib2.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.3.2.0 
+2019-04-16 19:39:11,277 [hread 2064]   INFO - e.project.sync.GradleSyncState - Gradle sync failed: Could not find method myPersonalApiKey() for arguments ["98626ee46e48c23fface6dac4d55c5ea"] on DefaultConfig_Decorated{name=main, dimension=null, minSdkVersion=DefaultApiVersion{mApiLevel=19, mCodename='null'}, targetSdkVersion=DefaultApiVersion{mApiLevel=28, mCodename='null'}, renderscriptTargetApi=null, renderscriptSupportModeEnabled=null, renderscriptSupportModeBlasEnabled=null, renderscriptNdkModeEnabled=null, versionCode=1, versionName=1.0, applicationId=com.example.witne.popularmoviesstage2, testApplicationId=null, testInstrumentationRunner=androidx.test.runner.AndroidJUnitRunner, testInstrumentationRunnerArguments={}, testHandleProfiling=null, testFunctionalTest=null, signingConfig=null, resConfig=null, mBuildConfigFields={}, mResValues={}, mProguardFiles=[], mConsumerProguardFiles=[], mManifestPlaceholders={}, mWearAppUnbundled=null} of type com.android.build.gradle.internal.dsl.DefaultConfig. (2 s 769 ms) 
+2019-04-16 19:39:11,277 [hread 2064]   WARN - ject.sync.ng.SyncResultHandler - Gradle sync failed 
+org.gradle.tooling.BuildException: Could not run build action using Gradle distribution 'https://services.gradle.org/distributions/gradle-4.10.1-all.zip'.
+	at org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:51)
+	at org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:29)
+	at org.gradle.tooling.internal.consumer.ResultHandlerAdapter.onFailure(ResultHandlerAdapter.java:41)
+	at org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:57)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)
+	at org.gradle.tooling.internal.consumer.DefaultBuildActionExecuter.run(DefaultBuildActionExecuter.java:65)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.doFetchModels(SyncExecutor.java:255)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.executeFullSync(SyncExecutor.java:239)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.syncProject(SyncExecutor.java:197)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.lambda$syncProject$1(SyncExecutor.java:134)
+	at org.jetbrains.plugins.gradle.service.execution.GradleExecutionHelper.execute(GradleExecutionHelper.java:209)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.syncProject(SyncExecutor.java:139)
+	at com.android.tools.idea.gradle.project.sync.ng.NewGradleSync.sync(NewGradleSync.java:185)
+	at com.android.tools.idea.gradle.project.sync.ng.NewGradleSync.access$000(NewGradleSync.java:59)
+	at com.android.tools.idea.gradle.project.sync.ng.NewGradleSync$2.run(NewGradleSync.java:151)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:736)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:395)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.gradle.internal.exceptions.LocationAwareException: Build file 'C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle' line: 12
+A problem occurred evaluating project ':app'.
+	at org.gradle.initialization.DefaultExceptionAnalyser.transform(DefaultExceptionAnalyser.java:74)
+	at org.gradle.initialization.MultipleBuildFailuresExceptionAnalyser.transform(MultipleBuildFailuresExceptionAnalyser.java:49)
+	at org.gradle.initialization.StackTraceSanitizingExceptionAnalyser.transform(StackTraceSanitizingExceptionAnalyser.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:152)
+	at org.gradle.initialization.DefaultGradleLauncher.getConfiguredBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.internal.invocation.GradleBuildController$2.call(GradleBuildController.java:86)
+	at org.gradle.internal.invocation.GradleBuildController$2.call(GradleBuildController.java:83)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:154)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:38)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:96)
+	at org.gradle.internal.invocation.GradleBuildController.configure(GradleBuildController.java:83)
+	at org.gradle.tooling.internal.provider.runner.ClientProvidedBuildActionRunner.run(ClientProvidedBuildActionRunner.java:70)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:50)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:44)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:79)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:62)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:34)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:31)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:46)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:62)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:81)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:295)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.GradleScriptException: A problem occurred evaluating project ':app'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:211)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:66)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:48)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:105)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:68)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:687)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:140)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:41)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:274)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:141)
+	... 67 more
+Caused by: org.gradle.internal.metaobject.AbstractDynamicObject$CustomMessageMissingMethodException: Could not find method myPersonalApiKey() for arguments ["98626ee46e48c23fface6dac4d55c5ea"] on DefaultConfig_Decorated{name=main, dimension=null, minSdkVersion=DefaultApiVersion{mApiLevel=19, mCodename='null'}, targetSdkVersion=DefaultApiVersion{mApiLevel=28, mCodename='null'}, renderscriptTargetApi=null, renderscriptSupportModeEnabled=null, renderscriptSupportModeBlasEnabled=null, renderscriptNdkModeEnabled=null, versionCode=1, versionName=1.0, applicationId=com.example.witne.popularmoviesstage2, testApplicationId=null, testInstrumentationRunner=androidx.test.runner.AndroidJUnitRunner, testInstrumentationRunnerArguments={}, testHandleProfiling=null, testFunctionalTest=null, signingConfig=null, resConfig=null, mBuildConfigFields={}, mResValues={}, mProguardFiles=[], mConsumerProguardFiles=[], mManifestPlaceholders={}, mWearAppUnbundled=null} of type com.android.build.gradle.internal.dsl.DefaultConfig.
+	at org.gradle.internal.metaobject.AbstractDynamicObject.methodMissingException(AbstractDynamicObject.java:179)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:87)
+	at build_9vekruhlocvil8grjj101ybs4$_run_closure1$_closure3.doCall(C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle:12)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:167)
+	at com.android.build.gradle.BaseExtension.defaultConfig(BaseExtension.java:547)
+	at com.android.build.gradle.internal.dsl.BaseAppModuleExtension_Decorated.defaultConfig(Unknown Source)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
+	at build_9vekruhlocvil8grjj101ybs4$_run_closure1.doCall(C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle:5)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:167)
+	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:197)
+	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
+	at org.gradle.api.internal.plugins.DefaultConvention.configureExtension(DefaultConvention.java:412)
+	at org.gradle.api.internal.plugins.DefaultConvention.access$500(DefaultConvention.java:45)
+	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.tryInvokeMethod(DefaultConvention.java:349)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
+	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
+	at build_9vekruhlocvil8grjj101ybs4.run(C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle:3)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 103 more
+2019-04-16 19:39:11,293 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-04-16 19:39:11,293 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:39:13,043 [hread 2063]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.0s 
+2019-04-16 19:39:45,050 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-16 19:39:45,472 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-16 19:40:03,521 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-16 19:40:03,910 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-16 19:40:21,032 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:generateDebugSources] 
+2019-04-16 19:40:21,032 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-16 19:40:21,079 [hread 2201]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-16 19:40:21,079 [hread 2201]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-04-16 19:40:21,094 [hread 2201]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-04-16 19:40:21,110 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-16 19:40:21,110 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:40:22,579 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-16 19:40:22,579 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:40:22,858 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 1 s 766 ms 
+2019-04-16 19:43:05,177 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-16 19:43:05,567 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-16 19:43:44,058 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:generateDebugSources] 
+2019-04-16 19:43:44,058 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-16 19:43:44,089 [hread 2205]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-16 19:43:44,089 [hread 2205]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-04-16 19:43:44,136 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-16 19:43:44,136 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:43:44,214 [hread 2205]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-04-16 19:43:45,423 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-16 19:43:45,423 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:43:45,486 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 1 s 402 ms 
+2019-04-16 19:43:48,831 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:assembleDebug] 
+2019-04-16 19:43:48,831 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-16 19:43:48,866 [hread 2172]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-16 19:43:48,866 [hread 2172]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true] 
+2019-04-16 19:43:48,897 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-16 19:43:48,897 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:43:48,928 [hread 2172]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true 
+2019-04-16 19:43:49,804 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-16 19:43:49,804 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:43:49,835 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 966 ms 
+2019-04-16 19:44:20,172 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:assembleDebug] 
+2019-04-16 19:44:20,172 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-16 19:44:20,234 [hread 2172]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-16 19:44:20,234 [hread 2172]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true] 
+2019-04-16 19:44:20,266 [hread 2172]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true 
+2019-04-16 19:44:20,281 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-16 19:44:20,281 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:44:21,266 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-16 19:44:21,266 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:44:21,397 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 1 s 158 ms 
+2019-04-16 19:44:29,943 [entQueue-0]   INFO - ide.actions.ShowFilePathAction - 
+Exit code 1 
+2019-04-16 19:44:30,255 [entQueue-0]   INFO - ide.actions.ShowFilePathAction - 
+Exit code 1 
+2019-04-16 19:44:30,724 [entQueue-0]   INFO - ide.actions.ShowFilePathAction - 
+Exit code 1 
+2019-04-16 19:47:35,737 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-04-16 19:47:35,752 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Started sync with Gradle for project 'Popular_Movie_Stage_2'. 
+2019-04-16 19:47:35,752 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-04-16 19:47:35,752 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:47:35,783 [hread 2207]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-16 19:47:35,815 [hread 2207]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-04-16 19:47:35,846 [hread 2207]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\witne\AppData\Local\Temp\sync.java.lib162.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.3.2.0 
+2019-04-16 19:47:38,438 [hread 2207]   INFO - e.project.sync.GradleSyncState - Gradle sync failed: Could not find method myPersonalApiKey() for arguments [98626ee46e48c23fface6dac4d55c5ea] on DefaultConfig_Decorated{name=main, dimension=null, minSdkVersion=DefaultApiVersion{mApiLevel=19, mCodename='null'}, targetSdkVersion=DefaultApiVersion{mApiLevel=28, mCodename='null'}, renderscriptTargetApi=null, renderscriptSupportModeEnabled=null, renderscriptSupportModeBlasEnabled=null, renderscriptNdkModeEnabled=null, versionCode=1, versionName=1.0, applicationId=com.example.witne.popularmoviesstage2, testApplicationId=null, testInstrumentationRunner=androidx.test.runner.AndroidJUnitRunner, testInstrumentationRunnerArguments={}, testHandleProfiling=null, testFunctionalTest=null, signingConfig=null, resConfig=null, mBuildConfigFields={}, mResValues={}, mProguardFiles=[], mConsumerProguardFiles=[], mManifestPlaceholders={}, mWearAppUnbundled=null} of type com.android.build.gradle.internal.dsl.DefaultConfig. (2 s 686 ms) 
+2019-04-16 19:47:38,485 [hread 2207]   WARN - ject.sync.ng.SyncResultHandler - Gradle sync failed 
+org.gradle.tooling.BuildException: Could not run build action using Gradle distribution 'https://services.gradle.org/distributions/gradle-4.10.1-all.zip'.
+	at org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:51)
+	at org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:29)
+	at org.gradle.tooling.internal.consumer.ResultHandlerAdapter.onFailure(ResultHandlerAdapter.java:41)
+	at org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:57)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)
+	at org.gradle.tooling.internal.consumer.DefaultBuildActionExecuter.run(DefaultBuildActionExecuter.java:65)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.doFetchModels(SyncExecutor.java:255)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.executeFullSync(SyncExecutor.java:239)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.syncProject(SyncExecutor.java:197)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.lambda$syncProject$1(SyncExecutor.java:134)
+	at org.jetbrains.plugins.gradle.service.execution.GradleExecutionHelper.execute(GradleExecutionHelper.java:209)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.syncProject(SyncExecutor.java:139)
+	at com.android.tools.idea.gradle.project.sync.ng.NewGradleSync.sync(NewGradleSync.java:185)
+	at com.android.tools.idea.gradle.project.sync.ng.NewGradleSync.access$000(NewGradleSync.java:59)
+	at com.android.tools.idea.gradle.project.sync.ng.NewGradleSync$2.run(NewGradleSync.java:151)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:736)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:395)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.gradle.internal.exceptions.LocationAwareException: Build file 'C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle' line: 12
+A problem occurred evaluating project ':app'.
+	at org.gradle.initialization.DefaultExceptionAnalyser.transform(DefaultExceptionAnalyser.java:74)
+	at org.gradle.initialization.MultipleBuildFailuresExceptionAnalyser.transform(MultipleBuildFailuresExceptionAnalyser.java:49)
+	at org.gradle.initialization.StackTraceSanitizingExceptionAnalyser.transform(StackTraceSanitizingExceptionAnalyser.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:152)
+	at org.gradle.initialization.DefaultGradleLauncher.getConfiguredBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.internal.invocation.GradleBuildController$2.call(GradleBuildController.java:86)
+	at org.gradle.internal.invocation.GradleBuildController$2.call(GradleBuildController.java:83)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:154)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:38)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:96)
+	at org.gradle.internal.invocation.GradleBuildController.configure(GradleBuildController.java:83)
+	at org.gradle.tooling.internal.provider.runner.ClientProvidedBuildActionRunner.run(ClientProvidedBuildActionRunner.java:70)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:50)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:44)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:79)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:62)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:34)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:31)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:46)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:62)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:81)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:295)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.GradleScriptException: A problem occurred evaluating project ':app'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:211)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:66)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:48)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:105)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:68)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:687)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:140)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:41)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:274)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:141)
+	... 67 more
+Caused by: org.gradle.internal.metaobject.AbstractDynamicObject$CustomMessageMissingMethodException: Could not find method myPersonalApiKey() for arguments [98626ee46e48c23fface6dac4d55c5ea] on DefaultConfig_Decorated{name=main, dimension=null, minSdkVersion=DefaultApiVersion{mApiLevel=19, mCodename='null'}, targetSdkVersion=DefaultApiVersion{mApiLevel=28, mCodename='null'}, renderscriptTargetApi=null, renderscriptSupportModeEnabled=null, renderscriptSupportModeBlasEnabled=null, renderscriptNdkModeEnabled=null, versionCode=1, versionName=1.0, applicationId=com.example.witne.popularmoviesstage2, testApplicationId=null, testInstrumentationRunner=androidx.test.runner.AndroidJUnitRunner, testInstrumentationRunnerArguments={}, testHandleProfiling=null, testFunctionalTest=null, signingConfig=null, resConfig=null, mBuildConfigFields={}, mResValues={}, mProguardFiles=[], mConsumerProguardFiles=[], mManifestPlaceholders={}, mWearAppUnbundled=null} of type com.android.build.gradle.internal.dsl.DefaultConfig.
+	at org.gradle.internal.metaobject.AbstractDynamicObject.methodMissingException(AbstractDynamicObject.java:179)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:87)
+	at build_9vekruhlocvil8grjj101ybs4$_run_closure1$_closure3.doCall(C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle:12)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:167)
+	at com.android.build.gradle.BaseExtension.defaultConfig(BaseExtension.java:547)
+	at com.android.build.gradle.internal.dsl.BaseAppModuleExtension_Decorated.defaultConfig(Unknown Source)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
+	at build_9vekruhlocvil8grjj101ybs4$_run_closure1.doCall(C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle:5)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:167)
+	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:197)
+	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
+	at org.gradle.api.internal.plugins.DefaultConvention.configureExtension(DefaultConvention.java:412)
+	at org.gradle.api.internal.plugins.DefaultConvention.access$500(DefaultConvention.java:45)
+	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.tryInvokeMethod(DefaultConvention.java:349)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
+	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
+	at build_9vekruhlocvil8grjj101ybs4.run(C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle:3)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 103 more
+2019-04-16 19:47:38,531 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-04-16 19:47:38,531 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:47:39,302 [hread 2204]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.0s 
+2019-04-16 19:48:51,661 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-04-16 19:48:51,677 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Started sync with Gradle for project 'Popular_Movie_Stage_2'. 
+2019-04-16 19:48:51,677 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-04-16 19:48:51,677 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:48:51,708 [hread 2204]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-16 19:48:51,723 [hread 2204]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-04-16 19:48:51,755 [hread 2204]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\witne\AppData\Local\Temp\sync.java.lib347.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.3.2.0 
+2019-04-16 19:48:53,712 [hread 2204]   INFO - e.project.sync.GradleSyncState - Gradle sync failed: Could not find method myPersonalApiKey() for arguments [98626ee46e48c23fface6dac4d55c5ea] on DefaultConfig_Decorated{name=main, dimension=null, minSdkVersion=DefaultApiVersion{mApiLevel=19, mCodename='null'}, targetSdkVersion=DefaultApiVersion{mApiLevel=28, mCodename='null'}, renderscriptTargetApi=null, renderscriptSupportModeEnabled=null, renderscriptSupportModeBlasEnabled=null, renderscriptNdkModeEnabled=null, versionCode=1, versionName=1.0, applicationId=com.example.witne.popularmoviesstage2, testApplicationId=null, testInstrumentationRunner=androidx.test.runner.AndroidJUnitRunner, testInstrumentationRunnerArguments={}, testHandleProfiling=null, testFunctionalTest=null, signingConfig=null, resConfig=null, mBuildConfigFields={}, mResValues={}, mProguardFiles=[], mConsumerProguardFiles=[], mManifestPlaceholders={}, mWearAppUnbundled=null} of type com.android.build.gradle.internal.dsl.DefaultConfig. (2 s 19 ms) 
+2019-04-16 19:48:53,712 [hread 2204]   WARN - ject.sync.ng.SyncResultHandler - Gradle sync failed 
+org.gradle.tooling.BuildException: Could not run build action using Gradle distribution 'https://services.gradle.org/distributions/gradle-4.10.1-all.zip'.
+	at org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:51)
+	at org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:29)
+	at org.gradle.tooling.internal.consumer.ResultHandlerAdapter.onFailure(ResultHandlerAdapter.java:41)
+	at org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:57)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)
+	at org.gradle.tooling.internal.consumer.DefaultBuildActionExecuter.run(DefaultBuildActionExecuter.java:65)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.doFetchModels(SyncExecutor.java:255)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.executeFullSync(SyncExecutor.java:239)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.syncProject(SyncExecutor.java:197)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.lambda$syncProject$1(SyncExecutor.java:134)
+	at org.jetbrains.plugins.gradle.service.execution.GradleExecutionHelper.execute(GradleExecutionHelper.java:209)
+	at com.android.tools.idea.gradle.project.sync.ng.SyncExecutor.syncProject(SyncExecutor.java:139)
+	at com.android.tools.idea.gradle.project.sync.ng.NewGradleSync.sync(NewGradleSync.java:185)
+	at com.android.tools.idea.gradle.project.sync.ng.NewGradleSync.access$000(NewGradleSync.java:59)
+	at com.android.tools.idea.gradle.project.sync.ng.NewGradleSync$2.run(NewGradleSync.java:151)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:736)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:395)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.gradle.internal.exceptions.LocationAwareException: Build file 'C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle' line: 12
+A problem occurred evaluating project ':app'.
+	at org.gradle.initialization.DefaultExceptionAnalyser.transform(DefaultExceptionAnalyser.java:74)
+	at org.gradle.initialization.MultipleBuildFailuresExceptionAnalyser.transform(MultipleBuildFailuresExceptionAnalyser.java:49)
+	at org.gradle.initialization.StackTraceSanitizingExceptionAnalyser.transform(StackTraceSanitizingExceptionAnalyser.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:152)
+	at org.gradle.initialization.DefaultGradleLauncher.getConfiguredBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.internal.invocation.GradleBuildController$2.call(GradleBuildController.java:86)
+	at org.gradle.internal.invocation.GradleBuildController$2.call(GradleBuildController.java:83)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:154)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:38)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:96)
+	at org.gradle.internal.invocation.GradleBuildController.configure(GradleBuildController.java:83)
+	at org.gradle.tooling.internal.provider.runner.ClientProvidedBuildActionRunner.run(ClientProvidedBuildActionRunner.java:70)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:50)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:44)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:79)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:62)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:34)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:31)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:46)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:62)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:81)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:122)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:295)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.GradleScriptException: A problem occurred evaluating project ':app'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:211)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:66)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:48)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:105)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:68)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:687)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:140)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:41)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:274)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:141)
+	... 67 more
+Caused by: org.gradle.internal.metaobject.AbstractDynamicObject$CustomMessageMissingMethodException: Could not find method myPersonalApiKey() for arguments [98626ee46e48c23fface6dac4d55c5ea] on DefaultConfig_Decorated{name=main, dimension=null, minSdkVersion=DefaultApiVersion{mApiLevel=19, mCodename='null'}, targetSdkVersion=DefaultApiVersion{mApiLevel=28, mCodename='null'}, renderscriptTargetApi=null, renderscriptSupportModeEnabled=null, renderscriptSupportModeBlasEnabled=null, renderscriptNdkModeEnabled=null, versionCode=1, versionName=1.0, applicationId=com.example.witne.popularmoviesstage2, testApplicationId=null, testInstrumentationRunner=androidx.test.runner.AndroidJUnitRunner, testInstrumentationRunnerArguments={}, testHandleProfiling=null, testFunctionalTest=null, signingConfig=null, resConfig=null, mBuildConfigFields={}, mResValues={}, mProguardFiles=[], mConsumerProguardFiles=[], mManifestPlaceholders={}, mWearAppUnbundled=null} of type com.android.build.gradle.internal.dsl.DefaultConfig.
+	at org.gradle.internal.metaobject.AbstractDynamicObject.methodMissingException(AbstractDynamicObject.java:179)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:87)
+	at build_9vekruhlocvil8grjj101ybs4$_run_closure1$_closure3.doCall(C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle:12)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:167)
+	at com.android.build.gradle.BaseExtension.defaultConfig(BaseExtension.java:547)
+	at com.android.build.gradle.internal.dsl.BaseAppModuleExtension_Decorated.defaultConfig(Unknown Source)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
+	at build_9vekruhlocvil8grjj101ybs4$_run_closure1.doCall(C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle:5)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:167)
+	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:197)
+	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
+	at org.gradle.api.internal.plugins.DefaultConvention.configureExtension(DefaultConvention.java:412)
+	at org.gradle.api.internal.plugins.DefaultConvention.access$500(DefaultConvention.java:45)
+	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.tryInvokeMethod(DefaultConvention.java:349)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
+	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
+	at build_9vekruhlocvil8grjj101ybs4.run(C:\Users\witne\Popular_Movie_Stage_2\app\build.gradle:3)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 103 more
+2019-04-16 19:48:53,712 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-04-16 19:48:53,712 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-16 19:48:54,420 [hread 2204]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.0s 
+2019-04-16 19:49:04,489 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-16 19:49:04,911 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-16 19:53:55,703 [9-thread-1]   INFO - s.RepoProgressIndicatorAdapter - Downloading file:/C:/Program%20Files/Android/Android%20Studio/plugins/sdk-updates/offline-repo/offline-repo.xml 
+2019-04-16 19:53:55,718 [9-thread-8]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2019-04-16 19:53:55,718 [9-thread-5]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2019-04-16 19:53:55,718 [9-thread-2]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2019-04-16 19:53:55,734 [-thread-11]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2019-04-16 19:53:55,734 [9-thread-9]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2019-04-16 19:53:55,749 [9-thread-6]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2019-04-16 19:53:55,749 [-thread-10]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2019-04-16 19:53:55,765 [9-thread-4]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2019-04-16 19:53:55,765 [9-thread-7]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2019-04-16 19:53:55,765 [9-thread-3]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2019-04-16 20:16:39,749 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-04-17 09:41:05,568 [hread 2237]   INFO - ateSettings.impl.UpdateChecker - dl.google.com 
+java.net.UnknownHostException: dl.google.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:558)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:47)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:329)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getInputStream(HttpRequests.java:338)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:356)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:349)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$checkPlatformUpdate$1.process(UpdateChecker.kt:174)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$checkPlatformUpdate$1.process(UpdateChecker.kt:53)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:475)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:451)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:47)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:303)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.checkPlatformUpdate(UpdateChecker.kt:171)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.doUpdateAndShowResult(UpdateChecker.kt:122)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.access$doUpdateAndShowResult(UpdateChecker.kt:53)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$updateAndShowResult$1.run(UpdateChecker.kt:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-04-17 09:41:06,512 [hread 2237]   INFO - ateSettings.impl.UpdateChecker - Connection failed (dl.google.com). Please check network connection and try again. 
+2019-04-17 09:53:56,533 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 09:53:56,936 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 09:59:03,103 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 09:59:03,471 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 10:16:46,035 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-04-17 10:16:56,302 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-04-17 10:24:13,986 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 10:24:14,362 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 10:25:20,375 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 10:25:20,766 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 10:26:26,933 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-04-17 10:26:27,027 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Started sync with Gradle for project 'Popular_Movie_Stage_2'. 
+2019-04-17 10:26:27,042 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-04-17 10:26:27,042 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 10:26:27,105 [hread 2414]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-17 10:26:27,136 [hread 2414]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-04-17 10:26:27,183 [hread 2414]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\witne\AppData\Local\Temp\sync.java.lib52.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.3.2.0 
+2019-04-17 10:27:22,215 [hread 2414]   INFO - e.project.sync.GradleSyncState - Started setup of project 'Popular_Movie_Stage_2'. 
+2019-04-17 10:27:22,215 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SETUP_STARTED 
+2019-04-17 10:27:23,641 [hread 2414]   INFO - ule.android.SdkModuleSetupStep - Set Android SDK 'Android API 28 Platform' (C:\Users\witne\AppData\Local\Android\Sdk) to module 'app' 
+2019-04-17 10:27:24,549 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 10:27:25,162 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-04-17 10:27:25,315 [entQueue-0]   INFO - etup.post.PluginVersionUpgrade - Gradle model version: 3.3.2, recommended version for IDE: 3.3.2 
+2019-04-17 10:27:25,772 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:generateDebugSources] 
+2019-04-17 10:27:25,772 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-17 10:27:25,772 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Gradle sync finished in 58 s 745 ms 
+2019-04-17 10:27:25,788 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-04-17 10:27:25,788 [entQueue-0]   INFO - idea.project.IndexingSuspender - IndexingSuspender deactivation event received and ignored: SYNC_FINISHED 
+2019-04-17 10:27:25,826 [hread 2414]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-17 10:27:25,835 [hread 2414]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-04-17 10:27:25,971 [hread 2414]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-04-17 10:27:27,154 [hread 2420]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.0s 
+2019-04-17 10:27:35,840 [rImpl Pool]   INFO -  #git4idea.commands.GitHandler - git status took 10068 ms. Command parameters: 
+"C:\Program Files\Android\Android Studio\bin\runnerw.exe" "C:\Program Files\Git\cmd\git.exe" -c core.quotepath=false -c log.showSignature=false status --porcelain -z --untracked-files=no -- . 
+2019-04-17 10:27:35,871 [hread 2408]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 62ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:27:35,934 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-17 10:27:35,981 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-17 10:27:35,981 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 10:27:37,773 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 10:27:37,958 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 12 s 133 ms 
+2019-04-17 10:27:38,197 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 10:27:39,833 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 10:27:40,026 [hread 2425]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update canceled 
+2019-04-17 10:27:40,635 [hread 2408]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 4764ms; general responsiveness: 2/4 sluggish; EDT responsiveness: 2/5 sluggish, 2/5 very slow 
+2019-04-17 10:27:40,713 [hread 2425]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 187ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:27:41,196 [hread 2425]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 483ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:27:41,196 [hread 2425]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2019-04-17 10:27:41,546 [hread 2425]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 350ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:27:52,745 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 10:27:53,136 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 10:29:06,324 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:generateDebugSources] 
+2019-04-17 10:29:06,324 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-17 10:29:06,340 [hread 2424]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-17 10:29:06,340 [hread 2424]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-04-17 10:29:06,356 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-17 10:29:06,356 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 10:29:06,371 [hread 2424]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-04-17 10:29:18,090 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-17 10:29:18,090 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 10:29:18,090 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 11 s 744 ms 
+2019-04-17 10:29:18,137 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 10:29:18,340 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 10:29:18,811 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 10:29:19,436 [hread 2502]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 31ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:29:19,561 [hread 2502]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 125ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:29:19,561 [hread 2502]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2019-04-17 10:29:19,577 [hread 2502]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 16ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:43:53,292 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:generateDebugSources] 
+2019-04-17 10:43:53,292 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-17 10:43:53,323 [hread 2510]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-17 10:43:53,323 [hread 2510]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-04-17 10:43:53,323 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-17 10:43:53,323 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 10:43:53,480 [hread 2510]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-04-17 10:43:57,417 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-17 10:43:57,417 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 10:43:57,417 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 4 s 103 ms 
+2019-04-17 10:43:57,479 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 10:43:57,870 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 10:43:58,557 [hread 2509]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 218ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:43:58,839 [hread 2509]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 282ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:43:58,839 [hread 2509]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2019-04-17 10:43:58,839 [hread 2509]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:44:03,748 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:assembleDebug] 
+2019-04-17 10:44:03,748 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-17 10:44:03,779 [hread 2515]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-17 10:44:03,779 [hread 2515]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true] 
+2019-04-17 10:44:03,779 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-17 10:44:03,779 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 10:44:03,826 [hread 2515]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true 
+2019-04-17 10:46:39,207 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-17 10:46:39,207 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 10:46:39,262 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 2 m 35 s 429 ms 
+2019-04-17 10:46:39,332 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 10:46:39,919 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 10:46:40,200 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 10:46:40,792 [hread 2522]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 11 to update, calculated in 0ms 
+2019-04-17 10:46:41,065 [hread 2522]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 273ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:46:41,070 [hread 2522]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 3ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:46:41,122 [hread 2522]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 52ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:46:41,122 [hread 2522]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2019-04-17 10:46:41,157 [hread 2522]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 34ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:47:13,043 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-04-17 10:47:13,101 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-04-17 10:47:13,101 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-17 10:47:13,138 [hread 2531]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-17 10:47:13,140 [hread 2531]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-04-17 10:47:13,216 [hread 2531]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-04-17 10:47:13,225 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-17 10:47:13,225 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 10:47:25,431 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-17 10:47:25,431 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 10:47:25,438 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 12 s 297 ms 
+2019-04-17 10:47:25,493 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 10:47:25,798 [hread 2523]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-04-17 10:47:25,922 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 10:47:26,365 [hread 2525]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 9ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:47:26,494 [hread 2525]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 129ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 10:47:27,037 [hread 2525]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-04-17 10:48:09,773 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8601 for client with pid 18853 
+2019-04-17 10:48:09,942 [hread 2525]   INFO - idea.run.AndroidProcessHandler - Adding device QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
+2019-04-17 10:48:10,791 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8601 for client with pid 18853 
+2019-04-17 10:48:10,796 [   Monitor]   INFO - idea.run.AndroidProcessHandler - startCapture("QLF7N17911003609") 
+2019-04-17 11:00:04,417 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-04-17 11:00:04,570 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Started sync with Gradle for project 'Popular_Movie_Stage_2'. 
+2019-04-17 11:00:04,573 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-04-17 11:00:04,573 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 11:00:04,634 [hread 2546]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-17 11:00:04,660 [hread 2546]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-04-17 11:00:04,721 [hread 2546]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\witne\AppData\Local\Temp\sync.java.lib711.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.3.2.0 
+2019-04-17 11:00:10,481 [hread 2546]   INFO - e.project.sync.GradleSyncState - Started setup of project 'Popular_Movie_Stage_2'. 
+2019-04-17 11:00:10,519 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SETUP_STARTED 
+2019-04-17 11:00:10,730 [hread 2546]   INFO - ule.android.SdkModuleSetupStep - Set Android SDK 'Android API 28 Platform' (C:\Users\witne\AppData\Local\Android\Sdk) to module 'app' 
+2019-04-17 11:00:12,101 [entQueue-0]   INFO - etup.post.PluginVersionUpgrade - Gradle model version: 3.3.2, recommended version for IDE: 3.3.2 
+2019-04-17 11:00:12,119 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:generateDebugSources] 
+2019-04-17 11:00:12,119 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-17 11:00:12,124 [entQueue-0]   INFO - e.project.sync.GradleSyncState - Gradle sync finished in 7 s 553 ms 
+2019-04-17 11:00:12,130 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-04-17 11:00:12,130 [entQueue-0]   INFO - idea.project.IndexingSuspender - IndexingSuspender deactivation event received and ignored: SYNC_FINISHED 
+2019-04-17 11:00:12,191 [hread 2546]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-17 11:00:12,193 [hread 2546]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-04-17 11:00:12,243 [hread 2546]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-04-17 11:00:12,976 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-17 11:00:13,018 [hread 2548]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.0s 
+2019-04-17 11:00:15,890 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-17 11:00:15,891 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 11:00:16,593 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:00:16,801 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 4 s 607 ms 
+2019-04-17 11:00:16,820 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:00:17,362 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:00:17,797 [hread 2544]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 3ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:00:17,881 [hread 2544]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 84ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:01:01,207 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:01:01,562 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:02:11,667 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:02:12,013 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:02:25,039 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:02:25,401 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:02:28,618 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-04-17 11:02:28,618 [Alarm Pool]   INFO - roid.inspections.LintIdeClient - Android Lint read action canceled due to pending write action 
+2019-04-17 11:02:31,183 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:02:31,564 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:02:37,889 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:02:38,274 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:02:44,104 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:02:44,434 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:02:50,219 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:02:50,605 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:02:58,954 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:02:59,308 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:05,189 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:05,564 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:15,375 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:15,748 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:21,722 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:22,089 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:31,217 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:31,766 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:31,969 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:37,651 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:38,045 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:43,703 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:44,070 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:55,755 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:03:56,108 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:04:01,848 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:04:02,214 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:04:08,838 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:04:09,195 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:04:14,963 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:04:15,351 [entQueue-0]   INFO - ojectView.impl.ProjectViewTree - getToggleClickCount: -1 for com.intellij.ide.projectView.impl.nodes.ClassTreeNode 
+2019-04-17 11:04:47,434 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:generateDebugSources] 
+2019-04-17 11:04:47,435 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-17 11:04:47,454 [hread 2639]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-17 11:04:47,456 [hread 2639]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-04-17 11:04:47,523 [hread 2639]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-04-17 11:04:47,534 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-17 11:04:47,534 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 11:04:53,212 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-17 11:04:53,212 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 11:04:53,221 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 5 s 764 ms 
+2019-04-17 11:04:53,241 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:04:53,517 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:04:53,884 [hread 2636]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 2ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:04:53,965 [hread 2636]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 81ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:04:54,543 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:04:55,057 [hread 2622]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 157ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:04:55,512 [hread 2622]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 455ms; general responsiveness: ok; EDT responsiveness: 1/1 sluggish 
+2019-04-17 11:04:55,512 [hread 2622]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2019-04-17 11:04:55,557 [hread 2622]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 45ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:05:04,897 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:generateDebugSources] 
+2019-04-17 11:05:04,897 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-17 11:05:04,965 [hread 2700]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-17 11:05:04,968 [hread 2700]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-04-17 11:05:04,992 [hread 2700]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-04-17 11:05:05,024 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-17 11:05:05,024 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 11:05:07,826 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-17 11:05:07,827 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 11:05:07,837 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 2 s 869 ms 
+2019-04-17 11:05:07,864 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:05:08,060 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:05:08,520 [hread 2693]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 4ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:05:08,619 [hread 2693]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 99ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:05:08,619 [hread 2693]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2019-04-17 11:05:08,662 [hread 2693]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 43ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:05:17,035 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:assembleDebug] 
+2019-04-17 11:05:17,035 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-17 11:05:17,052 [hread 2658]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-17 11:05:17,056 [hread 2658]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true] 
+2019-04-17 11:05:17,084 [hread 2658]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true 
+2019-04-17 11:05:17,126 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-17 11:05:17,126 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 11:06:33,272 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-17 11:06:33,272 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 11:06:33,306 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 1 m 16 s 225 ms 
+2019-04-17 11:06:33,323 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:06:33,870 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:06:34,051 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:06:35,340 [hread 2702]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 11 to update, calculated in 0ms 
+2019-04-17 11:06:35,799 [hread 2702]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 459ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:06:35,805 [hread 2702]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 3ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:06:35,881 [hread 2702]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 75ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:06:35,881 [hread 2702]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2019-04-17 11:06:35,904 [hread 2702]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 23ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:06:39,870 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [clean, :app:assembleDebug] 
+2019-04-17 11:06:39,871 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-17 11:06:39,910 [hread 2707]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-17 11:06:39,912 [hread 2707]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true] 
+2019-04-17 11:06:39,933 [hread 2707]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true 
+2019-04-17 11:06:39,946 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-17 11:06:39,946 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 11:08:00,983 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-17 11:08:00,983 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 11:08:01,017 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 1 m 21 s 78 ms 
+2019-04-17 11:08:01,053 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:08:01,303 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:08:01,728 [hread 2772]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 4ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:08:01,870 [hread 2772]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 142ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:08:01,870 [hread 2772]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 11 files to update 
+2019-04-17 11:08:02,156 [hread 2772]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 286ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:10:35,172 [hread 2787]   INFO - ditor.DeployTargetPickerDialog - Successfully obtained list of AVDs 
+2019-04-17 11:10:37,750 [entQueue-0]   INFO -                    #InstantRun - Not using instant run for this launch: instant run is disabled 
+2019-04-17 11:10:37,765 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2019-04-17 11:10:37,765 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_EXECUTOR_CREATED 
+2019-04-17 11:10:37,801 [hread 2854]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-04-17 11:10:37,810 [hread 2854]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.build.api=23, -Pandroid.injected.build.density=xhdpi, -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi] 
+2019-04-17 11:10:37,831 [hread 2854]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.api=23 -Pandroid.injected.build.density=xhdpi -Pandroid.injected.build.abi=arm64-v8a,armeabi-v7a,armeabi 
+2019-04-17 11:10:37,878 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: BUILD_STARTED 
+2019-04-17 11:10:37,879 [entQueue-0]   INFO - idea.project.IndexingSuspender - Starting batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 11:10:45,497 [entQueue-0]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: BUILD_FINISHED 
+2019-04-17 11:10:45,497 [entQueue-0]   INFO - idea.project.IndexingSuspender - Finishing batch update for project: Project 'C:\Users\witne\Popular_Movie_Stage_2' Popular_Movie_Stage_2 
+2019-04-17 11:10:45,498 [entQueue-0]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 7 s 691 ms 
+2019-04-17 11:10:45,515 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:10:45,677 [hread 2787]   INFO - a.gradle.run.MakeBeforeRunTask - Gradle invocation complete, success = true 
+2019-04-17 11:10:45,804 [entQueue-0]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-04-17 11:10:46,226 [hread 2860]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 44ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:10:46,357 [hread 2860]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 130ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-04-17 11:10:46,575 [entQueue-0]   INFO - idea.run.AndroidProcessHandler - stopAll() 
+2019-04-17 11:10:46,704 [hread 2857]   INFO -                    #InstantRun - Using non-instant run deploy tasks (single and split apks apps) 
+2019-04-17 11:11:01,839 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8601 for client with pid 22972 
+2019-04-17 11:11:02,048 [hread 2857]   INFO - idea.run.AndroidProcessHandler - Adding device QLF7N17911003609 to monitor for launched app: com.example.witne.popularmoviesstage2 
+2019-04-17 11:11:02,853 [nt Monitor]   INFO -            #com.android.ddmlib - Opening a debugger listener at port 8601 for client with pid 22972 
+2019-04-17 11:11:02,858 [   Monitor]   INFO - idea.run.AndroidProcessHandler - startCapture("QLF7N17911003609") 

@@ -56,7 +56,6 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/ud851-Exercises/Lesson09b-ToDo-List-AAC/T09b.10-Solution-AddViewModelToAddTaskActivity" />
         <option value="$USER_HOME$/Popular_Movie_Stage_2" />
       </list>
     </option>
@@ -213,7 +212,7 @@
               <option name="build" value="AI-182.5107.16.33.5314842" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1555360944288" />
+              <option name="projectOpenTimestamp" value="1555492505281" />
               <option name="buildTimestamp" value="1550274292280" />
             </RecentProjectMetaInfo>
           </value>
@@ -653,7 +652,7 @@
               <option name="build" value="AI-182.5107.16.33.5314842" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1555360944288" />
+              <option name="projectOpenTimestamp" value="1555491464015" />
               <option name="buildTimestamp" value="1550274292280" />
             </RecentProjectMetaInfo>
           </value>
